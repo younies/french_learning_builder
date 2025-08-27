@@ -2,6 +2,7 @@ import json
 import os
 from typing import List, Dict, Tuple, Optional
 from dataclasses import dataclass
+from datetime import datetime
 
 @dataclass
 class TopicItem:
@@ -44,19 +45,103 @@ class TCFTopicsParser:
             print(f"❌ No JSON files found in {self.output_dir}")
             return self.task2_topics, self.task3_topics
         
-        print(f"📁 Found {len(json_files)} JSON files")
+        # Sort files by date (newest to oldest)
+        json_files_sorted = self._sort_files_by_date(json_files)
         
-        # Process each JSON file
-        for json_file in sorted(json_files):
+        print(f"📁 Found {len(json_files_sorted)} JSON files (sorted by date - newest to oldest)")
+        
+        # Process each JSON file in chronological order
+        for json_file in json_files_sorted:
             self._process_json_file(json_file)
         
-        # Sort topics by part number for better organization
-        self.task2_topics.sort(key=lambda x: (x.source_file, x.part_number))
-        self.task3_topics.sort(key=lambda x: (x.source_file, x.part_number))
+        # Sort topics by chronological order (newest first), then by part number
+        def sort_key(topic):
+            # Extract date from source_file for sorting
+            year, month = self._extract_date_from_filename(topic.source_file)
+            return (-year, -month, topic.part_number)  # Negative for reverse order
+        
+        self.task2_topics.sort(key=sort_key)
+        self.task3_topics.sort(key=sort_key)
         
         self._print_summary()
         
         return self.task2_topics, self.task3_topics
+    
+    def _sort_files_by_date(self, json_files: List[str]) -> List[str]:
+        """
+        Sort JSON files by date from newest to oldest
+        Expected format: month-year-expression-orale.json
+        """
+        # French month names to numbers mapping
+        french_months = {
+            'janvier': 1, 'fevrier': 2, 'mars': 3, 'avril': 4,
+            'mai': 5, 'juin': 6, 'juillet': 7, 'aout': 8,
+            'septembre': 9, 'octobre': 10, 'novembre': 11, 'decembre': 12
+        }
+        
+        def extract_date(filename: str) -> Tuple[int, int]:
+            """
+            Extract year and month from filename
+            Returns: (year, month) tuple for sorting
+            """
+            try:
+                # Remove the .json extension and split by hyphens
+                base_name = filename.replace('.json', '')
+                parts = base_name.split('-')
+                
+                if len(parts) >= 2:
+                    month_name = parts[0].lower()
+                    year_str = parts[1]
+                    
+                    if month_name in french_months and year_str.isdigit():
+                        year = int(year_str)
+                        month = french_months[month_name]
+                        return (year, month)
+            except:
+                pass
+            
+            # If parsing fails, return a default date (very old)
+            return (1900, 1)
+        
+        # Sort by date (newest first)
+        sorted_files = sorted(json_files, key=extract_date, reverse=True)
+        
+        # Print the sorted order for verification
+        print("📅 Files sorted by date (newest to oldest):")
+        for i, filename in enumerate(sorted_files, 1):
+            year, month = extract_date(filename)
+            month_names = {v: k for k, v in french_months.items()}
+            month_name = month_names.get(month, 'unknown')
+            print(f"   {i:2d}. {filename} ({month_name.capitalize()} {year})")
+        
+        return sorted_files
+    
+    def _extract_date_from_filename(self, filename: str) -> Tuple[int, int]:
+        """
+        Extract year and month from filename for sorting
+        """
+        french_months = {
+            'janvier': 1, 'fevrier': 2, 'mars': 3, 'avril': 4,
+            'mai': 5, 'juin': 6, 'juillet': 7, 'aout': 8,
+            'septembre': 9, 'octobre': 10, 'novembre': 11, 'decembre': 12
+        }
+        
+        try:
+            base_name = filename.replace('.json', '')
+            parts = base_name.split('-')
+            
+            if len(parts) >= 2:
+                month_name = parts[0].lower()
+                year_str = parts[1]
+                
+                if month_name in french_months and year_str.isdigit():
+                    year = int(year_str)
+                    month = french_months[month_name]
+                    return (year, month)
+        except:
+            pass
+        
+        return (1900, 1)  # Default for unparseable filenames
     
     def _process_json_file(self, json_file: str) -> None:
         """
