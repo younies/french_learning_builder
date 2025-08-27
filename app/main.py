@@ -23,16 +23,10 @@ def scrape_tcf_topics_from_url(url: str) -> Dict[str, Dict[str, List[str]]]:
         # Parse HTML content
         soup = BeautifulSoup(response.content, 'html.parser')
         
-        # Initialize the topics structure
+        # Initialize the topics structure with dynamic parts
         topics = {
-            "tache_2": {
-                "partie_1": [],
-                "partie_2": []
-            },
-            "tache_3": {
-                "partie_1": [],
-                "partie_2": []
-            }
+            "tache_2": {},
+            "tache_3": {}
         }
         
         # Find all topic sections
@@ -49,13 +43,20 @@ def scrape_tcf_topics_from_url(url: str) -> Dict[str, Dict[str, List[str]]]:
                 current_section = "tache_2"
             elif "Tâche 3" in text:
                 current_section = "tache_3"
-            elif "Partie 1" in text:
-                current_part = "partie_1"
-            elif "Partie 2" in text:
-                current_part = "partie_2"
+            elif "Partie" in text and any(char.isdigit() for char in text):
+                # Extract partie number dynamically (e.g., "Partie 1", "Partie 9", etc.)
+                import re
+                partie_match = re.search(r'Partie\s+(\d+)', text)
+                if partie_match:
+                    partie_num = partie_match.group(1)
+                    current_part = f"partie_{partie_num}"
             
             # Extract topics (look for bold text or specific patterns)
             if current_section and current_part and text:
+                # Initialize the part if it doesn't exist
+                if current_part not in topics[current_section]:
+                    topics[current_section][current_part] = []
+                
                 # Check if this looks like a topic (starts with "Sujet" or contains key phrases)
                 if ("Sujet" in text or 
                     any(keyword in text.lower() for keyword in [
@@ -63,8 +64,8 @@ def scrape_tcf_topics_from_url(url: str) -> Dict[str, Dict[str, List[str]]]:
                         "d'après vous", "faut-il", "est-il"
                     ])) and len(text) > 20:
                     
-                    # Clean up the text
-                    clean_text = text.replace("Sujet 1", "").replace("Sujet 2", "").replace("Sujet 3", "").replace("Sujet 4", "").replace("Sujet 5", "").strip()
+                    # Clean up the text - remove all Sujet references
+                    clean_text = re.sub(r'Sujet\s+\d+\s*', '', text).strip()
                     
                     if clean_text and clean_text not in topics[current_section][current_part]:
                         topics[current_section][current_part].append(clean_text)
@@ -117,12 +118,28 @@ def get_fallback_topics() -> Dict[str, Dict[str, List[str]]]:
         }
     }
 
+def calculate_dynamic_summary(topics: Dict[str, Dict[str, List[str]]]) -> Dict[str, int]:
+    """
+    Calculate summary statistics for topics with dynamic parts
+    """
+    summary = {}
+    total_topics = 0
+    
+    for task_name, task_data in topics.items():
+        for part_name, part_topics in task_data.items():
+            key = f"{task_name}_{part_name}"
+            summary[key] = len(part_topics)
+            total_topics += len(part_topics)
+    
+    summary["total_topics"] = total_topics
+    return summary
+
 def display_topics(topics: Dict[str, Dict[str, List[str]]]):
     """
     Display the topics in a formatted way
     """
     print("=" * 60)
-    print("TCF CANADA - EXPRESSION ORALE TOPICS (AOÛT 2025)")
+    print("TCF CANADA - EXPRESSION ORALE TOPICS")
     print("=" * 60)
     
     for task, task_data in topics.items():
@@ -130,8 +147,13 @@ def display_topics(topics: Dict[str, Dict[str, List[str]]]):
         print(f"\n🎯 {task_name}")
         print("-" * 50)
         
-        for part, part_topics in task_data.items():
-            part_name = "PARTIE 1" if part == "partie_1" else "PARTIE 2"
+        # Sort parts by number for better display
+        sorted_parts = sorted(task_data.items(), key=lambda x: int(x[0].split('_')[1]) if '_' in x[0] and x[0].split('_')[1].isdigit() else 0)
+        
+        for part, part_topics in sorted_parts:
+            # Extract part number for display
+            part_num = part.split('_')[1] if '_' in part else part
+            part_name = f"PARTIE {part_num.upper()}"
             print(f"\n📋 {part_name}:")
             
             for i, topic in enumerate(part_topics, 1):
@@ -192,17 +214,14 @@ def process_single_url(url: str, output_dir: str = "output") -> Optional[str]:
     filename = generate_filename_from_url(url)
     filepath = os.path.join(output_dir, filename)
     
+    # Calculate dynamic summary
+    summary = calculate_dynamic_summary(topics)
+    
     # Add metadata to the topics
     topics_with_metadata = {
         "source_url": url,
         "topics": topics,
-        "summary": {
-            "tache_2_partie_1": len(topics['tache_2']['partie_1']),
-            "tache_2_partie_2": len(topics['tache_2']['partie_2']),
-            "tache_3_partie_1": len(topics['tache_3']['partie_1']),
-            "tache_3_partie_2": len(topics['tache_3']['partie_2']),
-            "total_topics": sum(len(part) for task in topics.values() for part in task.values())
-        }
+        "summary": summary
     }
     
     # Save to file
@@ -210,11 +229,13 @@ def process_single_url(url: str, output_dir: str = "output") -> Optional[str]:
     
     # Display summary for this URL
     print(f"📊 Summary for {url}:")
-    print(f"   - Tâche 2 Partie 1: {len(topics['tache_2']['partie_1'])} topics")
-    print(f"   - Tâche 2 Partie 2: {len(topics['tache_2']['partie_2'])} topics")
-    print(f"   - Tâche 3 Partie 1: {len(topics['tache_3']['partie_1'])} topics")
-    print(f"   - Tâche 3 Partie 2: {len(topics['tache_3']['partie_2'])} topics")
-    print(f"   - Total: {topics_with_metadata['summary']['total_topics']} topics")
+    for task_name, task_data in topics.items():
+        task_display = "Tâche 2" if task_name == "tache_2" else "Tâche 3"
+        sorted_parts = sorted(task_data.items(), key=lambda x: int(x[0].split('_')[1]) if '_' in x[0] and x[0].split('_')[1].isdigit() else 0)
+        for part_name, part_topics in sorted_parts:
+            part_num = part_name.split('_')[1] if '_' in part_name else part_name
+            print(f"   - {task_display} Partie {part_num}: {len(part_topics)} topics")
+    print(f"   - Total: {summary['total_topics']} topics")
     
     return filepath if topics_with_metadata['summary']['total_topics'] > 0 else None
 
@@ -296,28 +317,27 @@ def main():
         topics = scrape_tcf_topics_from_url(url)
         display_topics(topics)
         
+        # Calculate dynamic summary
+        summary = calculate_dynamic_summary(topics)
+        
         # Save with metadata
         topics_with_metadata = {
             "source_url": url,
             "topics": topics,
-            "summary": {
-                "tache_2_partie_1": len(topics['tache_2']['partie_1']),
-                "tache_2_partie_2": len(topics['tache_2']['partie_2']),
-                "tache_3_partie_1": len(topics['tache_3']['partie_1']),
-                "tache_3_partie_2": len(topics['tache_3']['partie_2']),
-                "total_topics": sum(len(part) for task in topics.values() for part in task.values())
-            }
+            "summary": summary
         }
         
         filename = generate_filename_from_url(url)
         save_topics_to_json(topics_with_metadata, filename)
         
         print(f"\n📊 Summary:")
-        print(f"   - Tâche 2 Partie 1: {len(topics['tache_2']['partie_1'])} topics")
-        print(f"   - Tâche 2 Partie 2: {len(topics['tache_2']['partie_2'])} topics")
-        print(f"   - Tâche 3 Partie 1: {len(topics['tache_3']['partie_1'])} topics")
-        print(f"   - Tâche 3 Partie 2: {len(topics['tache_3']['partie_2'])} topics")
-        print(f"   - Total: {topics_with_metadata['summary']['total_topics']} topics")
+        for task_name, task_data in topics.items():
+            task_display = "Tâche 2" if task_name == "tache_2" else "Tâche 3"
+            sorted_parts = sorted(task_data.items(), key=lambda x: int(x[0].split('_')[1]) if '_' in x[0] and x[0].split('_')[1].isdigit() else 0)
+            for part_name, part_topics in sorted_parts:
+                part_num = part_name.split('_')[1] if '_' in part_name else part_name
+                print(f"   - {task_display} Partie {part_num}: {len(part_topics)} topics")
+        print(f"   - Total: {summary['total_topics']} topics")
         
     else:
         # Multiple URLs processing

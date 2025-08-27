@@ -2,6 +2,14 @@
   "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-orale/",
   "topics": {
     "tache_2": {
+      "partie_2": [
+        "Partie 2Je suis votre ami(e). Vous venez de découvrir ma ville.Vous m’interrogez afin de savoir comment sortir à moindre coût (lieux, loisirs, transports, etc.).Je suis votre voisin(e). Je propose à la location une petite maison proche de la mer pour les séjours de vacances.Vous souhaitez en savoir plus (équipements, environnement, tarif, etc.).Je travaille dans une boutique de meubles. Vous voulez recevoir un meuble à domicile.Vous m’interrogez sur les conditions de livraison (coût, durée, moyens utilisés, etc.).Nous nous trouvons dans une salle d’attente. Le train a du retard et nous engageons la conversation bien que nous ne nous connaissions pas. Je vous parle de ma passion pour la montagne.Vous me posez des questions à ce propos (lieux, activités, équipement, etc.).À une soirée où nous faisons connaissance, je rentre d’un voyage récent.Vous me posez des questions sur ce séjour (durée, endroits visités, ressenti, etc.).",
+        "Je suis votre ami(e). Vous venez de découvrir ma ville.Vous m’interrogez afin de savoir comment sortir à moindre coût (lieux, loisirs, transports, etc.).",
+        "Je suis votre voisin(e). Je propose à la location une petite maison proche de la mer pour les séjours de vacances.Vous souhaitez en savoir plus (équipements, environnement, tarif, etc.).",
+        "Je travaille dans une boutique de meubles. Vous voulez recevoir un meuble à domicile.Vous m’interrogez sur les conditions de livraison (coût, durée, moyens utilisés, etc.).",
+        "Nous nous trouvons dans une salle d’attente. Le train a du retard et nous engageons la conversation bien que nous ne nous connaissions pas. Je vous parle de ma passion pour la montagne.Vous me posez des questions à ce propos (lieux, activités, équipement, etc.).",
+        "À une soirée où nous faisons connaissance, je rentre d’un voyage récent.Vous me posez des questions sur ce séjour (durée, endroits visités, ressenti, etc.)."
+      ],
       "partie_1": [
         "Partie 1Je suis un(e) de vos collègues.Vous êtes nouvellement arrivé(e) dans l’entreprise et vous me demandez des renseignements sur l’organisation, les collègues, la cantine, etc.Je suis votre ami(e) et je vous invite à une célébration. Vous êtes nouvellement installé(e) au Québec et, comme c’est votre première fête ici,vous me demandez des renseignements (heures, cadeaux, vêtements, etc.).Je travaille à la réception du club de sport près de chez vous. Vous voulez pratiquer un sport mais vous ne savez pas lequel choisir.Vous m’interrogez sur les activités offertes (horaires, coût, matériel, etc.).Je travaille à la réception d’un musée. Vous souhaitez venir avec des amis pour le découvrir.Vous me posez des questions afin de préparer votre visite (heures d’ouverture, tarifs, visites guidées, etc.).Nous sommes collègues. Vous envisagez de partir en week-end et je vous suggère une ville que je connais.Vous me demandez des informations sur cette destination (logement, restauration, activités, etc.).",
         "Je suis un(e) de vos collègues.Vous êtes nouvellement arrivé(e) dans l’entreprise et vous me demandez des renseignements sur l’organisation, les collègues, la cantine, etc.",
@@ -14,14 +22,6 @@
         "Nous utilisons des cookies pour améliorer votre expérience sur notre site Web. En naviguant sur ce site, vous acceptez notre utilisation des cookies.",
         "🎯 Nouveau Service Exceptionnel ! 🚀Sujets d'actualité corrigés pour tâches 2 et 3 en expression orale. Profitez GRATUITEMENT maintenant ! 💬💯Offre limitée ! Tarifs changent bientôt. Agissez vite ! ⏳Tâche 2Tâche 3",
         "Sujets d'actualité corrigés pour tâches 2 et 3 en expression orale. Profitez GRATUITEMENT maintenant ! 💬💯"
-      ],
-      "partie_2": [
-        "Partie 2Je suis votre ami(e). Vous venez de découvrir ma ville.Vous m’interrogez afin de savoir comment sortir à moindre coût (lieux, loisirs, transports, etc.).Je suis votre voisin(e). Je propose à la location une petite maison proche de la mer pour les séjours de vacances.Vous souhaitez en savoir plus (équipements, environnement, tarif, etc.).Je travaille dans une boutique de meubles. Vous voulez recevoir un meuble à domicile.Vous m’interrogez sur les conditions de livraison (coût, durée, moyens utilisés, etc.).Nous nous trouvons dans une salle d’attente. Le train a du retard et nous engageons la conversation bien que nous ne nous connaissions pas. Je vous parle de ma passion pour la montagne.Vous me posez des questions à ce propos (lieux, activités, équipement, etc.).À une soirée où nous faisons connaissance, je rentre d’un voyage récent.Vous me posez des questions sur ce séjour (durée, endroits visités, ressenti, etc.).",
-        "Je suis votre ami(e). Vous venez de découvrir ma ville.Vous m’interrogez afin de savoir comment sortir à moindre coût (lieux, loisirs, transports, etc.).",
-        "Je suis votre voisin(e). Je propose à la location une petite maison proche de la mer pour les séjours de vacances.Vous souhaitez en savoir plus (équipements, environnement, tarif, etc.).",
-        "Je travaille dans une boutique de meubles. Vous voulez recevoir un meuble à domicile.Vous m’interrogez sur les conditions de livraison (coût, durée, moyens utilisés, etc.).",
-        "Nous nous trouvons dans une salle d’attente. Le train a du retard et nous engageons la conversation bien que nous ne nous connaissions pas. Je vous parle de ma passion pour la montagne.Vous me posez des questions à ce propos (lieux, activités, équipement, etc.).",
-        "À une soirée où nous faisons connaissance, je rentre d’un voyage récent.Vous me posez des questions sur ce séjour (durée, endroits visités, ressenti, etc.)."
       ]
     },
     "tache_3": {
@@ -52,8 +52,8 @@
     }
   },
   "summary": {
-    "tache_2_partie_1": 11,
     "tache_2_partie_2": 6,
+    "tache_2_partie_1": 11,
     "tache_3_partie_1": 17,
     "tache_3_partie_2": 3,
     "total_topics": 37
