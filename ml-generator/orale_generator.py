@@ -1,6 +1,6 @@
 import json
 import os
-import openai
+from openai import OpenAI
 from typing import List, Dict, Optional, Tuple
 import time
 import re
@@ -19,13 +19,14 @@ class TCFOraleGenerator:
             api_key: OpenAI API key (if None, will try to get from environment)
             output_base_dir: Base directory for output files
         """
-        # Set up OpenAI
+        # Set up OpenAI client
         if api_key:
-            openai.api_key = api_key
+            self.client = OpenAI(api_key=api_key)
         else:
-            openai.api_key = os.getenv('OPENAI_API_KEY')
-            if not openai.api_key:
+            api_key = os.getenv('OPENAI_API_KEY')
+            if not api_key:
                 raise ValueError("OpenAI API key not found. Set OPENAI_API_KEY environment variable or pass api_key parameter.")
+            self.client = OpenAI(api_key=api_key)
         
         self.output_base_dir = output_base_dir
         self.task2_dir = os.path.join(output_base_dir, "task2")
@@ -86,7 +87,7 @@ class TCFOraleGenerator:
         
         for attempt in range(max_retries):
             try:
-                response = openai.ChatCompletion.create(
+                response = self.client.chat.completions.create(
                     model="gpt-4",  # or "gpt-3.5-turbo" for faster/cheaper option
                     messages=[
                         {"role": "system", "content": "You are a French language expert and TCF Canada examiner."},
@@ -99,24 +100,33 @@ class TCFOraleGenerator:
                 self.stats["total_api_calls"] += 1
                 return response.choices[0].message.content.strip()
                 
-            except openai.error.RateLimitError:
-                wait_time = 2 ** attempt  # Exponential backoff
-                print(f"   ⏳ Rate limit hit, waiting {wait_time}s before retry...")
-                time.sleep(wait_time)
-                
-            except openai.error.APIError as e:
-                print(f"   ❌ API Error (attempt {attempt + 1}): {e}")
-                if attempt == max_retries - 1:
-                    self.stats["errors"] += 1
-                    return None
-                time.sleep(1)
-                
             except Exception as e:
-                print(f"   ❌ Unexpected error (attempt {attempt + 1}): {e}")
-                if attempt == max_retries - 1:
-                    self.stats["errors"] += 1
-                    return None
-                time.sleep(1)
+                error_str = str(e).lower()
+                
+                # Handle rate limit errors
+                if "rate limit" in error_str or "quota" in error_str:
+                    wait_time = 2 ** attempt  # Exponential backoff
+                    print(f"   ⏳ Rate limit hit, waiting {wait_time}s before retry...")
+                    time.sleep(wait_time)
+                    continue
+                
+                # Handle API errors
+                elif "api" in error_str or "request" in error_str:
+                    print(f"   ❌ API Error (attempt {attempt + 1}): {e}")
+                    if attempt == max_retries - 1:
+                        self.stats["errors"] += 1
+                        return None
+                    time.sleep(1)
+                    continue
+                
+                # Handle other errors
+                else:
+                    print(f"   ❌ Unexpected error (attempt {attempt + 1}): {e}")
+                    if attempt == max_retries - 1:
+                        self.stats["errors"] += 1
+                        return None
+                    time.sleep(1)
+                    continue
         
         return None
     
