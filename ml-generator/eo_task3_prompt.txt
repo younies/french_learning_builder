@@ -66,35 +66,40 @@ I will provide you with a **Tâche 3 opinion question**. You must:
 
 ### 📦 OUTPUT FORMAT
 
-Return everything in a **single markdown code block** with this exact structure:
+Return PURE Markdown ONLY. Do not wrap the output in code fences, triple backticks, or any programming language markers. Produce just the Markdown content.
 
-````markdown
+Use exactly this structure:
+
 ### 🗣️ Monologue argumentatif - Tâche 3 (4.5 minutes)
 
 #### 🚀 Introduction
-[Hook, thesis statement, plan announcement with **highlighted expressions**]
+[Accroche, thèse, annonce du plan avec des **expressions**/**verbes** en gras]
 
 #### 🔍 Développement
 
-**Premier argument:**
-[Argument 1 with examples and **highlighted expressions**]
+Premier argument:
+[Argument 1 avec exemples et **expressions**/**verbes** en gras]
 
-**Deuxième argument:**
-[Argument 2 with examples and **highlighted expressions**]
+Deuxième argument:
+[Argument 2 avec exemples et **expressions**/**verbes** en gras]
 
-**Troisième argument / Nuance:**
-[Argument 3 or counter-argument consideration with **highlighted expressions**]
+Troisième argument / Nuance:
+[Argument 3 ou prise en compte d'un contre-argument avec **expressions**/**verbes** en gras]
 
 #### 🎯 Conclusion
-[Summary, position restatement, broader reflection with **highlighted expressions**]
+[Récapitulatif, réaffirmation de la position, ouverture, avec **expressions**/**verbes** en gras]
 
 ---
 
-### 📚 Expressions argumentatives et vocabulaire
+### 📚 Expressions argumentatives et vocabulaire (exhaustif)
 
-| Expression / Structure | Translation (EN) | Usage argumentatif (FR) | Argumentative Usage (EN) |
-|------------------------|------------------|-------------------------|--------------------------|
-| **example phrase**     | English meaning  | Utilisé pour introduire... | Used to introduce... |
+- Extrayez TOUTES les expressions, verbes, locutions, connecteurs, marqueurs discursifs, structures argumentatives, modes (subjonctif, conditionnel) et collocations mis en gras dans le monologue. Soyez exhaustif et évitez les doublons.
+- Essayez d'inclure le plus d'éléments possible (70+ si faisable), couvrant marqueurs d'opinion, transitions, exemples, concessions, hypothèses, causalité, conséquence, comparaison, opposition, conclusion, etc.
+- Triez par ordre alphabétique et n'incluez chaque élément qu'une seule fois.
+
+| Expression / Structure (FR) | Translation (EN) | Usage argumentatif (FR) | Argumentative Usage (EN) |
+|----------------------------|------------------|-------------------------|--------------------------|
+| **example phrase**         | English meaning  | Utilisé pour...         | Used to...               |
 
 ---
 

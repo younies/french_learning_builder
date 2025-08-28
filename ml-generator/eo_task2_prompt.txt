@@ -51,30 +51,35 @@ I will provide you with a **Tâche 2 scenario**. You must:
 
 ### 📦 OUTPUT FORMAT
 
-Return everything in a **single markdown code block** with this exact structure:
+Return PURE Markdown ONLY. Do not wrap the output in code fences, triple backticks, or any programming language markers. Produce just the Markdown content.
 
-````markdown
+Use exactly this structure:
+
 ### 🗣️ Conversation simulée - Tâche 2 (3 minutes)
 
-**Contexte:** [Brief context description]
+Contexte: [brève description du contexte]
 
-**MOI:** [Opening question with **highlighted expressions**]
+MOI: [Ouverture avec des **expressions** et **verbes** utiles en gras]
 
-**VOUS:** [Response with **highlighted expressions**]
+VOUS: [Réponse naturelle avec des **expressions** et **verbes** en gras]
 
-**MOI:** [Follow-up question with **highlighted expressions**]
+MOI: [...]
 
-**VOUS:** [Response with **highlighted expressions**]
+VOUS: [...]
 
-[Continue for 8-12 exchanges...]
+[Continuez jusqu'à 8–12 tours d'échanges]
 
 ---
 
-### 📚 Expressions et vocabulaire utiles
+### 📚 Expressions et vocabulaire utiles (exhaustif)
 
-| Expression / Verbe | Translation (EN) | Usage / Context (FR) | Usage / Context (EN) |
-|--------------------|------------------|----------------------|----------------------|
-| **example phrase** | English meaning  | Utilisé pour... | Used to... |
+- Extrayez TOUTES les expressions, verbes, locutions, connecteurs et formules de politesse mis en gras dans la conversation. Soyez exhaustif et évitez les doublons.
+- Essayez d'inclure le plus d'éléments possible (50+ si faisable), couvrant verbes, idiomes, connecteurs, formulations de questions, formules de politesse, marqueurs discursifs, hésitations naturelles et réactions.
+- Triez par ordre alphabétique et n'incluez chaque élément qu'une seule fois.
+
+| Expression / Verbe (FR) | Translation (EN) | Usage / Contexte (FR) | Usage / Context (EN) |
+|-------------------------|------------------|-----------------------|----------------------|
+| **example phrase**      | English meaning  | Utilisé pour...       | Used to...           |
 
 ---
 
