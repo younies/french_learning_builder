@@ -3,6 +3,7 @@ import os
 from typing import List, Dict, Tuple, Optional
 from dataclasses import dataclass
 from datetime import datetime
+import re
 
 @dataclass
 class TopicItem:
@@ -226,9 +227,27 @@ class TCFTopicsParser:
         # Remove excessive whitespace
         content = ' '.join(content.split())
         
+        # Strip leading 'Partie <number>' prefix if present (e.g., 'Partie 7', 'partie 12:')
+        content = re.sub(r'^partie\s*\d+\s*[:\-–—]*\s*', '', content, flags=re.IGNORECASE)
+        
         # Skip very short content or navigation/menu items
-        if len(content) < 20:
+        if len(content) < 10:
             return None
+        
+        # Skip specific non-topic prefixes
+        starts_with_blacklist = [
+            'AccueilSe connecter',
+            'Nous utilisons des cookies',
+            'Nos Contacts',
+            '🎯 Nouveau Service Exceptionnel',
+            'Sujets d\'actualité corrigés pour',
+            'les méthodologiesCompréhension',
+            'Les méthodologiesCompréhension',
+            'Partager avec votre réseau'
+        ]
+        for prefix in starts_with_blacklist:
+            if content.startswith(prefix):
+                return None
         
         # Skip content that looks like navigation menus
         navigation_keywords = [
@@ -240,6 +259,11 @@ class TCFTopicsParser:
         for keyword in navigation_keywords:
             if keyword in content:
                 return None
+        
+        # Strip leading 'Partie <number>' prefix case-insensitively
+        match = re.match(r'^Partie\s+(\d+)', content, re.IGNORECASE)
+        if match:
+            content = content[len(match.group(0)):]
         
         # Skip content that starts with "Partie X" (these are usually concatenated headers)
         if content.startswith('Partie ') and len(content) > 500:

@@ -1,9 +1,9 @@
 {
   "summary": {
     "total_files_processed": 10,
-    "total_topics": 580,
-    "task2_topics_count": 310,
-    "task3_topics_count": 270,
+    "total_topics": 581,
+    "task2_topics_count": 324,
+    "task3_topics_count": 257,
     "files_processed": [
       "aout-2025-expression-orale.json",
       "juillet-2025-expression-orale.json",
@@ -18,6 +18,13 @@
     ]
   },
   "task2_topics": [
+    {
+      "content": "Je suis un(e) de vos collègues.Vous êtes nouvellement arrivé(e) dans l’entreprise et vous me demandez des renseignements sur l’organisation, les collègues, la cantine, etc.Je suis votre ami(e) et je vous invite à une célébration. Vous êtes nouvellement installé(e) au Québec et, comme c’est votre première fête ici,vous me demandez des renseignements (heures, cadeaux, vêtements, etc.).Je travaille à la réception du club de sport près de chez vous. Vous voulez pratiquer un sport mais vous ne savez pas lequel choisir.Vous m’interrogez sur les activités offertes (horaires, coût, matériel, etc.).Je travaille à la réception d’un musée. Vous souhaitez venir avec des amis pour le découvrir.Vous me posez des questions afin de préparer votre visite (heures d’ouverture, tarifs, visites guidées, etc.).Nous sommes collègues. Vous envisagez de partir en week-end et je vous suggère une ville que je connais.Vous me demandez des informations sur cette destination (logement, restauration, activités, etc.).",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-orale/",
+      "source_file": "aout-2025-expression-orale.json",
+      "part": "partie_1",
+      "part_number": 1
+    },
     {
       "content": "Je suis un(e) de vos collègues.Vous êtes nouvellement arrivé(e) dans l’entreprise et vous me demandez des renseignements sur l’organisation, les collègues, la cantine, etc.",
       "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-orale/",
@@ -54,32 +61,11 @@
       "part_number": 1
     },
     {
-      "content": "Nous utilisons des cookies pour améliorer votre expérience sur notre site Web. En naviguant sur ce site, vous acceptez notre utilisation des cookies.Plus d'informationsPlus d'informationsAccepter",
+      "content": "Je suis votre ami(e). Vous venez de découvrir ma ville.Vous m’interrogez afin de savoir comment sortir à moindre coût (lieux, loisirs, transports, etc.).Je suis votre voisin(e). Je propose à la location une petite maison proche de la mer pour les séjours de vacances.Vous souhaitez en savoir plus (équipements, environnement, tarif, etc.).Je travaille dans une boutique de meubles. Vous voulez recevoir un meuble à domicile.Vous m’interrogez sur les conditions de livraison (coût, durée, moyens utilisés, etc.).Nous nous trouvons dans une salle d’attente. Le train a du retard et nous engageons la conversation bien que nous ne nous connaissions pas. Je vous parle de ma passion pour la montagne.Vous me posez des questions à ce propos (lieux, activités, équipement, etc.).À une soirée où nous faisons connaissance, je rentre d’un voyage récent.Vous me posez des questions sur ce séjour (durée, endroits visités, ressenti, etc.).",
       "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-orale/",
       "source_file": "aout-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "Nous utilisons des cookies pour améliorer votre expérience sur notre site Web. En naviguant sur ce site, vous acceptez notre utilisation des cookies.",
-      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-orale/",
-      "source_file": "aout-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "🎯 Nouveau Service Exceptionnel ! 🚀Sujets d'actualité corrigés pour tâches 2 et 3 en expression orale. Profitez GRATUITEMENT maintenant ! 💬💯Offre limitée ! Tarifs changent bientôt. Agissez vite ! ⏳Tâche 2Tâche 3",
-      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-orale/",
-      "source_file": "aout-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "Sujets d'actualité corrigés pour tâches 2 et 3 en expression orale. Profitez GRATUITEMENT maintenant ! 💬💯",
-      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-orale/",
-      "source_file": "aout-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
+      "part": "partie_2",
+      "part_number": 2
     },
     {
       "content": "Je suis votre ami(e). Vous venez de découvrir ma ville.Vous m’interrogez afin de savoir comment sortir à moindre coût (lieux, loisirs, transports, etc.).",
@@ -117,6 +103,13 @@
       "part_number": 2
     },
     {
+      "content": "Je suis votre ami(e), je viens d’aller voir un film au cinéma.Vous me posez des questions pour savoir si ce film vous plairait (histoire, acteurs, horaires, etc.).Je suis votre voisin(e). Je vais souvent à la piscine municipale. Vous êtes intéressé(e).Vous me posez des questions sur cette piscine (installations, prix, horaires, etc.).Je suis votre ami(e) au Canada. Vous venez me voir en décembre.Vous me posez des questions pour bien préparer ce voyage (activités, vêtements, météo, etc.).Je suis votre ami(e). Je vis en colocation et une chambre est libre. Vous êtes intéressé(e).Vous me posez des questions sur le logement (loyer, pièces, colocataires, etc.).Je suis votre voisin(e). Vous venez d’arriver dans le quartier.Vous me posez des questions pour le découvrir (commerces, ambiance, services, etc.).",
+      "source_url": "https://reussir-tcfcanada.com/juillet-2025-expression-orale/",
+      "source_file": "juillet-2025-expression-orale.json",
+      "part": "partie_1",
+      "part_number": 1
+    },
+    {
       "content": "Je suis votre ami(e), je viens d’aller voir un film au cinéma.Vous me posez des questions pour savoir si ce film vous plairait (histoire, acteurs, horaires, etc.).",
       "source_url": "https://reussir-tcfcanada.com/juillet-2025-expression-orale/",
       "source_file": "juillet-2025-expression-orale.json",
@@ -152,32 +145,11 @@
       "part_number": 1
     },
     {
-      "content": "Nous utilisons des cookies pour améliorer votre expérience sur notre site Web. En naviguant sur ce site, vous acceptez notre utilisation des cookies.Plus d'informationsPlus d'informationsAccepter",
+      "content": "Je travaille à l’accueil d’un bureau d’information pour les associations locales.Vous souhaitez vous engager comme bénévole et vous vous renseignez sur les possibilités (types d’actions, public visé, horaires, etc.).Je suis enseignant de français. Vous cherchez un professeur pour des cours individuels.Vous vous renseignez sur mon parcours, mes méthodes pédagogiques et mes prix.Je suis un(e) ami(e) canadien(ne). J’ai passé des vacances en montagne récemment.Vous me posez des questions sur ce séjour (lieu exact, randonnées, logement, ambiance, etc.).Je suis votre ami(e). Je fais du théâtre régulièrement.Vous êtes intéressé(e) et vous me posez des questions pratiques avant de vous inscrire (inscription, ambiance, planning, etc.).Je suis votre voisin(e) et vous venez d’emménager au Québec. Lors d’un apéritif,vous me posez des questions sur la vie dans notre quartier (tranquillité, associations, équipements, etc.).",
       "source_url": "https://reussir-tcfcanada.com/juillet-2025-expression-orale/",
       "source_file": "juillet-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "Nous utilisons des cookies pour améliorer votre expérience sur notre site Web. En naviguant sur ce site, vous acceptez notre utilisation des cookies.",
-      "source_url": "https://reussir-tcfcanada.com/juillet-2025-expression-orale/",
-      "source_file": "juillet-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "🎯 Nouveau Service Exceptionnel ! 🚀Sujets d'actualité corrigés pour tâches 2 et 3 en expression orale. Profitez GRATUITEMENT maintenant ! 💬💯Offre limitée ! Tarifs changent bientôt. Agissez vite ! ⏳Tâche 2Tâche 3",
-      "source_url": "https://reussir-tcfcanada.com/juillet-2025-expression-orale/",
-      "source_file": "juillet-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "Sujets d'actualité corrigés pour tâches 2 et 3 en expression orale. Profitez GRATUITEMENT maintenant ! 💬💯",
-      "source_url": "https://reussir-tcfcanada.com/juillet-2025-expression-orale/",
-      "source_file": "juillet-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
+      "part": "partie_2",
+      "part_number": 2
     },
     {
       "content": "Je travaille à l’accueil d’un bureau d’information pour les associations locales.Vous souhaitez vous engager comme bénévole et vous vous renseignez sur les possibilités (types d’actions, public visé, horaires, etc.).",
@@ -215,6 +187,13 @@
       "part_number": 2
     },
     {
+      "content": "Je suis votre ami(e). J’ai été candidat(e) dans un jeu télévisé.Vous êtes curieux(se) et vous me posez des questions à ce sujet (organisation, ambiance, intérêt personnel, etc.).Je suis votre ami(e). Vous pensez vous installer dans ma ville.Vous me posez des questions sur les différents quartiers (atmosphère, niveau de vie, transports, etc.).Je suis votre voisin(e). J’anime des séances de sport dans un centre social du quartier.Vous êtes intéressé(e) et vous voulez en savoir plus (types de cours, organisation, niveau, etc.).Je suis employé(e) dans une entreprise de location de vélos au Canada. En tant que touriste,vous vous renseignez sur les possibilités pour faire une balade à vélo (types de vélos, durée, prix, sécurité, etc.).Je suis employé(e) dans une agence de voyages.Vous êtes intéressé(e) par une croisière au Canada et vous cherchez des renseignements (prix, conditions, services, activités incluses, etc.).",
+      "source_url": "https://reussir-tcfcanada.com/juillet-2025-expression-orale/",
+      "source_file": "juillet-2025-expression-orale.json",
+      "part": "partie_3",
+      "part_number": 3
+    },
+    {
       "content": "Je suis votre ami(e). J’ai été candidat(e) dans un jeu télévisé.Vous êtes curieux(se) et vous me posez des questions à ce sujet (organisation, ambiance, intérêt personnel, etc.).",
       "source_url": "https://reussir-tcfcanada.com/juillet-2025-expression-orale/",
       "source_file": "juillet-2025-expression-orale.json",
@@ -248,6 +227,13 @@
       "source_file": "juillet-2025-expression-orale.json",
       "part": "partie_3",
       "part_number": 3
+    },
+    {
+      "content": "Je suis votre ami(e) et je vous invite à assister à un concert avec moi.Vous souhaitez en savoir plus et vous me posez des questions sur le concert (genre de musique, endroit, date, etc.).Je suis votre ami(e). J’ai participé à un atelier de cuisine.Vous êtes intéressé(e) à y assister. Vous me demandez des informations sur cet atelier (tarifs, horaires, programme, etc.).Je suis votre collègue de travail. Vous venez d’arriver à Toronto. Vous voulez organiser votre anniversaire dans un bon restaurant.Vous me posez des questions concernant les restaurants en ville (style culinaire, prix, ambiance, etc.).Je suis votre voisin(e). Vous venez de vous installer à Edmonton. Vous désirez inscrire vos enfants à l’école.Vous me demandez des renseignements sur les écoles du quartier (emplacement, enseignants, activités, etc.).Je fais partie du service des transports en commun de la ville. Vous venez d’arriver ici.Vous souhaitez vous renseigner et vous me posez des questions sur les moyens de transport, les prix, les horaires, etc.",
+      "source_url": "https://reussir-tcfcanada.com/juillet-2025-expression-orale/",
+      "source_file": "juillet-2025-expression-orale.json",
+      "part": "partie_4",
+      "part_number": 4
     },
     {
       "content": "Je suis votre ami(e) et je vous invite à assister à un concert avec moi.Vous souhaitez en savoir plus et vous me posez des questions sur le concert (genre de musique, endroit, date, etc.).",
@@ -285,6 +271,13 @@
       "part_number": 4
     },
     {
+      "content": "Je travaille à la réception d’une école de musique. Vous voulez vous inscrire à des cours.Vous me posez des questions sur ce que l’école propose (leçons, prix, emploi du temps, instruments, etc.).Je suis votre ami(e) et j’habite à Ottawa. Vous venez d’arriver dans la ville et vous souhaitez circuler à vélo.Vous me posez des questions pour savoir si c’est pratique (pistes, location, matériel, etc.).Je suis votre ami(e). Vous avez envie de partir un week-end pour vous reposer.Vous me posez des questions pour avoir des suggestions (endroits, activités, transport, etc.).Je suis votre ami(e). Je vis au Canada depuis deux ans. Vous êtes en train de préparer votre arrivée au Canada.Vous me posez des questions sur mon vécu (habitudes, vie courante, adaptation, etc.).Je suis votre voisin(e). Je connais une personne qui fait des petits services à domicile.Vous voulez en savoir plus et vous me posez des questions (compétences, horaires, tarifs, etc.).",
+      "source_url": "https://reussir-tcfcanada.com/juillet-2025-expression-orale/",
+      "source_file": "juillet-2025-expression-orale.json",
+      "part": "partie_5",
+      "part_number": 5
+    },
+    {
       "content": "Je travaille à la réception d’une école de musique. Vous voulez vous inscrire à des cours.Vous me posez des questions sur ce que l’école propose (leçons, prix, emploi du temps, instruments, etc.).",
       "source_url": "https://reussir-tcfcanada.com/juillet-2025-expression-orale/",
       "source_file": "juillet-2025-expression-orale.json",
@@ -318,6 +311,13 @@
       "source_file": "juillet-2025-expression-orale.json",
       "part": "partie_5",
       "part_number": 5
+    },
+    {
+      "content": "Je produis des fruits et légumes biologiques. Je les vends directement aux particuliers.Vous êtes intéressé(e) et vous me posez des questions pour connaître les prix, les produits, la livraison, etc.Je suis votre ami(e) et je m’engage dans une association qui soutient les personnes âgées.Vous souhaitez en savoir plus et vous me posez des questions (type d’activités, public concerné, comment s’inscrire, etc.).Je suis votre collègue. J’ai passé dix ans au Canada. Vous pensez partir vivre à Ottawa.Vous me posez des questions sur mon expérience d’intégration (se loger, travailler, s’adapter à la culture, etc.).Je suis votre voisin(e). J’ai visité le zoo le week-end dernier. Vous pensez y aller en famille.Vous me posez des questions pour préparer votre sortie (jour, animaux à voir, prix, etc.).Je suis employé(e) dans une agence de voyages. Vous souhaitez partir au Canada pour profiter des sports d’hiver.Vous me posez des questions (activités, hébergements, tarifs, etc.).",
+      "source_url": "https://reussir-tcfcanada.com/juillet-2025-expression-orale/",
+      "source_file": "juillet-2025-expression-orale.json",
+      "part": "partie_6",
+      "part_number": 6
     },
     {
       "content": "Je produis des fruits et légumes biologiques. Je les vends directement aux particuliers.Vous êtes intéressé(e) et vous me posez des questions pour connaître les prix, les produits, la livraison, etc.",
@@ -355,6 +355,13 @@
       "part_number": 6
     },
     {
+      "content": "Je suis votre voisin(e). Vous venez d’arriver au Canada etvous me demandez des informations sur les transports publics (tarifs, organisation, types de véhicules, etc.).Je suis votre ami(e). Je mets en vente un vélo électrique.Vous souhaitez en savoir plus et vous me posez des questions (tarif, couleur, type, état, etc.).Je suis votre ami(e) au Canada. Je fais du ski de fond.Vous voulez des informations sur ce sport et vous me posez des questions (tarifs, équipement, tenue, cours, etc.).Je suis votre ami(e). Vous allez garder vos neveux.Vous me demandez des conseils pour les occuper (jeux, sorties, activités, etc.).Je travaille à l’accueil de la mairie. Vous venez de vous installer au Canada.Vous me demandez des renseignements (logement, formalités, services municipaux, etc.).",
+      "source_url": "https://reussir-tcfcanada.com/juillet-2025-expression-orale/",
+      "source_file": "juillet-2025-expression-orale.json",
+      "part": "partie_7",
+      "part_number": 7
+    },
+    {
       "content": "Je suis votre voisin(e). Vous venez d’arriver au Canada etvous me demandez des informations sur les transports publics (tarifs, organisation, types de véhicules, etc.).",
       "source_url": "https://reussir-tcfcanada.com/juillet-2025-expression-orale/",
       "source_file": "juillet-2025-expression-orale.json",
@@ -388,6 +395,13 @@
       "source_file": "juillet-2025-expression-orale.json",
       "part": "partie_7",
       "part_number": 7
+    },
+    {
+      "content": "Je fais partie d’une association qui protège les animaux. Je vous invite à nous rejoindre.Vous me posez des questions pour mieux connaître cette association (activités, services, personnes aidées, etc.).Nous travaillons ensemble. J’ai vu un film hier soir.Vous voulez en savoir plus avant de décider si vous allez le voir (casting, résumé, horaires…).Je viens de rejoindre votre équipe. J’ai vécu un moment au Québec.Vous me posez des questions sur mes études, mes débuts professionnels, mon expérience à l’étranger et les obstacles que j’ai rencontrés.Je suis agent immobilier. Vous êtes nouveau au Québec et vous cherchez un appartement.Vous me demandez des infos sur les procédures, les zones à privilégier et les logements proposés.Je travaille à la bibliothèque. Vous souhaitez devenir membre.Vous me demandez des informations sur l’inscription, les services offerts, les horaires et les événements.",
+      "source_url": "https://reussir-tcfcanada.com/juin-2025-expression-orale/",
+      "source_file": "juin-2025-expression-orale.json",
+      "part": "partie_1",
+      "part_number": 1
     },
     {
       "content": "Je fais partie d’une association qui protège les animaux. Je vous invite à nous rejoindre.Vous me posez des questions pour mieux connaître cette association (activités, services, personnes aidées, etc.).",
@@ -425,32 +439,11 @@
       "part_number": 1
     },
     {
-      "content": "Nous utilisons des cookies pour améliorer votre expérience sur notre site Web. En naviguant sur ce site, vous acceptez notre utilisation des cookies.Plus d'informationsPlus d'informationsAccepter",
+      "content": "Je suis votre ami(e). Pour l’anniversaire prochain de ma sœur, vous cherchez un cadeau.Vous me posez des questions ses goûts et ses préférences (loisirs, tempérament, …)Je suis votre ami(e). Je suis membre d’un club de sport, ce qui vous intéresse.Vous me demandez des renseignements sur ce club (offres, tarifs, ambiance, matériel …).Je suis votre voisin(e). Vous vous occuperez de mon animal pendant quelques jours.Vous souhaitez vous renseigner sur ses besoins (nourriture, sorties, comportements …).Je suis votre ami(e) qui habite au Canada.Vous souhaitez vous informer sur les habitudes des Canadiens durant le week-end (loisirs, sports, sorties …).Je suis votre collègue et je viens d’occuper un nouveau poste au sein de l’entreprise.Vous souhaitez en savoir davantage (emploi du temps, salaire, tâches …).",
       "source_url": "https://reussir-tcfcanada.com/juin-2025-expression-orale/",
       "source_file": "juin-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "Nous utilisons des cookies pour améliorer votre expérience sur notre site Web. En naviguant sur ce site, vous acceptez notre utilisation des cookies.",
-      "source_url": "https://reussir-tcfcanada.com/juin-2025-expression-orale/",
-      "source_file": "juin-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "🎯 Nouveau Service Exceptionnel ! 🚀Sujets d'actualité corrigés pour tâches 2 et 3 en expression orale. Profitez GRATUITEMENT maintenant ! 💬💯Offre limitée ! Tarifs changent bientôt. Agissez vite ! ⏳Tâche 2Tâche 3",
-      "source_url": "https://reussir-tcfcanada.com/juin-2025-expression-orale/",
-      "source_file": "juin-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "Sujets d'actualité corrigés pour tâches 2 et 3 en expression orale. Profitez GRATUITEMENT maintenant ! 💬💯",
-      "source_url": "https://reussir-tcfcanada.com/juin-2025-expression-orale/",
-      "source_file": "juin-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
+      "part": "partie_2",
+      "part_number": 2
     },
     {
       "content": "Je suis votre ami(e). Pour l’anniversaire prochain de ma sœur, vous cherchez un cadeau.Vous me posez des questions ses goûts et ses préférences (loisirs, tempérament, …)",
@@ -488,6 +481,13 @@
       "part_number": 2
     },
     {
+      "content": "Je suis votre ami(e) et je suis inscrit(e) dans un club de randonnée. Comme cela vous intéresse,vous me demandez des informations sur ce club (les membres, les parcours, les niveaux, etc.).Je suis votre ami(e). Mon enfant a participé à un séjour linguistique à l’étranger.Vous souhaitez organiser un voyage pour votre enfant, alors vous me posez des questions (destination, programme, conditions, etc.).Je suis votre collègue et je mets ma voiture en vente.Vous êtes intéressé(e) et vous me demandez des informations sur son état, son prix et ses équipements.Je suis votre collègue. Je ne peux pas me rendre à un festival musical pour lequel j’ai des billets.Vous souhaitez en profiter et vous me demandez des informations (artistes présents, lieu, tarif, etc.).Je suis votre voisin(e). Vous envisagez de célébrer votre anniversaire au restaurant.Vous me demandez des informations sur les restaurants du quartier (style de cuisine, atmosphère, tarifs …).",
+      "source_url": "https://reussir-tcfcanada.com/juin-2025-expression-orale/",
+      "source_file": "juin-2025-expression-orale.json",
+      "part": "partie_3",
+      "part_number": 3
+    },
+    {
       "content": "Je suis votre ami(e) et je suis inscrit(e) dans un club de randonnée. Comme cela vous intéresse,vous me demandez des informations sur ce club (les membres, les parcours, les niveaux, etc.).",
       "source_url": "https://reussir-tcfcanada.com/juin-2025-expression-orale/",
       "source_file": "juin-2025-expression-orale.json",
@@ -521,6 +521,13 @@
       "source_file": "juin-2025-expression-orale.json",
       "part": "partie_3",
       "part_number": 3
+    },
+    {
+      "content": "Je suis votre ami(e) et je vous demande de garder ma fille de 3 ans pendant le week-end. Vous la connaissez un peu. Je vous indique les horaires et les consignes à faire.Vous me posez des questions pour bien vous organiser (repas, sommeil, activités, etc.).Je suis votre collègue. Je vous invite à assister à un spectacle.Vous me posez des questions sur le type de spectacle, le lieu, l’horaire, ainsi que sur l’organisation de la sortie (transport, autres participants, etc.).Je travaille au service culturel de la mairie. Vous souhaitez découvrir les activités culturelles proposées dans la ville.Vous me posez des questions sur les expositions, les musées, les ateliers, les tarifs et les conditions d’accès.Je travaille dans une agence de voyages. Vous souhaitez organiser un séjour au Canada.Vous me posez des questions sur les lieux à découvrir, les prix, les hébergements et les activités possibles.Vous circulez au Canada et votre véhicule tombe en panne.Vous contactez votre assurance pour demander des informations sur l’aide possible (dépannage, réparation, retour, etc.). Je suis la personne chargée de vous répondre.",
+      "source_url": "https://reussir-tcfcanada.com/juin-2025-expression-orale/",
+      "source_file": "juin-2025-expression-orale.json",
+      "part": "partie_4",
+      "part_number": 4
     },
     {
       "content": "Je suis votre ami(e) et je vous demande de garder ma fille de 3 ans pendant le week-end. Vous la connaissez un peu. Je vous indique les horaires et les consignes à faire.Vous me posez des questions pour bien vous organiser (repas, sommeil, activités, etc.).",
@@ -558,6 +565,13 @@
       "part_number": 4
     },
     {
+      "content": "Vous êtes intéressé par une annonce immobilière et souhaitezobtenir des informations détaillées sur l’appartement, comme sa taille, son prix et son emplacement.Vous êtes parent et vous explorez les options d’activités disponibles pour vos enfants après l’école,y compris les types d’activités offertes, les horaires, les tarifs et les activités spéciales.Vous êtes intéressé à devenir bénévole dans une association qui distribue des repas aux sans-abris, et vous avezdes questions sur l’organisation, les conditions de bénévolat et l’emploi du temps requis.Vous envisagez de changer d’emploi et vous souhaitez en savoir plus sur les activités, les conditions de travail,y compris le salaire et les relations professionnelles, dans le nouvel entreprise où votre ancien collègue a commencé à travailler.Vos voisins vous ont demandé de garder leur enfant le week-end prochain.Vous cherchez des détails sur les horaires, les activités à faire avec l’enfant et les repas à prévoir.",
+      "source_url": "https://reussir-tcfcanada.com/mai-2025-expression-orale/",
+      "source_file": "mai-2025-expression-orale.json",
+      "part": "partie_1",
+      "part_number": 1
+    },
+    {
       "content": "Vous êtes intéressé par une annonce immobilière et souhaitezobtenir des informations détaillées sur l’appartement, comme sa taille, son prix et son emplacement.",
       "source_url": "https://reussir-tcfcanada.com/mai-2025-expression-orale/",
       "source_file": "mai-2025-expression-orale.json",
@@ -593,32 +607,11 @@
       "part_number": 1
     },
     {
-      "content": "Nous utilisons des cookies pour améliorer votre expérience sur notre site Web. En naviguant sur ce site, vous acceptez notre utilisation des cookies.Plus d'informationsPlus d'informationsAccepter",
+      "content": "Je suis agent immobilier. Vous êtes à la recherche d’un logement et vous voulez en savoir plus sur les offres :appartements, maisons, tarifs, localisation, etc.Je vais faire une course à pied à Vancouver. On habite le même quartier. Comme ça vous intéresse,vous me posez des questions sur l’inscription, la préparation et l’organisation.Je travaille avec vous. Vous allez bientôt partir en vacances dans une région que je connais.Vous me demandez ce qu’il y a à faire, à voir et comment est le temps là-bas.Je suis votre ami(e) et j’organise une fête. Vous voulez participer à la préparation.Vous me demandez des détails sur l’organisation : repas, décoration, liste des invités…Je suis votre ami(e). J’ai testé un nouveau restaurant à Ottawa.Vous aimeriez y aller et vous me demandez des infos : plats proposés, tarifs, si j’ai aimé ou non.",
       "source_url": "https://reussir-tcfcanada.com/mai-2025-expression-orale/",
       "source_file": "mai-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "Nous utilisons des cookies pour améliorer votre expérience sur notre site Web. En naviguant sur ce site, vous acceptez notre utilisation des cookies.",
-      "source_url": "https://reussir-tcfcanada.com/mai-2025-expression-orale/",
-      "source_file": "mai-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "🎯 Nouveau Service Exceptionnel ! 🚀Sujets d'actualité corrigés pour tâches 2 et 3 en expression orale. Profitez GRATUITEMENT maintenant ! 💬💯Offre limitée ! Tarifs changent bientôt. Agissez vite ! ⏳Tâche 2Tâche 3",
-      "source_url": "https://reussir-tcfcanada.com/mai-2025-expression-orale/",
-      "source_file": "mai-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "Sujets d'actualité corrigés pour tâches 2 et 3 en expression orale. Profitez GRATUITEMENT maintenant ! 💬💯",
-      "source_url": "https://reussir-tcfcanada.com/mai-2025-expression-orale/",
-      "source_file": "mai-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
+      "part": "partie_2",
+      "part_number": 2
     },
     {
       "content": "Je suis agent immobilier. Vous êtes à la recherche d’un logement et vous voulez en savoir plus sur les offres :appartements, maisons, tarifs, localisation, etc.",
@@ -656,6 +649,13 @@
       "part_number": 2
     },
     {
+      "content": "Vous venez me voir à l’accueil pour en savoir plus sur le bénévolat.Vous me posez des questions sur les associations disponibles près de chez vous, les activités proposées, les personnes aidées et les horaires.Je suis professeur de français. Vous êtes nouveau au Canada et vous cherchez des cours particuliers.Vous me posez des questions sur mon expérience, ma méthode d’enseignement et mes prix.Votre ami(e) canadien(ne) revient de vacances à la montagne. Vous aimeriez faire un séjour similaire.Vous lui demandez des infos sur le lieu, ce qu’on peut y faire et où dormir.Je suis votre ami(e) et je prends régulièrement des cours de théâtre.Vous souhaitez vous inscrire à ces cours et vous me demandez des informations concernant l’organisation, les prix, les horaires, etc.Vous venez d’emménager au Québec. Je suis votre voisin(e) et je vous invite à un petit apéro.Pendant la conversation, vous me posez des questions sur le coin : commerces, loisirs, ambiance du quartier, etc.",
+      "source_url": "https://reussir-tcfcanada.com/mai-2025-expression-orale/",
+      "source_file": "mai-2025-expression-orale.json",
+      "part": "partie_3",
+      "part_number": 3
+    },
+    {
       "content": "Vous venez me voir à l’accueil pour en savoir plus sur le bénévolat.Vous me posez des questions sur les associations disponibles près de chez vous, les activités proposées, les personnes aidées et les horaires.",
       "source_url": "https://reussir-tcfcanada.com/mai-2025-expression-orale/",
       "source_file": "mai-2025-expression-orale.json",
@@ -689,6 +689,13 @@
       "source_file": "mai-2025-expression-orale.json",
       "part": "partie_3",
       "part_number": 3
+    },
+    {
+      "content": "Je suis un collègue qui a récemment visité le Canada.Vous êtes curieux(se) de connaître mon expérience et me posez des questions sur les activités, les moyens de transport, les loisirs, etc.Je propose une location en bord de mer. Comme vous êtes intéressé(e),vous me posez des questions sur la maison.Je vais bientôt partir en vacances et je vous demande de surveiller mon logement.Vous me posez des questions : quand, quoi faire, et s’il y a des instructions particulières.Nous venons de nous rencontrer dans une gare.Vous êtes intéressé(e) par mon amour pour la montagne et vous me posez des questions pour en savoir davantage sur cette passion.Je suis livreur.Vous voulez commander un meuble et vous me posez des questions : combien ça coûte, quand c’est livré, quelles sont les conditions.",
+      "source_url": "https://reussir-tcfcanada.com/mai-2025-expression-orale/",
+      "source_file": "mai-2025-expression-orale.json",
+      "part": "partie_4",
+      "part_number": 4
     },
     {
       "content": "Je suis un collègue qui a récemment visité le Canada.Vous êtes curieux(se) de connaître mon expérience et me posez des questions sur les activités, les moyens de transport, les loisirs, etc.",
@@ -726,6 +733,13 @@
       "part_number": 4
     },
     {
+      "content": "Je suis un(e) de vos collègues. Vous êtes nouveau (nouvelle) ici et vous avez des questions sur l’entreprise.Vous voulez en savoir plus sur l’organisation, l’ambiance, la cantine, etc.Je suis votre ami(e) et je vous invite à une fête. Comme vous êtes nouveau/nouvelle au Québec,vous me posez des questions sur l’événement, comme l’heure, le cadeau à apporter, la tenue, etc.Je travaille à l’accueil du club de sport du quartier. Vous envisagez de commencer une activité sportive, mais vous avez des doutes.Vous me posez des questions sur les sports disponibles, les horaires, les tarifs, le matériel, etc.Je travaille à l’accueil d’un musée. Vous prévoyez de visiter ce musée avec des amis etvous me posez des questions pour bien organiser votre visite, comme les heures d’ouverture, les tarifs, les visites guidées, etc.Nous travaillons ensemble. Vous planifiez un week-end et je vous conseille une ville que je connais bien.Vous me posez des questions sur l’hébergement, les bons restaurants, les lieux à découvrir, etc.",
+      "source_url": "https://reussir-tcfcanada.com/mai-2025-expression-orale/",
+      "source_file": "mai-2025-expression-orale.json",
+      "part": "partie_5",
+      "part_number": 5
+    },
+    {
       "content": "Je suis un(e) de vos collègues. Vous êtes nouveau (nouvelle) ici et vous avez des questions sur l’entreprise.Vous voulez en savoir plus sur l’organisation, l’ambiance, la cantine, etc.",
       "source_url": "https://reussir-tcfcanada.com/mai-2025-expression-orale/",
       "source_file": "mai-2025-expression-orale.json",
@@ -759,6 +773,13 @@
       "source_file": "mai-2025-expression-orale.json",
       "part": "partie_5",
       "part_number": 5
+    },
+    {
+      "content": "Vous souhaitez partir en vacances au Canada et vous renseignez auprès d’un agent de voyage sur les destinations, les tarifs et les types de séjours proposés.Arrivé à Ottawa, vous souhaitez utiliser le vélo comme moyen de transport etdemandez à un ami des informations sur les pistes cyclables, la location et l’équipement nécessaire.Votre collègue cherche une baby-sitter pour ses enfants et vous demande si vous connaissez quelqu’un.Vous l’interrogez sur ses attentes, les horaires, la rémunération et les tâches à effectuer.Vous séjournez dans un hôtel et souhaitez en savoir plus sur les services proposés.Vous posez des questions à l’hôtesse d’accueil sur les tarifs, les prestations et les équipements disponibles.Un ami pratique le covoiturage et vous envisagez d’y recourir.Vous lui demandez des précisions sur les trajets, les coûts et ses disponibilités.",
+      "source_url": "https://reussir-tcfcanada.com/avril-2025-expression-orale/",
+      "source_file": "avril-2025-expression-orale.json",
+      "part": "partie_1",
+      "part_number": 1
     },
     {
       "content": "Vous souhaitez partir en vacances au Canada et vous renseignez auprès d’un agent de voyage sur les destinations, les tarifs et les types de séjours proposés.",
@@ -796,32 +817,11 @@
       "part_number": 1
     },
     {
-      "content": "Nous utilisons des cookies pour améliorer votre expérience sur notre site Web. En naviguant sur ce site, vous acceptez notre utilisation des cookies.Plus d'informationsPlus d'informationsAccepter",
+      "content": "Vous interrogez un(e) ami(e) inscrit(e) dans un centre sportif sur les horaires, les prix et les activités proposées.Vous posez des questions à un(e) voisin(e) sur les sorties culturelles organisées par la mairie(lieux, dates, activités).Vous venez d’emménager et demandez à un(e) voisin(e) des informations sur le quartier(écoles, loisirs, commerces).Vous vous renseignez auprès d’une agence de location de voitures pour vos vacances(tarifs, types de véhicules, assurances).Vous demandez des informations à une école de langues sur les cours, les enseignants, l’organisation et les tarifs.",
       "source_url": "https://reussir-tcfcanada.com/avril-2025-expression-orale/",
       "source_file": "avril-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "Nous utilisons des cookies pour améliorer votre expérience sur notre site Web. En naviguant sur ce site, vous acceptez notre utilisation des cookies.",
-      "source_url": "https://reussir-tcfcanada.com/avril-2025-expression-orale/",
-      "source_file": "avril-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "🎯 Nouveau Service Exceptionnel ! 🚀Sujets d'actualité corrigés pour tâches 2 et 3 en expression orale. Profitez GRATUITEMENT maintenant ! 💬💯Offre limitée ! Tarifs changent bientôt. Agissez vite ! ⏳Tâche 2Tâche 3",
-      "source_url": "https://reussir-tcfcanada.com/avril-2025-expression-orale/",
-      "source_file": "avril-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "Sujets d'actualité corrigés pour tâches 2 et 3 en expression orale. Profitez GRATUITEMENT maintenant ! 💬💯",
-      "source_url": "https://reussir-tcfcanada.com/avril-2025-expression-orale/",
-      "source_file": "avril-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
+      "part": "partie_2",
+      "part_number": 2
     },
     {
       "content": "Vous interrogez un(e) ami(e) inscrit(e) dans un centre sportif sur les horaires, les prix et les activités proposées.",
@@ -859,6 +859,13 @@
       "part_number": 2
     },
     {
+      "content": "Vous cherchez un film à critiquer pour une revue etdemandez à un(e) ami(e) des suggestions sur le genre, l’histoire et les récompenses.Vous souhaitez voyager et interrogez une agence sur les circuits, tarifs et activités touristiques.Vous préparez une fête de quartier etdemandez conseil à un(e) voisin(e) sur les invités, le repas et la musique.Vous venez d’arriver etdemandez à un(e) voisin(e) comment rencontrer des gens et découvrir la ville.Vous vous renseignez sur les horaires et congés au Canada pour les comparer à votre pays.",
+      "source_url": "https://reussir-tcfcanada.com/mars-2025-expression-orale/",
+      "source_file": "mars-2025-expression-orale.json",
+      "part": "partie_1",
+      "part_number": 1
+    },
+    {
       "content": "Vous cherchez un film à critiquer pour une revue etdemandez à un(e) ami(e) des suggestions sur le genre, l’histoire et les récompenses.",
       "source_url": "https://reussir-tcfcanada.com/mars-2025-expression-orale/",
       "source_file": "mars-2025-expression-orale.json",
@@ -894,32 +901,11 @@
       "part_number": 1
     },
     {
-      "content": "Nous utilisons des cookies pour améliorer votre expérience sur notre site Web. En naviguant sur ce site, vous acceptez notre utilisation des cookies.Plus d'informationsPlus d'informationsAccepter",
+      "content": "En vacances au Canada, vous souhaitez aller au cinéma. Votre ami(e), qui y travaille, peut vous renseigner sur les films à l’affiche, les horaires et les tarifs.Vous lui posez vos questions pour faire votre choix.Votre ami(e) revient d’un séjour au bord de la mer et vous aimeriez organiser des vacances similaires.Vous lui demandez des informations sur la destination, les activités proposées et le budget nécessaire.Vous devez rédiger un article sur un livre pour la revue de votre association littéraire.Pour trouver des idées, vous échangez avec un(e) ami(e) francophone sur ses lectures récentes.Votre ami(e) a participé à un jeu télévisé. Comme vous envisagez d’y prendre part, vous lui posez des questions sur les modalités d’inscription, le déroulement et l’intérêt de l’expérience.Vous visitez une nouvelle ville et souhaitez comprendre le fonctionnement des transports en commun.Vous demandez à un(e) employé(e) de l’agence des renseignements sur les différents moyens de transport, les horaires et les tarifs.",
       "source_url": "https://reussir-tcfcanada.com/mars-2025-expression-orale/",
       "source_file": "mars-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "Nous utilisons des cookies pour améliorer votre expérience sur notre site Web. En naviguant sur ce site, vous acceptez notre utilisation des cookies.",
-      "source_url": "https://reussir-tcfcanada.com/mars-2025-expression-orale/",
-      "source_file": "mars-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "🎯 Nouveau Service Exceptionnel ! 🚀Sujets d'actualité corrigés pour tâches 2 et 3 en expression orale. Profitez GRATUITEMENT maintenant ! 💬💯Offre limitée ! Tarifs changent bientôt. Agissez vite ! ⏳Tâche 2Tâche 3",
-      "source_url": "https://reussir-tcfcanada.com/mars-2025-expression-orale/",
-      "source_file": "mars-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "Sujets d'actualité corrigés pour tâches 2 et 3 en expression orale. Profitez GRATUITEMENT maintenant ! 💬💯",
-      "source_url": "https://reussir-tcfcanada.com/mars-2025-expression-orale/",
-      "source_file": "mars-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
+      "part": "partie_2",
+      "part_number": 2
     },
     {
       "content": "En vacances au Canada, vous souhaitez aller au cinéma. Votre ami(e), qui y travaille, peut vous renseigner sur les films à l’affiche, les horaires et les tarifs.Vous lui posez vos questions pour faire votre choix.",
@@ -957,6 +943,13 @@
       "part_number": 2
     },
     {
+      "content": "En tant qu’employé(e) à l’accueil de cette salle de sport,je vous accueille pour vous fournir tous les détails concernant les activités, les tarifs et les horaires d’ouverture.Je vis au Canada depuis longtemps et, en tant qu’ami(e), je suis ravi(e) de vous accueillir dans ma ville.Vous souhaitez obtenir des recommandations sur votre installation, notamment pour trouver un logement, effectuer vos démarches administratives, vous déplacer, et découvrir les commerces et activités de loisirs.Je tiens un kiosque à journaux.Vous souhaitez lire des journaux canadiens et me demandez des recommandations en fonction du thème, du prix et du niveau de langue.Je suis votre professeur de français.Vous envisagez d’étudier à l’étranger et souhaitez obtenir des conseils à ce sujet.Je mets en vente ma voiture et vous m’avez contacté(e) suite à mon annonce en ligne. Lors de notre rencontre,vous me posez des questions sur l’état général, l’âge et le prix du véhicule.",
+      "source_url": "https://reussir-tcfcanada.com/mars-2025-expression-orale/",
+      "source_file": "mars-2025-expression-orale.json",
+      "part": "partie_3",
+      "part_number": 3
+    },
+    {
       "content": "En tant qu’employé(e) à l’accueil de cette salle de sport,je vous accueille pour vous fournir tous les détails concernant les activités, les tarifs et les horaires d’ouverture.",
       "source_url": "https://reussir-tcfcanada.com/mars-2025-expression-orale/",
       "source_file": "mars-2025-expression-orale.json",
@@ -990,6 +983,13 @@
       "source_file": "mars-2025-expression-orale.json",
       "part": "partie_3",
       "part_number": 3
+    },
+    {
+      "content": "Vous souhaitez vous engager dans une association de votre quartier et vous adressez à un bureau d’information.Vous posez des questions sur les types d’associations existantes, les activités proposées, les publics concernés ainsi que sur l’organisation des plannings.Vous venez d’arriver au Canada et souhaitez suivre des cours particuliers de français.Avant de vous inscrire, vous interrogez un professeur sur son expérience, sa méthode d’enseignement et les tarifs appliqués.Un(e) ami(e) revient d’un séjour en montagne qu’il(elle) a beaucoup apprécié.Vous aimeriez vivre une expérience similaire et lui posez des questions sur la destination, les activités proposées, les possibilités d’hébergement et les conditions de séjour.Un(e) ami(e) suit des cours de théâtre chaque semaine et cela vous intéresse également.Avant de vous inscrire, vous lui posez des questions sur l’organisation des cours, les horaires, les tarifs et le déroulement des séances.Vous venez d’emménager au Québec et votre voisin(e) vous invite à un apéritif de bienvenue.Profitez de cette occasion pour lui poser des questions sur la vie du quartier, les commerces, les services disponibles et les activités locales.",
+      "source_url": "https://reussir-tcfcanada.com/fevrier-2025-expression-orale/",
+      "source_file": "fevrier-2025-expression-orale.json",
+      "part": "partie_1",
+      "part_number": 1
     },
     {
       "content": "Vous souhaitez vous engager dans une association de votre quartier et vous adressez à un bureau d’information.Vous posez des questions sur les types d’associations existantes, les activités proposées, les publics concernés ainsi que sur l’organisation des plannings.",
@@ -1027,32 +1027,11 @@
       "part_number": 1
     },
     {
-      "content": "Nous utilisons des cookies pour améliorer votre expérience sur notre site Web. En naviguant sur ce site, vous acceptez notre utilisation des cookies.Plus d'informationsPlus d'informationsAccepter",
+      "content": "Un(e) ami(e) doit s’absenter le temps d’un week-end et vous demande de garder sa fille de 3 ans. Bien que vous la connaissiez déjà, c’est la première fois que vous vous en occupez seul(e) pendant deux jours.Vous lui posez des questions pour mieux connaître ses habitudes alimentaires, ses loisirs préférés et son rythme de sommeil.Un(e) collègue vous propose de l’accompagner voir un spectacle. Avant de donner votre réponse, vous lui posez des questions sur le genre du spectacle, son lieu, son horaire, ainsi que sur l’organisation de la sortie(moyens de transport, personnes présentes, etc.).Vous souhaitez découvrir les activités culturelles de votre ville et vous adressez au service culturel de la mairie.Vous posez des questions sur les différentes options disponibles, telles que les activités sportives, les ateliers manuels, les musées ou encore les spectacles, ainsi que sur leur fréquence, leur coût et leur durée.Vous êtes à la recherche d’un séjour au Canada et vous vous rendez dans une agence de voyage pour obtenir des recommandations.Vous interrogez un(e) employé(e) sur les meilleures destinations, les prix, les logements disponibles et les activités à ne pas manquer.Alors que vous conduisez au Canada, votre voiture tombe en panne. Vous appelez votre compagnie d’assurance pour savoir quelles solutions sont possibles.Vous posez des questions sur les options de remorquage, les réparations envisageables et la manière dont vous pouvez rentrer chez vous.",
       "source_url": "https://reussir-tcfcanada.com/fevrier-2025-expression-orale/",
       "source_file": "fevrier-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "Nous utilisons des cookies pour améliorer votre expérience sur notre site Web. En naviguant sur ce site, vous acceptez notre utilisation des cookies.",
-      "source_url": "https://reussir-tcfcanada.com/fevrier-2025-expression-orale/",
-      "source_file": "fevrier-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "🎯 Nouveau Service Exceptionnel ! 🚀Sujets d'actualité corrigés pour tâches 2 et 3 en expression orale. Profitez GRATUITEMENT maintenant ! 💬💯Offre limitée ! Tarifs changent bientôt. Agissez vite ! ⏳Tâche 2Tâche 3",
-      "source_url": "https://reussir-tcfcanada.com/fevrier-2025-expression-orale/",
-      "source_file": "fevrier-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "Sujets d'actualité corrigés pour tâches 2 et 3 en expression orale. Profitez GRATUITEMENT maintenant ! 💬💯",
-      "source_url": "https://reussir-tcfcanada.com/fevrier-2025-expression-orale/",
-      "source_file": "fevrier-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
+      "part": "partie_2",
+      "part_number": 2
     },
     {
       "content": "Un(e) ami(e) doit s’absenter le temps d’un week-end et vous demande de garder sa fille de 3 ans. Bien que vous la connaissiez déjà, c’est la première fois que vous vous en occupez seul(e) pendant deux jours.Vous lui posez des questions pour mieux connaître ses habitudes alimentaires, ses loisirs préférés et son rythme de sommeil.",
@@ -1090,6 +1069,13 @@
       "part_number": 2
     },
     {
+      "content": "Vous devez rédiger un article sur un film pour la revue de votre association culturelle francophone.En quête d’inspiration, vous demandez à un(e) ami(e) francophone de vous recommander des films qu’il/elle a appréciés, en vous renseignant sur leur genre, le lieu où ils ont été projetés et le prix des séances.Vous souhaitez organiser un voyage touristique et vous rendez dans une agence de voyages.Vous échangez avec un(e) employé(e) pour obtenir des informations sur les différentes destinations, les circuits proposés, les tarifs et les activités disponibles.Vous prévoyez d’organiser une fête de voisinage et souhaitez obtenir des conseils.Vous demandez à votre voisin(e) des recommandations sur les invités à convier, le type de repas à prévoir et l’animation musicale à choisir.Venant d’emménager dans une nouvelle ville, vous souhaitez rencontrer des gens.Vous demandez conseil à votre voisin(e) sur les meilleurs moyens de faire de nouvelles connaissances et de s’intégrer dans la communauté locale.Vous vous intéressez aux conditions de travail au Canada et souhaitez en savoir plus sur les horaires et les jours de congé.Vous interrogez une personne vivant au Canada afin de comparer ces éléments avec ceux de votre pays.",
+      "source_url": "https://reussir-tcfcanada.com/fevrier-2025-expression-orale/",
+      "source_file": "fevrier-2025-expression-orale.json",
+      "part": "partie_3",
+      "part_number": 3
+    },
+    {
       "content": "Vous devez rédiger un article sur un film pour la revue de votre association culturelle francophone.En quête d’inspiration, vous demandez à un(e) ami(e) francophone de vous recommander des films qu’il/elle a appréciés, en vous renseignant sur leur genre, le lieu où ils ont été projetés et le prix des séances.",
       "source_url": "https://reussir-tcfcanada.com/fevrier-2025-expression-orale/",
       "source_file": "fevrier-2025-expression-orale.json",
@@ -1123,6 +1109,13 @@
       "source_file": "fevrier-2025-expression-orale.json",
       "part": "partie_3",
       "part_number": 3
+    },
+    {
+      "content": "Votre directeur vous annonce que vous allez partir en stage de formation au Canada pendant 15 jours.Avant votre départ, vous lui posez des questions sur l’organisation du séjour, notamment sur l’hébergement et les transports.Vous venez d’emménager dans un nouveau quartier et souhaitez sortir le soir.Vous interrogez votre voisin sur les lieux à découvrir, les activités disponibles et les tarifs.Un ami part en vacances et vous demande de garder son animal de compagnie.Avant d’accepter, vous lui posez des questions sur son alimentation, ses soins et ses promenades.Vous êtes invité au mariage d’une amie canadienne et souhaitez en savoir plus sur l’événement.Vous demandez des précisions sur le déroulement de la cérémonie, les invités, les cadeaux et la tenue vestimentaire appropriée.Un ami cherche un appartement à louer, et vous voulez l’aider dans ses recherches.Vous lui posez des questions sur ses critères, comme l’emplacement, le budget et la superficie souhaitée.",
+      "source_url": "https://reussir-tcfcanada.com/fevrier-2025-expression-orale/",
+      "source_file": "fevrier-2025-expression-orale.json",
+      "part": "partie_4",
+      "part_number": 4
     },
     {
       "content": "Votre directeur vous annonce que vous allez partir en stage de formation au Canada pendant 15 jours.Avant votre départ, vous lui posez des questions sur l’organisation du séjour, notamment sur l’hébergement et les transports.",
@@ -1160,6 +1153,13 @@
       "part_number": 4
     },
     {
+      "content": "En vacances au Canada, vous souhaitez aller au cinéma.Vous demandez à un ami qui y travaille des informations sur les types de films proposés, les horaires et les tarifs pour faire votre choix.Un ami revient de vacances au bord de la mer et partage son expérience.Vous l’interrogez sur la destination, les activités disponibles et les coûts afin d’organiser un séjour similaire.Vous devez rédiger un article pour une revue littéraire et cherchez un livre à présenter.Vous interrogez un ami francophone sur ses lectures récentes pour obtenir des suggestions et des idées.Un ami a participé à un jeu organisé par une chaîne de télévision.Vous l’interrogez sur son expérience, y compris les conditions d’inscription, le contenu du jeu et son intérêt, pour décider de participer vous-même.Lors de votre première visite dans une ville, vous souhaitez comprendre le fonctionnement des transports en commun.Vous posez des questions à un employé de l’agence de transport sur les types de transports, les tarifs et les horaires.",
+      "source_url": "https://reussir-tcfcanada.com/fevrier-2025-expression-orale/",
+      "source_file": "fevrier-2025-expression-orale.json",
+      "part": "partie_5",
+      "part_number": 5
+    },
+    {
       "content": "En vacances au Canada, vous souhaitez aller au cinéma.Vous demandez à un ami qui y travaille des informations sur les types de films proposés, les horaires et les tarifs pour faire votre choix.",
       "source_url": "https://reussir-tcfcanada.com/fevrier-2025-expression-orale/",
       "source_file": "fevrier-2025-expression-orale.json",
@@ -1193,6 +1193,13 @@
       "source_file": "fevrier-2025-expression-orale.json",
       "part": "partie_5",
       "part_number": 5
+    },
+    {
+      "content": "Agence immobilière : Vous cherchez à louer ou acheter un logement.Interrogez un agent immobilier sur les différentes options qui s’offrent à vous, comme les prix, l’emplacement, et les conditions de location.Premier jour de travail : Renseignez-vous auprès de votre ami sur la manière dont s’est déroulé son premier jour dans son nouvel emploi(l’atmosphère, les missions réalisées, l’accueil des collègues, etc.).Cours de musique : Votre voisine a un professeur de musique à domicile et cela vous intéresse.Demandez-lui des informations sur les cours proposés (tarifs, instruments enseignés, fréquence, niveau requis, etc.).Voyage à la campagne : Vous planifiez un séjour à la campagne.Demandez à votre ami s’il aimerait vous accompagner et renseignez-vous sur les activités à faire, la durée du séjour et les options d’hébergement.Je suis votre ami(e) et je réside au Canada.Vous venez d’arriver et vous avez des questions sur le travail.Je suis là pour y répondre, n’hésitez pas à me demander !",
+      "source_url": "https://reussir-tcfcanada.com/fevrier-2025-expression-orale/",
+      "source_file": "fevrier-2025-expression-orale.json",
+      "part": "partie_6",
+      "part_number": 6
     },
     {
       "content": "Agence immobilière : Vous cherchez à louer ou acheter un logement.Interrogez un agent immobilier sur les différentes options qui s’offrent à vous, comme les prix, l’emplacement, et les conditions de location.",
@@ -1230,6 +1237,13 @@
       "part_number": 6
     },
     {
+      "content": "Votre ami(e) fait partie d’un club de randonnée et vous souhaitez vous y inscrire.Vous lui posez des questions sur les lieux des randonnées, les niveaux de difficulté et la composition du groupe de participants.Le fils ou la fille de votre ami(e) a participé à un séjour linguistique à l’étranger.Comme vous envisagez un séjour similaire pour votre propre enfant, vous lui posez des questions sur le pays, les activités proposées et les conditions du voyage.Un(e) collègue vend sa voiture et vous êtes intéressé(e).Vous lui posez des questions sur son prix, son état général et ses caractéristiques techniques.Votre collègue possède des billets pour un festival de musique mais ne peut pas y assister et souhaite les vendre.Vous êtes intéressé(e) et lui posez des questions sur les artistes présents, le lieu du festival et le prix des billets.Vous souhaitez fêter votre anniversaire au restaurant et demandez conseil à votre voisin(e).Vous l’interrogez sur les établissements qu’il/elle recommande, en vous renseignant sur le type de cuisine, les prix et l’ambiance de ces lieux.",
+      "source_url": "https://reussir-tcfcanada.com/janvier-2025-expression-orale/",
+      "source_file": "janvier-2025-expression-orale.json",
+      "part": "partie_1",
+      "part_number": 1
+    },
+    {
       "content": "Votre ami(e) fait partie d’un club de randonnée et vous souhaitez vous y inscrire.Vous lui posez des questions sur les lieux des randonnées, les niveaux de difficulté et la composition du groupe de participants.",
       "source_url": "https://reussir-tcfcanada.com/janvier-2025-expression-orale/",
       "source_file": "janvier-2025-expression-orale.json",
@@ -1265,32 +1279,11 @@
       "part_number": 1
     },
     {
-      "content": "Nous utilisons des cookies pour améliorer votre expérience sur notre site Web. En naviguant sur ce site, vous acceptez notre utilisation des cookies.Plus d'informationsPlus d'informationsAccepter",
+      "content": "Vous souhaitez louer un vélo et vous rendez dans une agence de location.Vous posez des questions à l’employé(e) sur les différents modèles disponibles, les tarifs et le fonctionnement de la location.Vous venez d’arriver dans une nouvelle ville et logez chez un(e) ami(e) canadien(ne).Vous souhaitez explorer la ville et lui demandez des conseils sur les transports en commun : types de transport, destinations desservies, horaires et tarifs.Vous devez rédiger un article sur une ville pour un magazine culturel.Vous interrogez un(e) ami(e) francophone sur les villes qu’il/elle apprécie, en lui demandant des détails sur les activités, l’architecture et les infrastructures de transport.Un(e) ami(e) organise un festival de musique dans votre ville et vous souhaitez y assister.Vous lui posez des questions pour en savoir plus sur les dates, les horaires, les concerts programmés et les tarifs d’entrée.Vous allez passer le Nouvel An au Canada et vous voulez savoir comment les Canadiens célèbrent cette fête.Vous interrogez votre professeur de français sur les traditions, les événements et les lieux où il est possible de fêter cette occasion.",
       "source_url": "https://reussir-tcfcanada.com/janvier-2025-expression-orale/",
       "source_file": "janvier-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "Nous utilisons des cookies pour améliorer votre expérience sur notre site Web. En naviguant sur ce site, vous acceptez notre utilisation des cookies.",
-      "source_url": "https://reussir-tcfcanada.com/janvier-2025-expression-orale/",
-      "source_file": "janvier-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "🎯 Nouveau Service Exceptionnel ! 🚀Sujets d'actualité corrigés pour tâches 2 et 3 en expression orale. Profitez GRATUITEMENT maintenant ! 💬💯Offre limitée ! Tarifs changent bientôt. Agissez vite ! ⏳Tâche 2Tâche 3",
-      "source_url": "https://reussir-tcfcanada.com/janvier-2025-expression-orale/",
-      "source_file": "janvier-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "Sujets d'actualité corrigés pour tâches 2 et 3 en expression orale. Profitez GRATUITEMENT maintenant ! 💬💯",
-      "source_url": "https://reussir-tcfcanada.com/janvier-2025-expression-orale/",
-      "source_file": "janvier-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
+      "part": "partie_2",
+      "part_number": 2
     },
     {
       "content": "Vous souhaitez louer un vélo et vous rendez dans une agence de location.Vous posez des questions à l’employé(e) sur les différents modèles disponibles, les tarifs et le fonctionnement de la location.",
@@ -1328,6 +1321,13 @@
       "part_number": 2
     },
     {
+      "content": "Votre ami(e) a récemment vu un film au cinéma et vous souhaitez savoir s’il vaut la peine d’être visionné.Vous lui posez des questions sur le thème du film, les acteurs et les horaires des séances.Votre voisin(e) pratique la natation régulièrement et cela vous intéresse.Vous lui posez des questions sur les installations de la piscine municipale, les horaires et les tarifs.Vous prévoyez de rendre visite à un(e) ami(e) au Canada en décembre et souhaitez bien organiser votre voyage.Vous lui posez des questions sur les activités hivernales, les vêtements adaptés et l’équipement nécessaire.Votre ami(e) vit en colocation et une chambre se libère dans son logement.Vous êtes intéressé(e) et lui posez des questions sur le loyer, la répartition des espaces et la cohabitation avec les autres résidents.Vous venez d’emménager dans un nouveau quartier et souhaitez mieux le connaître.Vous interrogez votre voisin(e) sur les commerces, les services disponibles et l’ambiance du quartier.",
+      "source_url": "https://reussir-tcfcanada.com/janvier-2025-expression-orale/",
+      "source_file": "janvier-2025-expression-orale.json",
+      "part": "partie_3",
+      "part_number": 3
+    },
+    {
       "content": "Votre ami(e) a récemment vu un film au cinéma et vous souhaitez savoir s’il vaut la peine d’être visionné.Vous lui posez des questions sur le thème du film, les acteurs et les horaires des séances.",
       "source_url": "https://reussir-tcfcanada.com/janvier-2025-expression-orale/",
       "source_file": "janvier-2025-expression-orale.json",
@@ -1361,6 +1361,13 @@
       "source_file": "janvier-2025-expression-orale.json",
       "part": "partie_3",
       "part_number": 3
+    },
+    {
+      "content": "Vous souhaitez apprendre la guitare et envisagez de prendre des cours.Vous posez des questions au professeur sur les horaires, les tarifs et les styles de musique enseignés.Un(e) collègue met sa maison en location pour les vacances d’été et cela vous intéresse.Vous lui posez des questions sur la taille du logement, son emplacement et le prix de la location.Votre ami(e) travaille dans une association et vous souhaitez en savoir plus.Vous lui posez des questions sur les missions de l’association, les activités proposées et le temps qu’il/elle y consacre.C’est votre premier jour dans une entreprise canadienne et vous souhaitez mieux comprendre son organisation.Vous interrogez un(e) collègue sur l’ambiance de travail, les horaires et les services comme la restauration.Vous êtes intéressé(e) par des cours de langues pour adultes à l’université de Calgary.Vous contactez le secrétariat pour poser des questions sur les langues enseignées, les tarifs et les horaires des formations.",
+      "source_url": "https://reussir-tcfcanada.com/janvier-2025-expression-orale/",
+      "source_file": "janvier-2025-expression-orale.json",
+      "part": "partie_4",
+      "part_number": 4
     },
     {
       "content": "Vous souhaitez apprendre la guitare et envisagez de prendre des cours.Vous posez des questions au professeur sur les horaires, les tarifs et les styles de musique enseignés.",
@@ -1398,6 +1405,13 @@
       "part_number": 4
     },
     {
+      "content": "L’anniversaire d’un(e) ami(e) approche et vous souhaitez organiser une fête en son honneur.Vous lui demandez son avis sur le choix du lieu, la liste des invités et l’horaire qui lui conviendrait le mieux.Votre ami(e) envisage de poursuivre ses études au Canada.Vous l’interrogez pour mieux comprendre son projet : la spécialité qu’il/elle souhaite suivre, ses objectifs académiques et l’établissement envisagé.Un(e) ami(e) doit transporter des objets lourds mais ne possède pas de véhicule.Vous lui posez des questions pour l’aider à trouver une solution, notamment sur le type d’objets à déplacer, la distance à parcourir et la date du transport.Votre voisin(e) connaît une personne proposant des services de garde d’enfants à domicile. Intéressé(e),vous lui posez des questions sur son expérience, sa disponibilité et ses tarifs.Vous souhaitez partir en week-end pour vous détendre et vous rendez à l’office de tourisme.Vous posez des questions sur les destinations recommandées, les activités disponibles et les options de transport.",
+      "source_url": "https://reussir-tcfcanada.com/janvier-2025-expression-orale/",
+      "source_file": "janvier-2025-expression-orale.json",
+      "part": "partie_5",
+      "part_number": 5
+    },
+    {
       "content": "L’anniversaire d’un(e) ami(e) approche et vous souhaitez organiser une fête en son honneur.Vous lui demandez son avis sur le choix du lieu, la liste des invités et l’horaire qui lui conviendrait le mieux.",
       "source_url": "https://reussir-tcfcanada.com/janvier-2025-expression-orale/",
       "source_file": "janvier-2025-expression-orale.json",
@@ -1431,6 +1445,13 @@
       "source_file": "janvier-2025-expression-orale.json",
       "part": "partie_5",
       "part_number": 5
+    },
+    {
+      "content": "Vous venez de rejoindre une nouvelle entreprise et souhaitez mieux comprendre son fonctionnement.Vous demandez à un(e) collègue des informations sur l’organisation du travail, les relations entre collègues et les services comme la restauration.Votre ami(e) vous invite à une fête, mais c’est votre première expérience de ce genre au Québec.Vous lui posez des questions sur les horaires, la tenue vestimentaire appropriée et les cadeaux éventuels à apporter.Vous souhaitez vous inscrire dans un club de sport mais ne savez pas quelle activité choisir.Vous vous rendez à l’accueil du club pour poser des questions sur les disciplines proposées, leurs horaires et leurs tarifs.Vous prévoyez de visiter un musée avec des amis et souhaitez préparer votre sortie.Vous vous renseignez auprès du personnel sur les horaires d’ouverture, les tarifs et la disponibilité de visites guidées.Vous souhaitez organiser un week-end de détente et demandez des recommandations à un(e) ami(e) qui connaît bien la région.Vous l’interrogez sur les meilleures destinations, les activités à faire et les moyens de transport adaptés.",
+      "source_url": "https://reussir-tcfcanada.com/janvier-2025-expression-orale/",
+      "source_file": "janvier-2025-expression-orale.json",
+      "part": "partie_6",
+      "part_number": 6
     },
     {
       "content": "Vous venez de rejoindre une nouvelle entreprise et souhaitez mieux comprendre son fonctionnement.Vous demandez à un(e) collègue des informations sur l’organisation du travail, les relations entre collègues et les services comme la restauration.",
@@ -1468,6 +1489,13 @@
       "part_number": 6
     },
     {
+      "content": "Un(e) collègue organise des séances de yoga pour les employé(e)s de votre entreprise.Vous souhaitez y participer et lui posez des questions sur les horaires, l’emplacement et les équipements nécessaires.Votre voisin(e) suit des cours de photographie dans une association du quartier. Intéressé(e),vous lui posez des questions sur les horaires, le coût et le matériel requis pour y participer.Vous vous intéressez aux activités culturelles proposées dans votre ville.Vous vous rendez au centre culturel et posez des questions sur les événements organisés, les tarifs et les horaires des différentes activités.Vous êtes en vacances et souhaitez découvrir la région.Vous vous adressez à l’office du tourisme pour obtenir des recommandations sur les parcs, musées et restaurants à ne pas manquer.Un(e) ami(e) déménage et vous propose de l’aider.Vous lui posez des questions sur la date, le lieu et les autres personnes présentes pour mieux organiser votre aide.",
+      "source_url": "https://reussir-tcfcanada.com/janvier-2025-expression-orale/",
+      "source_file": "janvier-2025-expression-orale.json",
+      "part": "partie_7",
+      "part_number": 7
+    },
+    {
       "content": "Un(e) collègue organise des séances de yoga pour les employé(e)s de votre entreprise.Vous souhaitez y participer et lui posez des questions sur les horaires, l’emplacement et les équipements nécessaires.",
       "source_url": "https://reussir-tcfcanada.com/janvier-2025-expression-orale/",
       "source_file": "janvier-2025-expression-orale.json",
@@ -1501,6 +1529,13 @@
       "source_file": "janvier-2025-expression-orale.json",
       "part": "partie_7",
       "part_number": 7
+    },
+    {
+      "content": "Un(e) ami(e) déménage à l’étranger et ne peut pas tout emporter.Il/elle met en vente certains biens. Vous souhaitez en savoir plus et lui posez des questions sur les objets disponibles, les prix et les modalités d’achat.Vous attendez des amis étrangers qui visitent votre ville pour la première fois.Vous demandez des conseils à un(e) ami(e) sur les activités incontournables, les lieux à visiter et les meilleurs restaurants à leur recommander.Un(e) collègue a assisté à un mariage récemment. Curieux(se) d’en savoir plus,vous lui posez des questions sur la cérémonie, le repas, l’ambiance et les animations de l’événement.Un(e) collègue a effectué un circuit touristique au Canada et vous envisagez de faire la même chose lors de vos prochaines vacances.Vous lui demandez des détails sur l’itinéraire, la durée et le coût du voyage.Votre voisin(e) part en vacances pendant une semaine et cherche quelqu’un pour s’occuper de son chien.Vous êtes intéressé(e) et souhaitez obtenir plus d’informations sur les responsabilités à assumer, la durée de la garde et une éventuelle rémunération.",
+      "source_url": "https://reussir-tcfcanada.com/janvier-2025-expression-orale/",
+      "source_file": "janvier-2025-expression-orale.json",
+      "part": "partie_8",
+      "part_number": 8
     },
     {
       "content": "Un(e) ami(e) déménage à l’étranger et ne peut pas tout emporter.Il/elle met en vente certains biens. Vous souhaitez en savoir plus et lui posez des questions sur les objets disponibles, les prix et les modalités d’achat.",
@@ -1538,6 +1573,13 @@
       "part_number": 8
     },
     {
+      "content": "Je suis votre ami(e). Je pars en vacances pendant quelques temps. J’aimerais que vous vous occupiez de mon appartement pendant mon absence.Vous me posez des questions (dates, tâches à faire, etc.).Je suis votre ami(e). J’ai immigré au Québec il y a deux ans. Vous avez le même projet d’expatriation.Vous me posez des questions sur mon expérience (changements d’habitudes, adaptation au pays, difficultés, etc.).Je suis votre voisin(e). Je suis professeur de piano, je donne des cours dans une école de musique de notre quartier. Vous êtes intéressé(e).Vous me posez des questions sur l’école de musique dans laquelle je travaille (cours, tarifs, horaires, etc.).Je suis votre voisin(e). Je travaille comme animateur sportif/animatrice sportive dans une association de votre ville. Vous êtes intéressé(e).Vous me posez des questions sur les entraînements sportifs que je propose (sport, conditions, horaires, etc.).Vous voulez visiter une région québécoise. Vous allez à l’office du tourisme pour vous renseigner sur les hébergements dans cette région (type d’hébergement, situation, prix, etc.).Je suis l’employé(e) de l’office du tourisme qui vous accueille.",
+      "source_url": "https://reussir-tcfcanada.com/decembre-2024-expression-orale/",
+      "source_file": "decembre-2024-expression-orale.json",
+      "part": "partie_1",
+      "part_number": 1
+    },
+    {
       "content": "Je suis votre ami(e). Je pars en vacances pendant quelques temps. J’aimerais que vous vous occupiez de mon appartement pendant mon absence.Vous me posez des questions (dates, tâches à faire, etc.).",
       "source_url": "https://reussir-tcfcanada.com/decembre-2024-expression-orale/",
       "source_file": "decembre-2024-expression-orale.json",
@@ -1573,32 +1615,11 @@
       "part_number": 1
     },
     {
-      "content": "Nous utilisons des cookies pour améliorer votre expérience sur notre site Web. En naviguant sur ce site, vous acceptez notre utilisation des cookies.Plus d'informationsPlus d'informationsAccepter",
+      "content": "Je suis votre ami(e). Je vous propose de m’accompagner à un concert de musique. Vous êtes intéressé(e).Vous me posez des questions sur le concert (type de musique, lieu, date, etc.).Je suis votre ami(e). J’ai suivi un cours de cuisine. Vous voulez vous y inscrire.Vous me posez des questions sur ce cours (prix, horaires, programme, etc.).Je suis votre collègue de travail. Vous venez d’arriver à Toronto. Vous cherchez un bon restaurant pour fêter votre anniversaire.Vous me posez des questions pour avoir des conseils sur les différents restaurants de la ville (spécialités, prix, ambiance, etc.).Je suis votre voisin(e). Vous venez d’arriver à Edmonton. Vous voulez inscrire vos enfants à l’école.Vous me posez des questions sur les écoles du quartier (adresses, enseignants, activités, etc.).Je travaille dans l’agence commun des transports en et vous venez d’arriver dans ma ville.Vous me posez des questions pour obtenir des informations (types de transports, tarifs, horaires, etc.).",
       "source_url": "https://reussir-tcfcanada.com/decembre-2024-expression-orale/",
       "source_file": "decembre-2024-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "Nous utilisons des cookies pour améliorer votre expérience sur notre site Web. En naviguant sur ce site, vous acceptez notre utilisation des cookies.",
-      "source_url": "https://reussir-tcfcanada.com/decembre-2024-expression-orale/",
-      "source_file": "decembre-2024-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "🎯 Nouveau Service Exceptionnel ! 🚀Sujets d'actualité corrigés pour tâches 2 et 3 en expression orale. Profitez GRATUITEMENT maintenant ! 💬💯Offre limitée ! Tarifs changent bientôt. Agissez vite ! ⏳Tâche 2Tâche 3",
-      "source_url": "https://reussir-tcfcanada.com/decembre-2024-expression-orale/",
-      "source_file": "decembre-2024-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "Sujets d'actualité corrigés pour tâches 2 et 3 en expression orale. Profitez GRATUITEMENT maintenant ! 💬💯",
-      "source_url": "https://reussir-tcfcanada.com/decembre-2024-expression-orale/",
-      "source_file": "decembre-2024-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
+      "part": "partie_2",
+      "part_number": 2
     },
     {
       "content": "Je suis votre ami(e). Je vous propose de m’accompagner à un concert de musique. Vous êtes intéressé(e).Vous me posez des questions sur le concert (type de musique, lieu, date, etc.).",
@@ -1636,6 +1657,13 @@
       "part_number": 2
     },
     {
+      "content": "Je suis votre voisin au Canada, je veux vendre des meubles et vous êtes intéressé.Posez-moi des questionsJe suis votre ami, j’ai fêté mon anniversaire, vous n’étiez pas présent.Posez-moi des questions (activités, personnes, cadeaux…)Je suis votre voisin, vous êtes récemment installé au canada.Vous voulez faire de nouveaux amis. Posez-moi des questionsJe suis votre collègue au travail, vous êtes nouveau.Posez-moi des questionsJe travaille dans un centre de loisirs, vous êtes intéressé.Posez-moi des questions",
+      "source_url": "https://reussir-tcfcanada.com/decembre-2024-expression-orale/",
+      "source_file": "decembre-2024-expression-orale.json",
+      "part": "partie_3",
+      "part_number": 3
+    },
+    {
       "content": "Je suis votre voisin au Canada, je veux vendre des meubles et vous êtes intéressé.Posez-moi des questions",
       "source_url": "https://reussir-tcfcanada.com/decembre-2024-expression-orale/",
       "source_file": "decembre-2024-expression-orale.json",
@@ -1669,6 +1697,13 @@
       "source_file": "decembre-2024-expression-orale.json",
       "part": "partie_3",
       "part_number": 3
+    },
+    {
+      "content": "Je suis votre ami(e). J’emploie un(e) baby-sitter toutes les semaines. Vous cherchez quelqu’un pour garder votre enfant.Vous me posez des questions sur ma baby-sitter (disponibilité, tarifs, activités avec les enfants, …).Je travaille dans une association franco-canadienne. Vous souhaitez vous installer au Canada.Vous me posez des questions pour savoir comment vivent les Canadiens (travail, loisirs, logement, etc.).Je suis votre ami(e). Je cherche une personne pour garder mon animal pendant mes vacances.Vous me posez des questions pour obtenir des informations (dates, activités, soins, …).Je suis votre voisin(e). Je travaille dans une agence qui organise des randonnées dans la forêt autour de Toronto.Vous êtes intéressé(e) et vous me posez des questions sur cette activité (circuits, tarifs, participants, etc.).Je suis votre voisin(e). Vous venez de vous installer dans l’immeuble.Vous me posez des questions sur l’organisation de l’immeuble (habitants, règles de vie, équipements, etc.).",
+      "source_url": "https://reussir-tcfcanada.com/decembre-2024-expression-orale/",
+      "source_file": "decembre-2024-expression-orale.json",
+      "part": "partie_4",
+      "part_number": 4
     },
     {
       "content": "Je suis votre ami(e). J’emploie un(e) baby-sitter toutes les semaines. Vous cherchez quelqu’un pour garder votre enfant.Vous me posez des questions sur ma baby-sitter (disponibilité, tarifs, activités avec les enfants, …).",
@@ -1706,6 +1741,13 @@
       "part_number": 4
     },
     {
+      "content": "Je suis agent d’accueil dans un bureau d’information sur les associations de la ville. Vous voulez être bénévole dans une association de votre quartier.Vous me posez des questions (types, activités, publics, planning, etc.).Je suis professeur de français. Vous venez d’arriver au Canada, vous voulez prendre des cours particuliers.Vous m’interrogez sur mon parcours professionnel (expérience, méthodes, tarifs, etc.).Je suis un(e) ami(e) canadien(ne). Je viens de passer des vacances formidables à la montagne. Vous voulez faire la même chose.Vous me posez des questions sur mon séjour (lieu, activités, hébergement, etc.).Je suis votre ami(e). Je prends des cours de théâtre toutes les semaines. Vous voulez vous inscrire à ces cours.Vous me posez des questions pour avoir des informations (tarifs, horaires, organisation, etc.).Vous venez d’arriver au Québec. Je suis votre voisin(e). Je vous ai invité(e) à un apéritif de bienvenue. Pendant l’apéritif, vous me posez des questions pour avoir des informations sur la vie du quartier(voisins, services, activités,etc.).",
+      "source_url": "https://reussir-tcfcanada.com/decembre-2024-expression-orale/",
+      "source_file": "decembre-2024-expression-orale.json",
+      "part": "partie_5",
+      "part_number": 5
+    },
+    {
       "content": "Je suis agent d’accueil dans un bureau d’information sur les associations de la ville. Vous voulez être bénévole dans une association de votre quartier.Vous me posez des questions (types, activités, publics, planning, etc.).",
       "source_url": "https://reussir-tcfcanada.com/decembre-2024-expression-orale/",
       "source_file": "decembre-2024-expression-orale.json",
@@ -1739,6 +1781,13 @@
       "source_file": "decembre-2024-expression-orale.json",
       "part": "partie_5",
       "part_number": 5
+    },
+    {
+      "content": "Je suis un(e) ami(e). Vous cherchez un emploi. Vous allez à un entretien professionnel la semaine prochaine.Demandez-moi des conseils pour réussir votre entretien (comportement, vêtements, préparatifs, etc.).Je suis votre voisin (e). Je pars en vacances. J’aimerais que vous vous occupiez de mon animal de compagnie pendant mon absence.Vous me posez des questions pour décider si vous allez accepter (dates, habitudes de l’animal, règles, etc.).Je travaille dans un office de tourisme. Vous voulez partir en week-end mais vous ne voulez pas dépenser beaucoup d’argent.Demandez-moi des conseils (lieux, activités, transports, etc.).Je travaille à l’accueil d’un club sportif de votre ville. Vous voulez faire du sport.Vous me posez des questions pour décider si vous allez vous inscrire (cours, tarifs, horaires, etc.).Nous sommes amis. Vous voulez vous installer au Canada. J’habite dans un appartement en colocation à Toronto. Je vous propose de partager mon appartement.Vous me posez des questions pour décider si vous allez accepter (appartement, quartier, habitudes de vie, etc.).",
+      "source_url": "https://reussir-tcfcanada.com/decembre-2024-expression-orale/",
+      "source_file": "decembre-2024-expression-orale.json",
+      "part": "partie_6",
+      "part_number": 6
     },
     {
       "content": "Je suis un(e) ami(e). Vous cherchez un emploi. Vous allez à un entretien professionnel la semaine prochaine.Demandez-moi des conseils pour réussir votre entretien (comportement, vêtements, préparatifs, etc.).",
@@ -1776,6 +1825,13 @@
       "part_number": 6
     },
     {
+      "content": "Je suis votre voisin(e). Je déménage bientôt à l’étranger. Je souhaite vendre mon mobilier (table, chaises, télé, canapé, etc.) avant mon départ.Vous me posez des questions pour savoir si certains meubles vous intéressent (prix, état, dimensions, etc.).Je suis votre ami(e), j’ai fêté mon anniversaire, vous n’étiez pas présent(e).Posez-moi des questions (activités, personnes, cadeaux, etc.)Je suis votre voisin(e), vous êtes récemment installé au canada. Vous souhaitez faire de nouveaux amis.Posez-moi des questions (activités locales, événements, restaurants)Je suis un(e) de vos collègues. Vous êtes nouveau (nouvelle) dans l’entreprise.Vous me posez des questions pour obtenir des informations sur l’entreprise (organisation du travail, collègues, restauration, etc.).Je travaille au service culturel de la mairie. Vous souhaitez vous informer sur les activités culturelles (activités sportives, manuelles, musées, spectacles, etc.) de la ville,vous me posez des questions (activités, fréquence, tarifs, durée, etc.).",
+      "source_url": "https://reussir-tcfcanada.com/decembre-2024-expression-orale/",
+      "source_file": "decembre-2024-expression-orale.json",
+      "part": "partie_7",
+      "part_number": 7
+    },
+    {
       "content": "Je suis votre voisin(e). Je déménage bientôt à l’étranger. Je souhaite vendre mon mobilier (table, chaises, télé, canapé, etc.) avant mon départ.Vous me posez des questions pour savoir si certains meubles vous intéressent (prix, état, dimensions, etc.).",
       "source_url": "https://reussir-tcfcanada.com/decembre-2024-expression-orale/",
       "source_file": "decembre-2024-expression-orale.json",
@@ -1809,6 +1865,13 @@
       "source_file": "decembre-2024-expression-orale.json",
       "part": "partie_7",
       "part_number": 7
+    },
+    {
+      "content": "Je suis votre collègue. Je vous propose deux places pour un spectacle auquel je ne pourrai pas aller.Vous me posez des questions pour savoir si ce spectacle vous intéresse (date, lieu, spectacle, etc.).Je suis votre voisin(e). Je déménage bientôt à l’étranger. Je souhaite vendre mon mobilier (table, chaises, télé, canapé, etc.) avant mon départ.Vous me posez des questions pour savoir si certains meubles vous intéressent (prix, état, dimensions, etc.).Je suis votre voisin(e). Vous venez de vous installer au Québec. Vous souhaitez prendre un rendez-vous médical.Vous me posez des questions pour obtenir des informations sur les médecins de la ville (lieux, tarifs, spécialisations, etc.).Je travaille dans un office du tourisme au Québec. Vous souhaitez visiter un parc à thème (aquarium, zoo, réserve naturelle, etc.).Vous me posez des questions pour obtenir des informations (horaires d’ouverture, tarifs, restauration, etc.).Je travaille dans une agence de location de voitures au Québec. Vous souhaitez louer une voiture pour vos vacances.Vous me posez des questions pour obtenir des informations (tarifs, conditions de location, documents demandes, etc.).",
+      "source_url": "https://reussir-tcfcanada.com/decembre-2024-expression-orale/",
+      "source_file": "decembre-2024-expression-orale.json",
+      "part": "partie_8",
+      "part_number": 8
     },
     {
       "content": "Je suis votre collègue. Je vous propose deux places pour un spectacle auquel je ne pourrai pas aller.Vous me posez des questions pour savoir si ce spectacle vous intéresse (date, lieu, spectacle, etc.).",
@@ -1846,6 +1909,13 @@
       "part_number": 8
     },
     {
+      "content": "Je travaille dans une agence de voyage, vous voulez passer des vacances au bord de la mer.Posez-moi des questions (lieu, activités, tarif, etc.)Je suis votre ami(e). J’étudie depuis un an dans une université à Toronto. Vous allez bientôt partir étudier dans cette ville.Posez-moi des questions pour connaître la vie étudiante à Toronto (cours à l’université, associations pour les étudiants, coûts de vie, …).Je suis votre voisin(e). J’organise la fête des voisins le week-end prochain. Vous voulez participer.Vous me posez des questions sur l’organisation (lieux, horaires, plats à apporter, etc.).Je suis votre voisin(e), je pratique la natation à la piscine municipale, vous étes intéressé,Posez-moi des questions (activités, tarif, horaires, etc).Je suis votre voisin(e), vous venez de vous installer à la ville de Vancouver.Posez-moi des questions sur les moyens de transports disponibles (types de transport, horaires, tarifs, etc.).",
+      "source_url": "https://reussir-tcfcanada.com/novembre-2024-expression-orale/",
+      "source_file": "novembre-2024-expression-orale.json",
+      "part": "partie_1",
+      "part_number": 1
+    },
+    {
       "content": "Je travaille dans une agence de voyage, vous voulez passer des vacances au bord de la mer.Posez-moi des questions (lieu, activités, tarif, etc.)",
       "source_url": "https://reussir-tcfcanada.com/novembre-2024-expression-orale/",
       "source_file": "novembre-2024-expression-orale.json",
@@ -1881,32 +1951,11 @@
       "part_number": 1
     },
     {
-      "content": "Nous utilisons des cookies pour améliorer votre expérience sur notre site Web. En naviguant sur ce site, vous acceptez notre utilisation des cookies.Plus d'informationsPlus d'informationsAccepter",
+      "content": "Je suis votre ami(e) et je fais régulièrement des voyages organisés. Vous voulez partir en vacances de cette façon.Vous me demandez des conseils pour organiser votre voyage (destination, prix, activités, etc.).Je suis votre ami(e). Je prends des cours de dessin.Vous êtes intéressé(e) et vous me posez des questions pour avoir des informations (les tarifs, l’école, les professeurs, les horaires, etc.).Je suis votre ami(e). Vous venez de vous installer dans ma ville. Vous voulez sortir le week-end.Vous me posez des questions pour connaître les quartiers animés, les activités à faire, les lieux à visiter, etc.Je suis votre ami(e). Vous voulez passer un week-end dans une ville que je connais bien. Pour organiser votre séjour.Vous me posez des questions sur cette ville (lieux à visiter, météo, activités, hébergement, etc.)Je travaille à l’accueil d’une bibliothèque. Vous voulez vous inscrire.Vous me posez des questions sur le fonctionnement de cette bibliothèque (inscription, conditions d’emprunt, horaires, etc.).",
       "source_url": "https://reussir-tcfcanada.com/novembre-2024-expression-orale/",
       "source_file": "novembre-2024-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "Nous utilisons des cookies pour améliorer votre expérience sur notre site Web. En naviguant sur ce site, vous acceptez notre utilisation des cookies.",
-      "source_url": "https://reussir-tcfcanada.com/novembre-2024-expression-orale/",
-      "source_file": "novembre-2024-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "🎯 Nouveau Service Exceptionnel ! 🚀Sujets d'actualité corrigés pour tâches 2 et 3 en expression orale. Profitez GRATUITEMENT maintenant ! 💬💯Offre limitée ! Tarifs changent bientôt. Agissez vite ! ⏳Tâche 2Tâche 3",
-      "source_url": "https://reussir-tcfcanada.com/novembre-2024-expression-orale/",
-      "source_file": "novembre-2024-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "Sujets d'actualité corrigés pour tâches 2 et 3 en expression orale. Profitez GRATUITEMENT maintenant ! 💬💯",
-      "source_url": "https://reussir-tcfcanada.com/novembre-2024-expression-orale/",
-      "source_file": "novembre-2024-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
+      "part": "partie_2",
+      "part_number": 2
     },
     {
       "content": "Je suis votre ami(e) et je fais régulièrement des voyages organisés. Vous voulez partir en vacances de cette façon.Vous me demandez des conseils pour organiser votre voyage (destination, prix, activités, etc.).",
@@ -1944,6 +1993,13 @@
       "part_number": 2
     },
     {
+      "content": "Je suis votre ami(e). J’ai dîné dans un nouveau restaurant à Ottawa. Vous souhaitez y aller.Vous me posez des questions sur ce nouveau restaurant (menu, prix, appréciation, etc.).Je suis votre ami(e). J’organise ma fête d’anniversaire. Vous voulez m’aider.Vous me posez des questions sur la préparation de la fête (repas, décoration, invités, etc.).Je suis votre collègue. Vous voulez partir en vacances dans une région que je connais bien.Vous me posez des questions sur cette région (activités, lieux touristiques, climat, etc.).Je suis votre voisin(e). Je vais participer à une course à pied à Vancouver. Vous êtes intéressé(e).Vous me posez des questions sur cet événement (inscription, préparation, organisation, etc.).Je travaille dans une agence immobilière. Vous cherchez un logement.Vous me posez des questions sur les offres disponibles (types de logement, prix, localisation, etc.).",
+      "source_url": "https://reussir-tcfcanada.com/novembre-2024-expression-orale/",
+      "source_file": "novembre-2024-expression-orale.json",
+      "part": "partie_3",
+      "part_number": 3
+    },
+    {
       "content": "Je suis votre ami(e). J’ai dîné dans un nouveau restaurant à Ottawa. Vous souhaitez y aller.Vous me posez des questions sur ce nouveau restaurant (menu, prix, appréciation, etc.).",
       "source_url": "https://reussir-tcfcanada.com/novembre-2024-expression-orale/",
       "source_file": "novembre-2024-expression-orale.json",
@@ -1977,6 +2033,13 @@
       "source_file": "novembre-2024-expression-orale.json",
       "part": "partie_3",
       "part_number": 3
+    },
+    {
+      "content": "Je suis un(e) ami(e) canadien (ne). Vous allez vous installer au Canada.Vous me posez des questions sur les habitudes alimentaires des Canadiens (nombre de repas, horaires, plats typiques, etc.).Je suis votre ami(e). Je vends des objets que je n’utilise plus sur Internet. Vous souhaitez faire la même chose.Vous me posez des questions pour avoir plus d’informations (type de site, types d’objets, modalités, etc.).Je suis votre voisin (e). Je participe à l’organisation d’un festival culturel dans notre ville.Vous me proposez votre aide. Vous me posez des questions sur l’organisation du festival (préparation, lieux, horaires, etc.).Je suis votre voisin(e). Vous allez vous occuper de ma maison pendant mon absence.Vous me posez des questions pour savoir ce que vous devrez faire (durée de l’absence, types de services, informations utiles, etc.).Je travaille dans une entreprise de services aux particuliers. Vous avez besoin de faire de petits travaux chez vous.Vous me posez des questions pour obtenir des informations (services proposés, tarifs, organisation, etc.).",
+      "source_url": "https://reussir-tcfcanada.com/novembre-2024-expression-orale/",
+      "source_file": "novembre-2024-expression-orale.json",
+      "part": "partie_4",
+      "part_number": 4
     },
     {
       "content": "Je suis un(e) ami(e) canadien (ne). Vous allez vous installer au Canada.Vous me posez des questions sur les habitudes alimentaires des Canadiens (nombre de repas, horaires, plats typiques, etc.).",
@@ -2014,6 +2077,13 @@
       "part_number": 4
     },
     {
+      "content": "Je travaille dans une agence immobilière. Vous cherchez un logement.Vous me posez des questions sur les offres disponibles (types de logement, prix, localisation, etc.).Je suis votre voisin(e). Je vais participer à une course à pied à Vancouver. Vous êtes intéressé(e).Vous me posez des questions sur cet événement (inscription, préparation, organisation, etc.).Je suis votre collègue. Vous voulez partir en vacances dans une région que je connais bien.Vous me posez des questions sur cette région (activités, lieux touristiques, climat, etc.).Je suis votre ami(e). J’organise ma fête d’anniversaire. Vous voulez m’aider.Vous me posez des questions sur la préparation de la fête (repas, décoration, invités, etc.).Je suis votre ami(e). J’ai dîné dans un nouveau restaurant à Ottawa. Vous souhaitez y aller.Vous me posez des questions sur ce nouveau restaurant (menu, prix, appréciation, etc.).",
+      "source_url": "https://reussir-tcfcanada.com/novembre-2024-expression-orale/",
+      "source_file": "novembre-2024-expression-orale.json",
+      "part": "partie_5",
+      "part_number": 5
+    },
+    {
       "content": "Je travaille dans une agence immobilière. Vous cherchez un logement.Vous me posez des questions sur les offres disponibles (types de logement, prix, localisation, etc.).",
       "source_url": "https://reussir-tcfcanada.com/novembre-2024-expression-orale/",
       "source_file": "novembre-2024-expression-orale.json",
@@ -2047,6 +2117,13 @@
       "source_file": "novembre-2024-expression-orale.json",
       "part": "partie_5",
       "part_number": 5
+    },
+    {
+      "content": "Je suis votre ami(e), c’est l’anniversaire de ma sœur et vous voulez lui acheter un cadeau.Posez-moi des questions (activités, personnalité, goûts, etc.).Je suis votre ami(e), je pratique du sport dans un club sportif et vous êtes intéressé.Posez-moi des questions (type, prix, participants, équipements, programme).Je suis votre collègue de bureau. Je recherche une baby-sitter pour garder mes enfants. Je vous demande si vous connaissez quelqu’un dans votre entourage.Vous me posez des questions sur mes exigences, le salaire, les horaires et les tâches à faire.Je suis votre voisin (e). Vous venez d’emménager, vous connaissez mal le quartier.Vous me posez des questions pourmieux le connaître (services, magasins, ambiance, etc.)Je travaille pour une entreprise, vous souhaitez faire des travaux dans votre logement.Vous me posez des questions (tarifs, durée, bruits, garantie, services, etc.).",
+      "source_url": "https://reussir-tcfcanada.com/novembre-2024-expression-orale/",
+      "source_file": "novembre-2024-expression-orale.json",
+      "part": "partie_6",
+      "part_number": 6
     },
     {
       "content": "Je suis votre ami(e), c’est l’anniversaire de ma sœur et vous voulez lui acheter un cadeau.Posez-moi des questions (activités, personnalité, goûts, etc.).",
@@ -2084,6 +2161,13 @@
       "part_number": 6
     },
     {
+      "content": "Vous organisez une réunion familiale et souhaitez discuter des options de menu, des prix et des équipements nécessaires avec un chef cuisinier.Posez moi des questionsJe travaille à l’accueil d’une école de musique et vous souhaitez obtenir des informations.Posez-moi des questions sur les types d’instruments disponibles, les horaires des cours et les niveaux enseignés, etc.Je travaille dans une salle de sport, vous souhaitez connaitre connaître les services offerts.Posez moi des questions.Je suis hôtesse d’hôtel, vous voulez vous renseigner sur les services disponibles.Posez moi des questions ( tarifs, service, etc.).Je suis votre ami, je fais du covoiturage, vous êtes intéressé.Posez moi des questions (trajets, tarifs, disponibilité, etc).",
+      "source_url": "https://reussir-tcfcanada.com/novembre-2024-expression-orale/",
+      "source_file": "novembre-2024-expression-orale.json",
+      "part": "partie_7",
+      "part_number": 7
+    },
+    {
       "content": "Vous organisez une réunion familiale et souhaitez discuter des options de menu, des prix et des équipements nécessaires avec un chef cuisinier.Posez moi des questions",
       "source_url": "https://reussir-tcfcanada.com/novembre-2024-expression-orale/",
       "source_file": "novembre-2024-expression-orale.json",
@@ -2119,6 +2203,13 @@
       "part_number": 7
     },
     {
+      "content": "Je suis agent(e) de voyage. Vous souhaitez partir en vacances au Canada.Vous me demandez des renseignements (tarifs, lieux, type de séjour, etc.).Je suis un(e) ami(e) et je vis à Ottawa. Vous venez d’arriver dans la ville et vous souhaitez vous déplacer à vélo.Vous me posez des questions sur ce moyen de transport (pistes cyclables, agences de location, matériel, etc.).Je suis votre collègue de bureau. Je recherche une baby-sitter pour garder mes enfants. Je vous demande si vous connaissez quelqu’un dans votre entourage.Vous me posez des questions sur mes exigences, le salaire, les horaires et les tâches à faire.Je suis hôtesse d’hôtel, vous voulez vous renseigner sur les services disponibles.Posez moi des questions ( tarifs, service, etc.).Je suis votre ami, je fais du covoiturage, vous êtes intéressé.Posez moi des questions (trajets, tarifs, disponibilité, etc).",
+      "source_url": "https://reussir-tcfcanada.com/novembre-2024-expression-orale/",
+      "source_file": "novembre-2024-expression-orale.json",
+      "part": "partie_8",
+      "part_number": 8
+    },
+    {
       "content": "Je suis agent(e) de voyage. Vous souhaitez partir en vacances au Canada.Vous me demandez des renseignements (tarifs, lieux, type de séjour, etc.).",
       "source_url": "https://reussir-tcfcanada.com/novembre-2024-expression-orale/",
       "source_file": "novembre-2024-expression-orale.json",
@@ -2152,6 +2243,13 @@
       "source_file": "novembre-2024-expression-orale.json",
       "part": "partie_8",
       "part_number": 8
+    },
+    {
+      "content": "Je suis un(e) ami(e) francophone. Vous devez écrire un article sur un film pour la revue de votre association culturellefrancophone. Vous cherchez des idées.Vous m’interrogez sur les films que j’ai aimés (genre, lieu, prix, etc.).Je suis un(e) employé(e) dans une agence de voyages. Vous voulez faire un voyage touristique. Vous entrez dans mon agence de voyages.Vous me demandez des informations sur les destinations (circuits touristiques, tarifs, activités, etc.).Je suis votre voisin(e). Vous souhaitez organiser une fête entre voisins.Vous me demandez des conseils pour l’organisation (invités, type de repas, musique, etc.).Je suis votre voisin(e). Vous venez d’arriver dans la ville et vous ne connaissez personne.Vous me demandez conseilpour rencontrer de nouvelles personnes.Vous vous intéressez au rythme du travail au Canada. Interrogez-moi sur les horaires de travail et les jours de congé au Canada.Comparez avec la situation dans votre pays.",
+      "source_url": "https://reussir-tcfcanada.com/novembre-2024-expression-orale/",
+      "source_file": "novembre-2024-expression-orale.json",
+      "part": "partie_9",
+      "part_number": 9
     },
     {
       "content": "Je suis un(e) ami(e) francophone. Vous devez écrire un article sur un film pour la revue de votre association culturellefrancophone. Vous cherchez des idées.Vous m’interrogez sur les films que j’ai aimés (genre, lieu, prix, etc.).",
@@ -2191,7 +2289,7 @@
   ],
   "task3_topics": [
     {
-      "content": "Partie 1Pensez-vous que la gentillesse garantit toujours d’obtenir de l’attention et du respect?Pensez-vous qu’il est possible de trouver le bonheur en vivant célibataire?Selon vous, faut-il avoir une journée dédiée à la défense des droits des femmes ?Pourquoi ?Regarder la télévision permet de s’instruire.Qu’en pensez-vous ?Est-il indispensable d’aimer son travail pour réussir dans sa vie professionnelle ?Pourquoi ?",
+      "content": "Pensez-vous que la gentillesse garantit toujours d’obtenir de l’attention et du respect?Pensez-vous qu’il est possible de trouver le bonheur en vivant célibataire?Selon vous, faut-il avoir une journée dédiée à la défense des droits des femmes ?Pourquoi ?Regarder la télévision permet de s’instruire.Qu’en pensez-vous ?Est-il indispensable d’aimer son travail pour réussir dans sa vie professionnelle ?Pourquoi ?",
       "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-orale/",
       "source_file": "aout-2025-expression-orale.json",
       "part": "partie_1",
@@ -2233,28 +2331,7 @@
       "part_number": 1
     },
     {
-      "content": "les méthodologiesCompréhension ÉcriteCompréhension OraleExpression écriteExpression oraleÀ propos de nousPlateforme spécialisée dans la préparation au TCF Canada avec des tests adaptés et des sujets mis à jour.",
-      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-orale/",
-      "source_file": "aout-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "Partager avec votre réseauNous acceptonsCliquez ici",
-      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-orale/",
-      "source_file": "aout-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "les méthodologiesCompréhension ÉcriteCompréhension OraleExpression écriteExpression oraleÀ propos de nousPlateforme spécialisée dans la préparation au TCF Canada avec des tests adaptés et des sujets mis à jour.Nous acceptonsCliquez ici",
-      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-orale/",
-      "source_file": "aout-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "Partie 2De quelles manières les entreprises peuvent-elles faciliter l’intégration des nouveaux employés?Le fait de vivre dans différents pays peut-il améliorer les perspectives professionnelles?Quelle était votre matière préférée à l’école etpourquoi ?D’après vous, quelles matières seraient importantes à enseigner davantage à l’école etpourquoi ?Selon vous, vaut-il mieux posséder une famille nombreuse ou de solides amitiés ?Pourquoi ?",
+      "content": "De quelles manières les entreprises peuvent-elles faciliter l’intégration des nouveaux employés?Le fait de vivre dans différents pays peut-il améliorer les perspectives professionnelles?Quelle était votre matière préférée à l’école etpourquoi ?D’après vous, quelles matières seraient importantes à enseigner davantage à l’école etpourquoi ?Selon vous, vaut-il mieux posséder une famille nombreuse ou de solides amitiés ?Pourquoi ?",
       "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-orale/",
       "source_file": "aout-2025-expression-orale.json",
       "part": "partie_2",
@@ -2275,7 +2352,7 @@
       "part_number": 2
     },
     {
-      "content": "Partie 1Les relations créées sur Internet sont-elles aussi fortes que les liens familiaux ?Pourquoi ?Les jeunes peuvent-ils apprendre facilement une langue étrangère ?Pourquoi ?Est-il vrai que vivre à la ville est plus stressant que vivre à la campagne ?Qu’en pensez-vous?Pourquoi certaines personnes ne suivent pas la politique ?Qu’en pensez-vous ?Est-ce qu’une expérience à l’étranger est nécessaire pour réussir professionnellement ?Pourquoi ?",
+      "content": "Les relations créées sur Internet sont-elles aussi fortes que les liens familiaux ?Pourquoi ?Les jeunes peuvent-ils apprendre facilement une langue étrangère ?Pourquoi ?Est-il vrai que vivre à la ville est plus stressant que vivre à la campagne ?Qu’en pensez-vous?Pourquoi certaines personnes ne suivent pas la politique ?Qu’en pensez-vous ?Est-ce qu’une expérience à l’étranger est nécessaire pour réussir professionnellement ?Pourquoi ?",
       "source_url": "https://reussir-tcfcanada.com/juillet-2025-expression-orale/",
       "source_file": "juillet-2025-expression-orale.json",
       "part": "partie_1",
@@ -2296,28 +2373,7 @@
       "part_number": 1
     },
     {
-      "content": "les méthodologiesCompréhension ÉcriteCompréhension OraleExpression écriteExpression oraleÀ propos de nousPlateforme spécialisée dans la préparation au TCF Canada avec des tests adaptés et des sujets mis à jour.",
-      "source_url": "https://reussir-tcfcanada.com/juillet-2025-expression-orale/",
-      "source_file": "juillet-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "Partager avec votre réseauNous acceptonsCliquez ici",
-      "source_url": "https://reussir-tcfcanada.com/juillet-2025-expression-orale/",
-      "source_file": "juillet-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "les méthodologiesCompréhension ÉcriteCompréhension OraleExpression écriteExpression oraleÀ propos de nousPlateforme spécialisée dans la préparation au TCF Canada avec des tests adaptés et des sujets mis à jour.Nous acceptonsCliquez ici",
-      "source_url": "https://reussir-tcfcanada.com/juillet-2025-expression-orale/",
-      "source_file": "juillet-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "Partie 2À votre avis, les adolescents ont-ils vraiment besoin d’un téléphone personnel?Pensez-vous qu’Internet a vraiment rapproché les gens partout dans le monde?Pensez-vous qu’il est acceptable de ne pas vouloir avoir d’enfants?Selon vous, peut-on commencer un nouveau métier même à un âge avancé?Pensez-vous qu’il faut protéger le public, notamment les jeunes, des images violentes aux infos?",
+      "content": "À votre avis, les adolescents ont-ils vraiment besoin d’un téléphone personnel?Pensez-vous qu’Internet a vraiment rapproché les gens partout dans le monde?Pensez-vous qu’il est acceptable de ne pas vouloir avoir d’enfants?Selon vous, peut-on commencer un nouveau métier même à un âge avancé?Pensez-vous qu’il faut protéger le public, notamment les jeunes, des images violentes aux infos?",
       "source_url": "https://reussir-tcfcanada.com/juillet-2025-expression-orale/",
       "source_file": "juillet-2025-expression-orale.json",
       "part": "partie_2",
@@ -2352,7 +2408,7 @@
       "part_number": 2
     },
     {
-      "content": "Partie 3Pensez-vous qu’on travaille mieux quand on aime ce que l’on fait?Pensez-vous que la performance à l’école influence le succès dans la vie?À votre avis, les immigrés ont-ils un rôle utile dans le développement d’un pays?Être informé au quotidien est-il essentiel pour mieux analyser les événements du monde?Pensez-vous que l’utilisation des réseaux sociaux empêche de se concentrer sur l’essentiel ?Pourquoi?",
+      "content": "Pensez-vous qu’on travaille mieux quand on aime ce que l’on fait?Pensez-vous que la performance à l’école influence le succès dans la vie?À votre avis, les immigrés ont-ils un rôle utile dans le développement d’un pays?Être informé au quotidien est-il essentiel pour mieux analyser les événements du monde?Pensez-vous que l’utilisation des réseaux sociaux empêche de se concentrer sur l’essentiel ?Pourquoi?",
       "source_url": "https://reussir-tcfcanada.com/juillet-2025-expression-orale/",
       "source_file": "juillet-2025-expression-orale.json",
       "part": "partie_3",
@@ -2387,7 +2443,7 @@
       "part_number": 3
     },
     {
-      "content": "Partie 4Certaines personnes préfèrent vivre sans se servir de la technologie (téléphone, Internet, ordinateur).Qu’en pensez-vous?De nombreuses personnes se tournent vers la chirurgie esthétique pour sembler plus jeunes.Qu’en pensez-vous?Obtenir un emploi quand on est jeune peut poser plus de difficultés. Êtes-vous d’accord ?Pourquoi?Faut-il forcer les enfants à faire du sport ? Qu’en pensez-vous ?Pourquoi?La croissance du tourisme peut détériorer certaines régions.Qu’en pensez-vous?",
+      "content": "Certaines personnes préfèrent vivre sans se servir de la technologie (téléphone, Internet, ordinateur).Qu’en pensez-vous?De nombreuses personnes se tournent vers la chirurgie esthétique pour sembler plus jeunes.Qu’en pensez-vous?Obtenir un emploi quand on est jeune peut poser plus de difficultés. Êtes-vous d’accord ?Pourquoi?Faut-il forcer les enfants à faire du sport ? Qu’en pensez-vous ?Pourquoi?La croissance du tourisme peut détériorer certaines régions.Qu’en pensez-vous?",
       "source_url": "https://reussir-tcfcanada.com/juillet-2025-expression-orale/",
       "source_file": "juillet-2025-expression-orale.json",
       "part": "partie_4",
@@ -2429,7 +2485,7 @@
       "part_number": 4
     },
     {
-      "content": "Partie 5De plus en plus de gens choisissent de devenir végétariens.Que pensez-vous de ce régime alimentaire?Peut-on vraiment tout acheter sur Internet ?Qu’en dites-vous?Le salaire est-il le facteur principal dans un emploi ?Êtes-vous d’accord?Peut-on considérer les membres de la famille comme nos meilleurs amis ?Expliquez pourquoi.La vie en ville est-elle plus facile pour les personnes âgées que la vie à la campagne ?Êtes-vous d’accord?",
+      "content": "De plus en plus de gens choisissent de devenir végétariens.Que pensez-vous de ce régime alimentaire?Peut-on vraiment tout acheter sur Internet ?Qu’en dites-vous?Le salaire est-il le facteur principal dans un emploi ?Êtes-vous d’accord?Peut-on considérer les membres de la famille comme nos meilleurs amis ?Expliquez pourquoi.La vie en ville est-elle plus facile pour les personnes âgées que la vie à la campagne ?Êtes-vous d’accord?",
       "source_url": "https://reussir-tcfcanada.com/juillet-2025-expression-orale/",
       "source_file": "juillet-2025-expression-orale.json",
       "part": "partie_5",
@@ -2464,7 +2520,7 @@
       "part_number": 5
     },
     {
-      "content": "Partie 6Est-ce bien de travailler avec des amis ou des membres de sa famille ?Qu’en pensez-vous?Est-ce bien de travailler avec des amis ou des membres de sa famille ?Qu’en pensez-vous?Est-il possible d’avoir un monde sans frontières, sans passeport ni visa ?Pourquoi?S’installer dans un nouveau pays est souvent difficile. Êtes-vous d’accord ?Expliquez pourquoi.Selon vous, pourquoi les gens sont-ils autant attirés par la vie des célébrités?",
+      "content": "Est-ce bien de travailler avec des amis ou des membres de sa famille ?Qu’en pensez-vous?Est-ce bien de travailler avec des amis ou des membres de sa famille ?Qu’en pensez-vous?Est-il possible d’avoir un monde sans frontières, sans passeport ni visa ?Pourquoi?S’installer dans un nouveau pays est souvent difficile. Êtes-vous d’accord ?Expliquez pourquoi.Selon vous, pourquoi les gens sont-ils autant attirés par la vie des célébrités?",
       "source_url": "https://reussir-tcfcanada.com/juillet-2025-expression-orale/",
       "source_file": "juillet-2025-expression-orale.json",
       "part": "partie_6",
@@ -2499,7 +2555,7 @@
       "part_number": 6
     },
     {
-      "content": "Partie 7Le rôle principal de l’école est d’apprendre les matières scolaires.Qu’en pensez-vous?Est-il indispensable de lire pour être cultivé ?Qu’en pensez-vous?Partir de son pays pour s’installer à l’étranger est souvent un choix imposé.Qu’en pensez-vous?Pensez-vous que la liberté d’expression doit être limitée ?Pourquoi?Pensez-vous qu’il est possible de découvrir un pays sans savoir sa langue ?Pourquoi?",
+      "content": "Le rôle principal de l’école est d’apprendre les matières scolaires.Qu’en pensez-vous?Est-il indispensable de lire pour être cultivé ?Qu’en pensez-vous?Partir de son pays pour s’installer à l’étranger est souvent un choix imposé.Qu’en pensez-vous?Pensez-vous que la liberté d’expression doit être limitée ?Pourquoi?Pensez-vous qu’il est possible de découvrir un pays sans savoir sa langue ?Pourquoi?",
       "source_url": "https://reussir-tcfcanada.com/juillet-2025-expression-orale/",
       "source_file": "juillet-2025-expression-orale.json",
       "part": "partie_7",
@@ -2541,7 +2597,7 @@
       "part_number": 7
     },
     {
-      "content": "Partie 1Pensez-vous qu’avoir un bon diplôme aide vraiment à réussir dans la vie professionnelle ?Expliquez votre avis.Le travail des personnes âgées est-il bon pour la société, selon vous ?Expliquez votre réponse.Que pensez-vous des personnes qui utilisent leur temps libre pour faire du bénévolat?Préférez-vous aller au théâtre ou au cinéma ?Pourquoi ?Quand est-il préférable de s’expatrier ?Donnez votre opinion.",
+      "content": "Pensez-vous qu’avoir un bon diplôme aide vraiment à réussir dans la vie professionnelle ?Expliquez votre avis.Le travail des personnes âgées est-il bon pour la société, selon vous ?Expliquez votre réponse.Que pensez-vous des personnes qui utilisent leur temps libre pour faire du bénévolat?Préférez-vous aller au théâtre ou au cinéma ?Pourquoi ?Quand est-il préférable de s’expatrier ?Donnez votre opinion.",
       "source_url": "https://reussir-tcfcanada.com/juin-2025-expression-orale/",
       "source_file": "juin-2025-expression-orale.json",
       "part": "partie_1",
@@ -2583,28 +2639,7 @@
       "part_number": 1
     },
     {
-      "content": "les méthodologiesCompréhension ÉcriteCompréhension OraleExpression écriteExpression oraleÀ propos de nousPlateforme spécialisée dans la préparation au TCF Canada avec des tests adaptés et des sujets mis à jour.",
-      "source_url": "https://reussir-tcfcanada.com/juin-2025-expression-orale/",
-      "source_file": "juin-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "Partager avec votre réseauNous acceptonsCliquez ici",
-      "source_url": "https://reussir-tcfcanada.com/juin-2025-expression-orale/",
-      "source_file": "juin-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "les méthodologiesCompréhension ÉcriteCompréhension OraleExpression écriteExpression oraleÀ propos de nousPlateforme spécialisée dans la préparation au TCF Canada avec des tests adaptés et des sujets mis à jour.Nous acceptonsCliquez ici",
-      "source_url": "https://reussir-tcfcanada.com/juin-2025-expression-orale/",
-      "source_file": "juin-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "Partie 2Pensez-vous que travailler jusqu’à 70 ans est une bonne idée?Voyager seul(e) est-il parfois un meilleur choix que voyager accompagné(e) ?Quel est votre avis?Internet a-t-il un impact positif sur le bonheur des personnes ?Qu’en pensez-vous?Pensez-vous que l’intégration dans un nouveau pays est plus simple pour les jeunes?De nos jours, l’apparence est importante pour beaucoup de personnes.Que pensez-vous?",
+      "content": "Pensez-vous que travailler jusqu’à 70 ans est une bonne idée?Voyager seul(e) est-il parfois un meilleur choix que voyager accompagné(e) ?Quel est votre avis?Internet a-t-il un impact positif sur le bonheur des personnes ?Qu’en pensez-vous?Pensez-vous que l’intégration dans un nouveau pays est plus simple pour les jeunes?De nos jours, l’apparence est importante pour beaucoup de personnes.Que pensez-vous?",
       "source_url": "https://reussir-tcfcanada.com/juin-2025-expression-orale/",
       "source_file": "juin-2025-expression-orale.json",
       "part": "partie_2",
@@ -2646,7 +2681,7 @@
       "part_number": 2
     },
     {
-      "content": "Partie 3Pensez-vous que, dans le futur, les nouvelles technologies pourront remplacer le travail humain?À votre avis, voyager a-t-il une réelle utilité ?Pourquoi?À votre avis, les jeunes doivent-ils travailler pour financer leurs études?Pensez-vous que maîtriser la langue du pays où l’on vit soit essentiel pour bien s’intégrer ?Pourquoi?Est-il important que les transports en commun soient gratuits pour préserver l’environnement?",
+      "content": "Pensez-vous que, dans le futur, les nouvelles technologies pourront remplacer le travail humain?À votre avis, voyager a-t-il une réelle utilité ?Pourquoi?À votre avis, les jeunes doivent-ils travailler pour financer leurs études?Pensez-vous que maîtriser la langue du pays où l’on vit soit essentiel pour bien s’intégrer ?Pourquoi?Est-il important que les transports en commun soient gratuits pour préserver l’environnement?",
       "source_url": "https://reussir-tcfcanada.com/juin-2025-expression-orale/",
       "source_file": "juin-2025-expression-orale.json",
       "part": "partie_3",
@@ -2674,7 +2709,7 @@
       "part_number": 3
     },
     {
-      "content": "Partie 4Chaque été, on trouve beaucoup de conseils pour perdre du poids dans les magazines. Sont-ils vraiment utiles et fiables ?Pourquoi?Pensez-vous que deux personnes très différentes peuvent rester amies toute leur vie ?Pourquoi?Voyager dans un pays étranger peut influencer la personnalité.Qu’en pensez-vous?Pensez-vous que les outils numériques nous aident à mieux gérer notre temps au quotidien ?Expliquez.Peut-on facilement se faire des amis en arrivant dans un nouveau pays ?Pourquoi?",
+      "content": "Chaque été, on trouve beaucoup de conseils pour perdre du poids dans les magazines. Sont-ils vraiment utiles et fiables ?Pourquoi?Pensez-vous que deux personnes très différentes peuvent rester amies toute leur vie ?Pourquoi?Voyager dans un pays étranger peut influencer la personnalité.Qu’en pensez-vous?Pensez-vous que les outils numériques nous aident à mieux gérer notre temps au quotidien ?Expliquez.Peut-on facilement se faire des amis en arrivant dans un nouveau pays ?Pourquoi?",
       "source_url": "https://reussir-tcfcanada.com/juin-2025-expression-orale/",
       "source_file": "juin-2025-expression-orale.json",
       "part": "partie_4",
@@ -2702,7 +2737,7 @@
       "part_number": 4
     },
     {
-      "content": "Partie 1Aujourd’hui, les échanges par lettres ou cartes sont devenus très rares.Est-ce une évolution regrettable selon vous ?Pensez-vous qu’il est possible, dans le monde actuel, de vivre sans posséder de voiture?Selon vous, est-il plus simple et agréable de vivre seul que de vivre en famille?Trouvez-vous acceptable de prolonger l’âge de départ à la retraite jusqu’à 70 ans?Êtes-vous d’accord pour dire qu’une expérience de vie à l’étranger est toujours bénéfique?",
+      "content": "Aujourd’hui, les échanges par lettres ou cartes sont devenus très rares.Est-ce une évolution regrettable selon vous ?Pensez-vous qu’il est possible, dans le monde actuel, de vivre sans posséder de voiture?Selon vous, est-il plus simple et agréable de vivre seul que de vivre en famille?Trouvez-vous acceptable de prolonger l’âge de départ à la retraite jusqu’à 70 ans?Êtes-vous d’accord pour dire qu’une expérience de vie à l’étranger est toujours bénéfique?",
       "source_url": "https://reussir-tcfcanada.com/mai-2025-expression-orale/",
       "source_file": "mai-2025-expression-orale.json",
       "part": "partie_1",
@@ -2744,28 +2779,7 @@
       "part_number": 1
     },
     {
-      "content": "les méthodologiesCompréhension ÉcriteCompréhension OraleExpression écriteExpression oraleÀ propos de nousPlateforme spécialisée dans la préparation au TCF Canada avec des tests adaptés et des sujets mis à jour.",
-      "source_url": "https://reussir-tcfcanada.com/mai-2025-expression-orale/",
-      "source_file": "mai-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "Partager avec votre réseauNous acceptonsCliquez ici",
-      "source_url": "https://reussir-tcfcanada.com/mai-2025-expression-orale/",
-      "source_file": "mai-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "les méthodologiesCompréhension ÉcriteCompréhension OraleExpression écriteExpression oraleÀ propos de nousPlateforme spécialisée dans la préparation au TCF Canada avec des tests adaptés et des sujets mis à jour.Nous acceptonsCliquez ici",
-      "source_url": "https://reussir-tcfcanada.com/mai-2025-expression-orale/",
-      "source_file": "mai-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "Partie 2Internet rend-il la vie plus facile, selon vous?Pensez-vous qu’il est utile d’avoir plusieurs métiers dans une carrière?Doit-on empêcher les enfants d’utiliser un téléphone?Aimer son travail aide-t-il à être plus productif?Est-ce difficile de vivre dans un pays étranger?",
+      "content": "Internet rend-il la vie plus facile, selon vous?Pensez-vous qu’il est utile d’avoir plusieurs métiers dans une carrière?Doit-on empêcher les enfants d’utiliser un téléphone?Aimer son travail aide-t-il à être plus productif?Est-ce difficile de vivre dans un pays étranger?",
       "source_url": "https://reussir-tcfcanada.com/mai-2025-expression-orale/",
       "source_file": "mai-2025-expression-orale.json",
       "part": "partie_2",
@@ -2784,6 +2798,13 @@
       "source_file": "mai-2025-expression-orale.json",
       "part": "partie_2",
       "part_number": 2
+    },
+    {
+      "content": "Pensez-vous qu’il est important, de nos jours, que les enfants et les adolescents possèdent leur propre téléphone portable?On dit souvent qu’Internet a rendu le monde plus connecté, comme un petit village.Êtes-vous d’accord avec cette affirmation ?De nos jours, certaines personnes décident de ne pas avoir d’enfants.Quel est votre avis sur cette décision ?Pensez-vous qu’il est possible de changer de carrière à tout âge ?Qu’en pensez-vous ?Êtes-vous d’accord avec l’idée que les journaux télévisés devraient éviter de diffuser des images violentes?",
+      "source_url": "https://reussir-tcfcanada.com/mai-2025-expression-orale/",
+      "source_file": "mai-2025-expression-orale.json",
+      "part": "partie_3",
+      "part_number": 3
     },
     {
       "content": "Pensez-vous qu’il est important, de nos jours, que les enfants et les adolescents possèdent leur propre téléphone portable?",
@@ -2814,7 +2835,7 @@
       "part_number": 3
     },
     {
-      "content": "Partie 4Quelles matières faudrait-il ajouter à l’école pour que les élèves s’y intéressent plus ?Pourquoi ?Est-il préférable d’avoir une grande famille ou des amis proches ?Qu’en pensez-vous?Faut-il accompagner les nouveaux employés pour qu’ils s’intègrent plus facilement ?Êtes-vous d’accord ?À l’école, quelle matière aimiez-vous le plus ?Expliquez.Pensez-vous qu’habiter à l’étranger assure le succès professionnel ?Pourquoi ou pourquoi pas ?",
+      "content": "Quelles matières faudrait-il ajouter à l’école pour que les élèves s’y intéressent plus ?Pourquoi ?Est-il préférable d’avoir une grande famille ou des amis proches ?Qu’en pensez-vous?Faut-il accompagner les nouveaux employés pour qu’ils s’intègrent plus facilement ?Êtes-vous d’accord ?À l’école, quelle matière aimiez-vous le plus ?Expliquez.Pensez-vous qu’habiter à l’étranger assure le succès professionnel ?Pourquoi ou pourquoi pas ?",
       "source_url": "https://reussir-tcfcanada.com/mai-2025-expression-orale/",
       "source_file": "mai-2025-expression-orale.json",
       "part": "partie_4",
@@ -2849,7 +2870,7 @@
       "part_number": 4
     },
     {
-      "content": "Partie 5Pensez-vous que la gentillesse aide vraiment à se faire respecter ?Pourquoi ?Le célibat empêche-t-il d’être heureux ?Quelle est votre opinion ?Est-il important de consacrer une journée aux droits des femmes ? Pourquoi,selon vous ?Regarder la télévision permet de s’instruire.Qu’en pensez-vous?Est-ce que le fait d’aimer son métier aide à réussir ?Expliquez.",
+      "content": "Pensez-vous que la gentillesse aide vraiment à se faire respecter ?Pourquoi ?Le célibat empêche-t-il d’être heureux ?Quelle est votre opinion ?Est-il important de consacrer une journée aux droits des femmes ? Pourquoi,selon vous ?Regarder la télévision permet de s’instruire.Qu’en pensez-vous?Est-ce que le fait d’aimer son métier aide à réussir ?Expliquez.",
       "source_url": "https://reussir-tcfcanada.com/mai-2025-expression-orale/",
       "source_file": "mai-2025-expression-orale.json",
       "part": "partie_5",
@@ -2877,7 +2898,7 @@
       "part_number": 5
     },
     {
-      "content": "Partie 1Pensez-vous que l’apprentissage n’a pas d’âge?Pensez-vous que l’État a des limites dans son contrôle ? Pourquoi?Quelles formes d’engagement citoyen, telles que le bénévolat ou les actions écologiques,trouvez-vous exemplaires ? Justifiez votre réponse.Pensez-vous que chacun a la capacité de s’intégrer et de s’adapter en vivant à l’étranger ?Pourquoi ?Pensez-vous que les adultes perçoivent les jeunes de manière négative ?Pourquoi ?",
+      "content": "Pensez-vous que l’apprentissage n’a pas d’âge?Pensez-vous que l’État a des limites dans son contrôle ? Pourquoi?Quelles formes d’engagement citoyen, telles que le bénévolat ou les actions écologiques,trouvez-vous exemplaires ? Justifiez votre réponse.Pensez-vous que chacun a la capacité de s’intégrer et de s’adapter en vivant à l’étranger ?Pourquoi ?Pensez-vous que les adultes perçoivent les jeunes de manière négative ?Pourquoi ?",
       "source_url": "https://reussir-tcfcanada.com/avril-2025-expression-orale/",
       "source_file": "avril-2025-expression-orale.json",
       "part": "partie_1",
@@ -2919,28 +2940,7 @@
       "part_number": 1
     },
     {
-      "content": "les méthodologiesCompréhension ÉcriteCompréhension OraleExpression écriteExpression oraleÀ propos de nousPlateforme spécialisée dans la préparation au TCF Canada avec des tests adaptés et des sujets mis à jour.",
-      "source_url": "https://reussir-tcfcanada.com/avril-2025-expression-orale/",
-      "source_file": "avril-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "Partager avec votre réseauNous acceptonsCliquez ici",
-      "source_url": "https://reussir-tcfcanada.com/avril-2025-expression-orale/",
-      "source_file": "avril-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "les méthodologiesCompréhension ÉcriteCompréhension OraleExpression écriteExpression oraleÀ propos de nousPlateforme spécialisée dans la préparation au TCF Canada avec des tests adaptés et des sujets mis à jour.Nous acceptonsCliquez ici",
-      "source_url": "https://reussir-tcfcanada.com/avril-2025-expression-orale/",
-      "source_file": "avril-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "Partie 2Pensez-vous qu’il est nécessaire de faire de longues études pour bien gagner sa vie?À votre avis, les activités culturelles comme les musées ou les théâtres devraient-elles être gratuites?Faut-il rendre les soins médicaux gratuits pour tout le monde?Pour lutter contre la pollution, les États doivent-ils limiter les voyages en avion?Quel rôle joue le vêtement dans nos sociétés actuelles?",
+      "content": "Pensez-vous qu’il est nécessaire de faire de longues études pour bien gagner sa vie?À votre avis, les activités culturelles comme les musées ou les théâtres devraient-elles être gratuites?Faut-il rendre les soins médicaux gratuits pour tout le monde?Pour lutter contre la pollution, les États doivent-ils limiter les voyages en avion?Quel rôle joue le vêtement dans nos sociétés actuelles?",
       "source_url": "https://reussir-tcfcanada.com/avril-2025-expression-orale/",
       "source_file": "avril-2025-expression-orale.json",
       "part": "partie_2",
@@ -2961,7 +2961,7 @@
       "part_number": 2
     },
     {
-      "content": "Partie 1Certaines personnes choisissent de voyager seules plutôt qu’en groupe.Qu’en pensez-vous ?Préférez-vous travailler sous la direction d’un homme ou d’une femme?Les jeux vidéo peuvent-ils contribuer au développement des enfants?Quelles sont les raisons qui poussent un pays à encourager le développement du tourisme?Vivre à l’étranger représente-t-il un défi?",
+      "content": "Certaines personnes choisissent de voyager seules plutôt qu’en groupe.Qu’en pensez-vous ?Préférez-vous travailler sous la direction d’un homme ou d’une femme?Les jeux vidéo peuvent-ils contribuer au développement des enfants?Quelles sont les raisons qui poussent un pays à encourager le développement du tourisme?Vivre à l’étranger représente-t-il un défi?",
       "source_url": "https://reussir-tcfcanada.com/mars-2025-expression-orale/",
       "source_file": "mars-2025-expression-orale.json",
       "part": "partie_1",
@@ -2982,25 +2982,11 @@
       "part_number": 1
     },
     {
-      "content": "les méthodologiesCompréhension ÉcriteCompréhension OraleExpression écriteExpression oraleÀ propos de nousPlateforme spécialisée dans la préparation au TCF Canada avec des tests adaptés et des sujets mis à jour.",
+      "content": "À votre avis, l’autorité joue-t-elle un rôle essentiel dans l’éducation des enfants?Quels sont, selon vous, les impacts et les éventuels dangers d’une utilisation quotidienne des appareils électroniques comme les téléphones, les ordinateurs et les tablettes?Certains gouvernements instaurent une parité homme-femme en politique pour garantir l’égalité. Que pensez-vous de cette mesure?Faut-il vivre dans un pays pour en comprendre pleinement la culture?Pensez-vous qu’il est facile de travailler à l’étranger?",
       "source_url": "https://reussir-tcfcanada.com/mars-2025-expression-orale/",
       "source_file": "mars-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "Partager avec votre réseauNous acceptonsCliquez ici",
-      "source_url": "https://reussir-tcfcanada.com/mars-2025-expression-orale/",
-      "source_file": "mars-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "les méthodologiesCompréhension ÉcriteCompréhension OraleExpression écriteExpression oraleÀ propos de nousPlateforme spécialisée dans la préparation au TCF Canada avec des tests adaptés et des sujets mis à jour.Nous acceptonsCliquez ici",
-      "source_url": "https://reussir-tcfcanada.com/mars-2025-expression-orale/",
-      "source_file": "mars-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
+      "part": "partie_2",
+      "part_number": 2
     },
     {
       "content": "Quels sont, selon vous, les impacts et les éventuels dangers d’une utilisation quotidienne des appareils électroniques comme les téléphones, les ordinateurs et les tablettes?",
@@ -3031,7 +3017,7 @@
       "part_number": 2
     },
     {
-      "content": "Partie 3Pensez-vous qu’Internet améliore notre quotidien?Selon vous, les voyages sont-ils vraiment utiles?Est-il bénéfique de changer plusieurs fois de métier pendant sa carrière?Pensez-vous que les immigrés contribuent positivement à la richesse d’un pays?Que pensez-vous de l’idée de travailler jusqu’à 70 ans?",
+      "content": "Pensez-vous qu’Internet améliore notre quotidien?Selon vous, les voyages sont-ils vraiment utiles?Est-il bénéfique de changer plusieurs fois de métier pendant sa carrière?Pensez-vous que les immigrés contribuent positivement à la richesse d’un pays?Que pensez-vous de l’idée de travailler jusqu’à 70 ans?",
       "source_url": "https://reussir-tcfcanada.com/mars-2025-expression-orale/",
       "source_file": "mars-2025-expression-orale.json",
       "part": "partie_3",
@@ -3073,6 +3059,13 @@
       "part_number": 3
     },
     {
+      "content": "Si vous vous installez dans un autre pays, croyez-vous que cela vous offrira plus d’opportunités professionnelles et personnelles ?Pourquoi?Comment le tourisme participe-t-il à l’économie et au développement d’un pays?Qu’est-ce qui explique l’attrait des gens pour la vie des stars ?Est-ce uniquement de la curiosité ou une influence plus significative sur la société?Quels sont les avantages d’apprendre une langue étrangère dès le plus jeune âge ?Est-ce que cela favorise l’intégration et la progression professionnelle à l’âge adulte?De nos jours, les jeunes rejettent l’idée de vieillir.Quel est votre avis sur cette idée?",
+      "source_url": "https://reussir-tcfcanada.com/fevrier-2025-expression-orale/",
+      "source_file": "fevrier-2025-expression-orale.json",
+      "part": "partie_1",
+      "part_number": 1
+    },
+    {
       "content": "Si vous vous installez dans un autre pays, croyez-vous que cela vous offrira plus d’opportunités professionnelles et personnelles ?Pourquoi?",
       "source_url": "https://reussir-tcfcanada.com/fevrier-2025-expression-orale/",
       "source_file": "fevrier-2025-expression-orale.json",
@@ -3080,25 +3073,11 @@
       "part_number": 1
     },
     {
-      "content": "les méthodologiesCompréhension ÉcriteCompréhension OraleExpression écriteExpression oraleÀ propos de nousPlateforme spécialisée dans la préparation au TCF Canada avec des tests adaptés et des sujets mis à jour.",
+      "content": "Chaque été, de nombreux magazines publient des conseils et des régimes pour perdre du poids rapidement. Pensez-vous que ces recommandations sont fiables et utiles ?Justifiez votre réponse.Certaines personnes estiment que deux individus très différents ne pourront jamais être amis pour la vie. Êtes-vous d’accord avec cette affirmation ?Argumentez votre point de vue.Lorsqu’on voyage à l’étranger, on est souvent confronté à de nouvelles cultures et modes de vie. Pensez-vous que cela peut transformer notre personnalité ?Expliquez votre avis.Avec l’évolution des outils numériques, de nombreuses tâches du quotidien sont devenues plus rapides à réaliser. Partagez-vous cette opinion ?Donnez des exemples pour illustrer votre réponse.D’après vous, est-il facile de se faire de nouveaux amis en arrivant dans un pays étranger ?Expliquez les raisons qui facilitent ou compliquent l’intégration sociale.",
       "source_url": "https://reussir-tcfcanada.com/fevrier-2025-expression-orale/",
       "source_file": "fevrier-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "Partager avec votre réseauNous acceptonsCliquez ici",
-      "source_url": "https://reussir-tcfcanada.com/fevrier-2025-expression-orale/",
-      "source_file": "fevrier-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "les méthodologiesCompréhension ÉcriteCompréhension OraleExpression écriteExpression oraleÀ propos de nousPlateforme spécialisée dans la préparation au TCF Canada avec des tests adaptés et des sujets mis à jour.Nous acceptonsCliquez ici",
-      "source_url": "https://reussir-tcfcanada.com/fevrier-2025-expression-orale/",
-      "source_file": "fevrier-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
+      "part": "partie_2",
+      "part_number": 2
     },
     {
       "content": "Chaque été, de nombreux magazines publient des conseils et des régimes pour perdre du poids rapidement. Pensez-vous que ces recommandations sont fiables et utiles ?Justifiez votre réponse.",
@@ -3136,7 +3115,7 @@
       "part_number": 2
     },
     {
-      "content": "Partie 3Le voyage est-il une activité principalement accessible aux personnes riches ?Partagez votre opinion.Est-il préférable de vivre en ville ou à la campagne?Les transports en commun devraient-ils être gratuits pour tous?Est-il judicieux d’offrir un téléphone portable aux enfants?Pour profiter pleinement de la vie,est-il nécessaire de travailler moins?",
+      "content": "Le voyage est-il une activité principalement accessible aux personnes riches ?Partagez votre opinion.Est-il préférable de vivre en ville ou à la campagne?Les transports en commun devraient-ils être gratuits pour tous?Est-il judicieux d’offrir un téléphone portable aux enfants?Pour profiter pleinement de la vie,est-il nécessaire de travailler moins?",
       "source_url": "https://reussir-tcfcanada.com/fevrier-2025-expression-orale/",
       "source_file": "fevrier-2025-expression-orale.json",
       "part": "partie_3",
@@ -3169,6 +3148,13 @@
       "source_file": "fevrier-2025-expression-orale.json",
       "part": "partie_3",
       "part_number": 3
+    },
+    {
+      "content": "Certaines personnes préfèrent voyager seules plutôt qu’en groupe ou en famille.Quels sont, selon vous, les avantages et les inconvénients de cette façon de voyager ?Avez-vous une préférence entre travailler sous la direction d’un homme ou d’une femme ?Expliquez votre point de vue en justifiant votre choix.Pensez-vous que les jeux vidéo peuvent jouer un rôle positif dans le développement des enfants ?Argumentez votre réponse en tenant compte des aspects éducatifs et sociaux.Quels sont, selon vous, les principaux objectifs du développement du tourisme dans un pays ?Quels bénéfices peut-il apporter à l’économie et à la culture locale ?Vivre à l’étranger représente un véritable défi pour beaucoup de personnes. Partagez-vous cette idée ?Expliquez pourquoi.",
+      "source_url": "https://reussir-tcfcanada.com/fevrier-2025-expression-orale/",
+      "source_file": "fevrier-2025-expression-orale.json",
+      "part": "partie_4",
+      "part_number": 4
     },
     {
       "content": "Certaines personnes préfèrent voyager seules plutôt qu’en groupe ou en famille.Quels sont, selon vous, les avantages et les inconvénients de cette façon de voyager ?",
@@ -3206,6 +3192,13 @@
       "part_number": 4
     },
     {
+      "content": "Pensez-vous que l’autorité joue un rôle essentiel dans l’éducation des enfants ?L’utilisation quotidienne des appareils électroniques comporte certains risques.Quels sont, selon vous, les principaux dangers associés à leur usage?Certains gouvernements adoptent une répartition égale entre hommes et femmes pour garantir l’égalité. Quel est votre avis sur cette approche ?Est-il indispensable de vivre dans un pays pour en comprendre la culture ?Trouver un emploi à l’étranger est souvent considéré comme une démarche facile ?",
+      "source_url": "https://reussir-tcfcanada.com/fevrier-2025-expression-orale/",
+      "source_file": "fevrier-2025-expression-orale.json",
+      "part": "partie_5",
+      "part_number": 5
+    },
+    {
       "content": "Pensez-vous que l’autorité joue un rôle essentiel dans l’éducation des enfants ?",
       "source_url": "https://reussir-tcfcanada.com/fevrier-2025-expression-orale/",
       "source_file": "fevrier-2025-expression-orale.json",
@@ -3227,6 +3220,13 @@
       "part_number": 5
     },
     {
+      "content": "Dans le contexte actuel, les enfants et les adolescents devraient-ils posséder leur propre téléphone portable ?Quels sont les avantages et les inconvénients de cette pratique ?Avec le développement d’Internet, les frontières semblent s’effacer, transformant le monde en un « village global ».Dans quelle mesure partagez-vous cette vision ?Certaines personnes font le choix de ne pas avoir d’enfant.Quels sont les facteurs qui motivent cette décision et quelles en sont les implications sociétales et personnelles ?Changer de métier est-il réellement envisageable à tout moment de la vie ?Quels sont les défis et les opportunités liés à une reconversion professionnelle ?Les médias doivent-ils limiter la diffusion d’images violentes dans les journaux télévisés ?Quels sont les enjeux éthiques et informatifs liés à cette question ?",
+      "source_url": "https://reussir-tcfcanada.com/fevrier-2025-expression-orale/",
+      "source_file": "fevrier-2025-expression-orale.json",
+      "part": "partie_6",
+      "part_number": 6
+    },
+    {
       "content": "Avec le développement d’Internet, les frontières semblent s’effacer, transformant le monde en un « village global ».Dans quelle mesure partagez-vous cette vision ?",
       "source_url": "https://reussir-tcfcanada.com/fevrier-2025-expression-orale/",
       "source_file": "fevrier-2025-expression-orale.json",
@@ -3239,6 +3239,13 @@
       "source_file": "fevrier-2025-expression-orale.json",
       "part": "partie_6",
       "part_number": 6
+    },
+    {
+      "content": "Dans un avenir proche, la technologie pourrait-elle remplacer complètement le travail humain ?Donnez votre opinion.Les voyages sont-ils indispensables pour enrichir ses connaissances et son expérience personnelle ?Justifiez votre point de vue.Est-il normal que les jeunes travaillent pour financer leurs études ?Expliquez votre position sur cette question.L’apprentissage de la langue du pays dans lequel on vit est-il une nécessité pour mieux s’intégrer ?Partagez votre avis.Pour réduire la pollution et protéger l’environnement, les transports en commun devraient-ils être gratuits ?Argumentez votre réponse.",
+      "source_url": "https://reussir-tcfcanada.com/janvier-2025-expression-orale/",
+      "source_file": "janvier-2025-expression-orale.json",
+      "part": "partie_1",
+      "part_number": 1
     },
     {
       "content": "Est-il normal que les jeunes travaillent pour financer leurs études ?Expliquez votre position sur cette question.",
@@ -3255,25 +3262,11 @@
       "part_number": 1
     },
     {
-      "content": "les méthodologiesCompréhension ÉcriteCompréhension OraleExpression écriteExpression oraleÀ propos de nousPlateforme spécialisée dans la préparation au TCF Canada avec des tests adaptés et des sujets mis à jour.",
+      "content": "L’immigration apporte-t-elle une valeur ajoutée aux pays d’accueil ?Exprimez votre avis et argumentez votre réponse.Pensez-vous que les réseaux sociaux sont une perte de temps ou, au contraire, un outil utile ?Justifiez votre point de vue.Est-il essentiel de s’informer régulièrement pour mieux comprendre le monde qui nous entoure ?Expliquez votre opinion.Les bons résultats scolaires sont-ils indispensables pour réussir dans la vie ?Partagez votre point de vue en argumentant.Aimer son métier est-il un critère essentiel pour réussir sa carrière professionnelle ?Justifiez votre réponse.",
       "source_url": "https://reussir-tcfcanada.com/janvier-2025-expression-orale/",
       "source_file": "janvier-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "Partager avec votre réseauNous acceptonsCliquez ici",
-      "source_url": "https://reussir-tcfcanada.com/janvier-2025-expression-orale/",
-      "source_file": "janvier-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "les méthodologiesCompréhension ÉcriteCompréhension OraleExpression écriteExpression oraleÀ propos de nousPlateforme spécialisée dans la préparation au TCF Canada avec des tests adaptés et des sujets mis à jour.Nous acceptonsCliquez ici",
-      "source_url": "https://reussir-tcfcanada.com/janvier-2025-expression-orale/",
-      "source_file": "janvier-2025-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
+      "part": "partie_2",
+      "part_number": 2
     },
     {
       "content": "Pensez-vous que les réseaux sociaux sont une perte de temps ou, au contraire, un outil utile ?Justifiez votre point de vue.",
@@ -3297,6 +3290,13 @@
       "part_number": 2
     },
     {
+      "content": "Les relations d’amitié virtuelles sur Internet peuvent-elles être aussi solides que les liens familiaux ?Expliquez votre point de vue.Les jeunes ont-ils plus de facilité que les adultes pour apprendre une nouvelle langue ?Justifiez votre réponse.Vivre en ville est-il plus stressant que de vivre à la campagne ?Donnez votre avis.Certaines personnes choisissent de ne pas s’intéresser à la politique.Que pensez-vous de cette attitude ?Avoir une expérience à l’étranger est-il un atout indispensable pour réussir sa carrière professionnelle ?Expliquez votre opinion.",
+      "source_url": "https://reussir-tcfcanada.com/janvier-2025-expression-orale/",
+      "source_file": "janvier-2025-expression-orale.json",
+      "part": "partie_3",
+      "part_number": 3
+    },
+    {
       "content": "Vivre en ville est-il plus stressant que de vivre à la campagne ?Donnez votre avis.",
       "source_url": "https://reussir-tcfcanada.com/janvier-2025-expression-orale/",
       "source_file": "janvier-2025-expression-orale.json",
@@ -3318,7 +3318,7 @@
       "part_number": 3
     },
     {
-      "content": "Partie 4Apprendre une langue étrangère est-il un défi difficile à relever ?Partagez votre opinion sur cette question.Les études permettent-elles d’assurer une réussite professionnelle ?Expliquez votre point de vue.Limiter la circulation des voitures en ville est-il nécessaire ?Justifiez votre réponse.Grâce à Internet, sommes-nous mieux informés qu’avant ?Donnez votre avis.Pour être en bonne santé, doit-on arrêter de consommer de la viande ?Exprimez votre opinion.",
+      "content": "Apprendre une langue étrangère est-il un défi difficile à relever ?Partagez votre opinion sur cette question.Les études permettent-elles d’assurer une réussite professionnelle ?Expliquez votre point de vue.Limiter la circulation des voitures en ville est-il nécessaire ?Justifiez votre réponse.Grâce à Internet, sommes-nous mieux informés qu’avant ?Donnez votre avis.Pour être en bonne santé, doit-on arrêter de consommer de la viande ?Exprimez votre opinion.",
       "source_url": "https://reussir-tcfcanada.com/janvier-2025-expression-orale/",
       "source_file": "janvier-2025-expression-orale.json",
       "part": "partie_4",
@@ -3346,6 +3346,13 @@
       "part_number": 4
     },
     {
+      "content": "Les universités ont-elles besoin de plus de financement pour mieux fonctionner ?Expliquez votre point de vue.Quels lieux et quelles sorties recommanderiez-vous à un touriste étranger visitant votre pays pour la première fois ?Justifiez vos choix.Vivre à l’étranger est-il une expérience positive ou négative ?Donnez votre avis en expliquant pourquoi.Comment pourrait-on encourager davantage de personnes à pratiquer une activité sportive ?Partagez vos idées.Le salaire est-il le principal facteur de motivation des employés dans une entreprise ?Pourquoi?",
+      "source_url": "https://reussir-tcfcanada.com/janvier-2025-expression-orale/",
+      "source_file": "janvier-2025-expression-orale.json",
+      "part": "partie_5",
+      "part_number": 5
+    },
+    {
       "content": "Quels lieux et quelles sorties recommanderiez-vous à un touriste étranger visitant votre pays pour la première fois ?Justifiez vos choix.",
       "source_url": "https://reussir-tcfcanada.com/janvier-2025-expression-orale/",
       "source_file": "janvier-2025-expression-orale.json",
@@ -3365,6 +3372,13 @@
       "source_file": "janvier-2025-expression-orale.json",
       "part": "partie_5",
       "part_number": 5
+    },
+    {
+      "content": "Faut-il travailler jusqu’à 70 ans ?Donnez votre opinion sur cette question.Certaines personnes préfèrent voyager seules plutôt qu’en groupe.Quels sont, selon vous, les avantages et les inconvénients de cette manière de voyager ?Pensez-vous qu’Internet contribue réellement au bonheur des gens ?Justifiez votre réponse.L’intégration dans un pays étranger est-elle plus facile pour les jeunes que pour les adultes ?Expliquez votre point de vue.De nos jours, l’apparence physique est très importante.Quelle est votre opinion sur l’importance de la beauté dans la société actuelle ?",
+      "source_url": "https://reussir-tcfcanada.com/janvier-2025-expression-orale/",
+      "source_file": "janvier-2025-expression-orale.json",
+      "part": "partie_6",
+      "part_number": 6
     },
     {
       "content": "Faut-il travailler jusqu’à 70 ans ?Donnez votre opinion sur cette question.",
@@ -3388,6 +3402,13 @@
       "part_number": 6
     },
     {
+      "content": "Aujourd’hui, les études sont souvent considérées comme essentielles pour trouver un emploi.Partagez votre opinion sur cette affirmation.Pensez-vous qu’il est possible de vivre sans technologie dans le monde actuel ?Expliquez votre avis.La place accordée aux animaux de compagnie dans notre société est-elle exagérée ?Justifiez votre point de vue.L’écologie devrait-elle être enseignée dès le plus jeune âge à l’école ?Êtes-vous d’accord avec cette idée?Pour être en meilleure santé, vaut-il mieux vivre à la campagne plutôt qu’en ville ?Exprimez votre avis.",
+      "source_url": "https://reussir-tcfcanada.com/janvier-2025-expression-orale/",
+      "source_file": "janvier-2025-expression-orale.json",
+      "part": "partie_7",
+      "part_number": 7
+    },
+    {
       "content": "Pensez-vous qu’il est possible de vivre sans technologie dans le monde actuel ?Expliquez votre avis.",
       "source_url": "https://reussir-tcfcanada.com/janvier-2025-expression-orale/",
       "source_file": "janvier-2025-expression-orale.json",
@@ -3400,6 +3421,13 @@
       "source_file": "janvier-2025-expression-orale.json",
       "part": "partie_7",
       "part_number": 7
+    },
+    {
+      "content": "Certains parents récompensent leurs enfants avec de l’argent pour leurs bons résultats scolaires. Pensez-vous que cette pratique est une bonne méthode d’éducation ?Pourquoi?Selon vous, est-il possible de concilier le développement économique avec le respect de l’environnement ?Expliquez votre avis.Peut-on réellement connaître un pays uniquement à travers la lecture de livres ?Pourquoi?Faut-il abandonner ses traditions pour bien s’intégrer dans un nouveau pays ?Donnez votre opinion.Pensez-vous qu’une entreprise doit privilégier le bien-être de ses employés pour assurer son bon fonctionnement ?Justifiez votre point de vue.",
+      "source_url": "https://reussir-tcfcanada.com/janvier-2025-expression-orale/",
+      "source_file": "janvier-2025-expression-orale.json",
+      "part": "partie_8",
+      "part_number": 8
     },
     {
       "content": "Certains parents récompensent leurs enfants avec de l’argent pour leurs bons résultats scolaires. Pensez-vous que cette pratique est une bonne méthode d’éducation ?Pourquoi?",
@@ -3428,6 +3456,13 @@
       "source_file": "janvier-2025-expression-orale.json",
       "part": "partie_8",
       "part_number": 8
+    },
+    {
+      "content": "Certaines personnes refusent de regarder les actualités diffusées à la télévision.Qu’en pensez-vous?De jeunes adultes canadiens préfèrent rester vivre chez leurs parents parce qu’ils s’y sentent bien.Quel regard portez-vous sur cette situation?L’Internet rend les gens solitaires.Que pensez-vous de cette affirmation?Selon vous, quelle est la cause (sociale, humanitaire ou culturelle) la plus prioritaire dans le monde actuel ?Pourquoi?Selon vous, quelles sont les trois questions importantes à se poser avant de commencer des démarches d’immigration au Québec?Pourquoi ces trois là ?",
+      "source_url": "https://reussir-tcfcanada.com/decembre-2024-expression-orale/",
+      "source_file": "decembre-2024-expression-orale.json",
+      "part": "partie_1",
+      "part_number": 1
     },
     {
       "content": "Certaines personnes refusent de regarder les actualités diffusées à la télévision.Qu’en pensez-vous?",
@@ -3465,28 +3500,7 @@
       "part_number": 1
     },
     {
-      "content": "les méthodologiesCompréhension ÉcriteCompréhension OraleExpression écriteExpression oraleÀ propos de nousPlateforme spécialisée dans la préparation au TCF Canada avec des tests adaptés et des sujets mis à jour.",
-      "source_url": "https://reussir-tcfcanada.com/decembre-2024-expression-orale/",
-      "source_file": "decembre-2024-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "Partager avec votre réseauNous acceptonsCliquez ici",
-      "source_url": "https://reussir-tcfcanada.com/decembre-2024-expression-orale/",
-      "source_file": "decembre-2024-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "les méthodologiesCompréhension ÉcriteCompréhension OraleExpression écriteExpression oraleÀ propos de nousPlateforme spécialisée dans la préparation au TCF Canada avec des tests adaptés et des sujets mis à jour.Nous acceptonsCliquez ici",
-      "source_url": "https://reussir-tcfcanada.com/decembre-2024-expression-orale/",
-      "source_file": "decembre-2024-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "Partie 2Certaines personnes préfèrent vivre sans technologie (Internet, ordinateur, téléphone).Qu’en pensez-vous?De plus en plus de personnes font appel à la chirurgie esthétique pour rester jeune.Qu’en pensez-vous?Il est plus difficile de trouver du travail quand on est jeune. Êtes-vous d’accord?Pourquoi ?Il faut obliger les enfants à faire du sport.Êtes-vous d’accord? Pourquoi ?Le tourisme détruit certaines régions.Qu’en pensez-vous?",
+      "content": "Certaines personnes préfèrent vivre sans technologie (Internet, ordinateur, téléphone).Qu’en pensez-vous?De plus en plus de personnes font appel à la chirurgie esthétique pour rester jeune.Qu’en pensez-vous?Il est plus difficile de trouver du travail quand on est jeune. Êtes-vous d’accord?Pourquoi ?Il faut obliger les enfants à faire du sport.Êtes-vous d’accord? Pourquoi ?Le tourisme détruit certaines régions.Qu’en pensez-vous?",
       "source_url": "https://reussir-tcfcanada.com/decembre-2024-expression-orale/",
       "source_file": "decembre-2024-expression-orale.json",
       "part": "partie_2",
@@ -3528,7 +3542,7 @@
       "part_number": 2
     },
     {
-      "content": "Partie 3L’immigration est bénéfique pour les pays d’accueil,qu’en pensez-vous ?Les jeux du hasard,qu’en pensez-vous ?Les personnes âgées ont besoin d’avoir un animal de compagnie,qu’en pensez-vous ?L’utilisation du téléphone portable au travail,qu’en pensez-vous ?Les parents doivent éduquer leurs enfants de la même manière : filles ou garçons,qu’en pensez-vous ?",
+      "content": "L’immigration est bénéfique pour les pays d’accueil,qu’en pensez-vous ?Les jeux du hasard,qu’en pensez-vous ?Les personnes âgées ont besoin d’avoir un animal de compagnie,qu’en pensez-vous ?L’utilisation du téléphone portable au travail,qu’en pensez-vous ?Les parents doivent éduquer leurs enfants de la même manière : filles ou garçons,qu’en pensez-vous ?",
       "source_url": "https://reussir-tcfcanada.com/decembre-2024-expression-orale/",
       "source_file": "decembre-2024-expression-orale.json",
       "part": "partie_3",
@@ -3570,7 +3584,7 @@
       "part_number": 3
     },
     {
-      "content": "Partie 4Les transports en commun doivent être gratuits en ville.Est-ce une bonne idée selon vous ?Les parents doivent contrôler les fréquentations de leurs enfants.Qu’en pensez-vous ?Le développement du tourisme est contraire à la protection de l’environnement.Qu’en pensez-vous ?Il est possible de vivre dans un pays sans en parler la langue.Qu’en pensez-vous ?De nos jours, il est possible de changer de métier à tout âge.Qu’en pensez-vous ?",
+      "content": "Les transports en commun doivent être gratuits en ville.Est-ce une bonne idée selon vous ?Les parents doivent contrôler les fréquentations de leurs enfants.Qu’en pensez-vous ?Le développement du tourisme est contraire à la protection de l’environnement.Qu’en pensez-vous ?Il est possible de vivre dans un pays sans en parler la langue.Qu’en pensez-vous ?De nos jours, il est possible de changer de métier à tout âge.Qu’en pensez-vous ?",
       "source_url": "https://reussir-tcfcanada.com/decembre-2024-expression-orale/",
       "source_file": "decembre-2024-expression-orale.json",
       "part": "partie_4",
@@ -3612,7 +3626,7 @@
       "part_number": 4
     },
     {
-      "content": "Partie 5Aujourd’hui, les enfants et les adolescents doivent avoir leur propre téléphone portable.Qu’en pensez-vous?Avec Internet le monde est devenu un village.Êtes-vous d’accord ?Certaines personnes choisissent de ne pas avoir d’enfant.Qu’en pensez-vous ?Changer de métier est possible à tout âge.Qu’en pensez-vous ?Les journaux télévisés ne devraient pas diffuser d’images violentes.Êtes-vous d’accord ?",
+      "content": "Aujourd’hui, les enfants et les adolescents doivent avoir leur propre téléphone portable.Qu’en pensez-vous?Avec Internet le monde est devenu un village.Êtes-vous d’accord ?Certaines personnes choisissent de ne pas avoir d’enfant.Qu’en pensez-vous ?Changer de métier est possible à tout âge.Qu’en pensez-vous ?Les journaux télévisés ne devraient pas diffuser d’images violentes.Êtes-vous d’accord ?",
       "source_url": "https://reussir-tcfcanada.com/decembre-2024-expression-orale/",
       "source_file": "decembre-2024-expression-orale.json",
       "part": "partie_5",
@@ -3654,6 +3668,13 @@
       "part_number": 5
     },
     {
+      "content": "Certaines personnes choisissent de ne jamais regarder la télévision.Qu’en pensez-vous ?Certaines personnes pensent que les sportifs gagnent trop d’argent.Êtes-vous d’accord ?Pensez-vous que les enfants passent trop de temps devant les écrans(ordinateurs, tablettes, téléphones, télévisions, etc.)? Pourquoi ?Quand on s’installe dans un nouveau pays, est-ce qu’il faut changer ses habitudes de vie(alimentation, vacances, vêtements, etc.) ?Si vous allez vivre au Canada, pensez-vous que vous trouverez facilement du travail ?Pourquoi ?",
+      "source_url": "https://reussir-tcfcanada.com/decembre-2024-expression-orale/",
+      "source_file": "decembre-2024-expression-orale.json",
+      "part": "partie_6",
+      "part_number": 6
+    },
+    {
       "content": "Certaines personnes choisissent de ne jamais regarder la télévision.Qu’en pensez-vous ?",
       "source_url": "https://reussir-tcfcanada.com/decembre-2024-expression-orale/",
       "source_file": "decembre-2024-expression-orale.json",
@@ -3682,7 +3703,7 @@
       "part_number": 6
     },
     {
-      "content": "Partie 7Quelles sont les principales motivations qui incitent les gens à immigrer vers d’autres pays ?Pourquoi ?Les jeux du hasard,qu’en pensez-vous ?Les animaux de compagnie sont-ils essentiels pour le bien-être des personnes âgées ?Qu’en pensez-vous ?Le téléphone portable personnel devrait être interdit au travail.Qu’en pensez-vous ?Les parents doivent-ils éduquer leurs filles et leurs garçons de la même manière ?Qu’en pensez-vous ?",
+      "content": "Quelles sont les principales motivations qui incitent les gens à immigrer vers d’autres pays ?Pourquoi ?Les jeux du hasard,qu’en pensez-vous ?Les animaux de compagnie sont-ils essentiels pour le bien-être des personnes âgées ?Qu’en pensez-vous ?Le téléphone portable personnel devrait être interdit au travail.Qu’en pensez-vous ?Les parents doivent-ils éduquer leurs filles et leurs garçons de la même manière ?Qu’en pensez-vous ?",
       "source_url": "https://reussir-tcfcanada.com/decembre-2024-expression-orale/",
       "source_file": "decembre-2024-expression-orale.json",
       "part": "partie_7",
@@ -3717,7 +3738,7 @@
       "part_number": 7
     },
     {
-      "content": "Partie 8Dans une entreprise, tout le monde devrait avoir le même salaire.Que pensez-vous de cette affirmation ?Est-ce que vous pensez que l’État devrait interdire la vente de tabac et d’alcool ?Pourquoi ?Il n’est pas nécessaire d’avoir des ami(e)s pour être heureux(se).Qu’en pensez-vous ?Les voyages dans l’espace coûtent trop cher et sont inutiles.Qu’en pensez-vous ?À votre avis, l’usage des téléphones portables devrait-il être interdit aux enfants ?Pourquoi ?",
+      "content": "Dans une entreprise, tout le monde devrait avoir le même salaire.Que pensez-vous de cette affirmation ?Est-ce que vous pensez que l’État devrait interdire la vente de tabac et d’alcool ?Pourquoi ?Il n’est pas nécessaire d’avoir des ami(e)s pour être heureux(se).Qu’en pensez-vous ?Les voyages dans l’espace coûtent trop cher et sont inutiles.Qu’en pensez-vous ?À votre avis, l’usage des téléphones portables devrait-il être interdit aux enfants ?Pourquoi ?",
       "source_url": "https://reussir-tcfcanada.com/decembre-2024-expression-orale/",
       "source_file": "decembre-2024-expression-orale.json",
       "part": "partie_8",
@@ -3752,7 +3773,7 @@
       "part_number": 8
     },
     {
-      "content": "Partie 1Internet a un impact positif dans l’enseignement des enfants.Qu’en pensez-vous ?La plupart des gens veulent paraître jeune que leur âge.Q’en pensez-vous ?Le tourisme contribue à la croissance et au développement du pays.Êtes-vous d’accord avec cette affirmation ?Les jeux vidéos sont dangereux.Qu’en pensez vous ?Pour gagner beaucoup d’argent, il est indispensable d’avoir fait des études.Êtes vous d’accord cette affirmation ?",
+      "content": "Internet a un impact positif dans l’enseignement des enfants.Qu’en pensez-vous ?La plupart des gens veulent paraître jeune que leur âge.Q’en pensez-vous ?Le tourisme contribue à la croissance et au développement du pays.Êtes-vous d’accord avec cette affirmation ?Les jeux vidéos sont dangereux.Qu’en pensez vous ?Pour gagner beaucoup d’argent, il est indispensable d’avoir fait des études.Êtes vous d’accord cette affirmation ?",
       "source_url": "https://reussir-tcfcanada.com/novembre-2024-expression-orale/",
       "source_file": "novembre-2024-expression-orale.json",
       "part": "partie_1",
@@ -3794,28 +3815,7 @@
       "part_number": 1
     },
     {
-      "content": "les méthodologiesCompréhension ÉcriteCompréhension OraleExpression écriteExpression oraleÀ propos de nousPlateforme spécialisée dans la préparation au TCF Canada avec des tests adaptés et des sujets mis à jour.",
-      "source_url": "https://reussir-tcfcanada.com/novembre-2024-expression-orale/",
-      "source_file": "novembre-2024-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "Partager avec votre réseauNous acceptonsCliquez ici",
-      "source_url": "https://reussir-tcfcanada.com/novembre-2024-expression-orale/",
-      "source_file": "novembre-2024-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "les méthodologiesCompréhension ÉcriteCompréhension OraleExpression écriteExpression oraleÀ propos de nousPlateforme spécialisée dans la préparation au TCF Canada avec des tests adaptés et des sujets mis à jour.Nous acceptonsCliquez ici",
-      "source_url": "https://reussir-tcfcanada.com/novembre-2024-expression-orale/",
-      "source_file": "novembre-2024-expression-orale.json",
-      "part": "partie_1",
-      "part_number": 1
-    },
-    {
-      "content": "Partie 2Changer de pays, c’est changer de culture.Qu’en pensez-vous ?De nos jours, les jeunes sont de moins en moins polis.Êtes-vous d’accord ? Pourquoi ?Il est difficile de vivre seul(e).Êtes-vous d’accord ?À votre avis, est-il facile de se faire des amis quand on s’installe dans un nouveau pays ?Pourquoi ?À votre avis, peut-on vivre sans Internet ?Pourquoi ?",
+      "content": "Changer de pays, c’est changer de culture.Qu’en pensez-vous ?De nos jours, les jeunes sont de moins en moins polis.Êtes-vous d’accord ? Pourquoi ?Il est difficile de vivre seul(e).Êtes-vous d’accord ?À votre avis, est-il facile de se faire des amis quand on s’installe dans un nouveau pays ?Pourquoi ?À votre avis, peut-on vivre sans Internet ?Pourquoi ?",
       "source_url": "https://reussir-tcfcanada.com/novembre-2024-expression-orale/",
       "source_file": "novembre-2024-expression-orale.json",
       "part": "partie_2",
@@ -3850,7 +3850,7 @@
       "part_number": 2
     },
     {
-      "content": "Partie 3Avec Internet, on vit mieux.Qu’en pensez-vous ?Est-il bon de faire plusieurs métiers dans sa carrière ?Qu’en pensez-vous ?Faut-il interdire aux enfants l’utilisation du téléphone portable ?Qu’en pensez-vous ?il faut aimer son travail pour être productif.Qu’en pensez-vous ?Vivre dans un pays étranger est difficile.Êtes-vous d’accord avec cette affirmation ?",
+      "content": "Avec Internet, on vit mieux.Qu’en pensez-vous ?Est-il bon de faire plusieurs métiers dans sa carrière ?Qu’en pensez-vous ?Faut-il interdire aux enfants l’utilisation du téléphone portable ?Qu’en pensez-vous ?il faut aimer son travail pour être productif.Qu’en pensez-vous ?Vivre dans un pays étranger est difficile.Êtes-vous d’accord avec cette affirmation ?",
       "source_url": "https://reussir-tcfcanada.com/novembre-2024-expression-orale/",
       "source_file": "novembre-2024-expression-orale.json",
       "part": "partie_3",
@@ -3892,7 +3892,7 @@
       "part_number": 3
     },
     {
-      "content": "Partie 4De nos jours, peut-on se passer de la télévision ?Pourquoi ?Est-ce que vous préférez travailler sous la responsabilité d’un homme ou d’une femme ?Pourquoi ?Les jeux vidéo peuvent-ils favoriser le développement des enfants ?Qu’en pensez-vous ?Quel est l’intérêt d’avoir une expérience professionnelle ou universitaire à l’étranger ?Selon vous, quel rôle joue la télévision dans l’éducation des enfants ?",
+      "content": "De nos jours, peut-on se passer de la télévision ?Pourquoi ?Est-ce que vous préférez travailler sous la responsabilité d’un homme ou d’une femme ?Pourquoi ?Les jeux vidéo peuvent-ils favoriser le développement des enfants ?Qu’en pensez-vous ?Quel est l’intérêt d’avoir une expérience professionnelle ou universitaire à l’étranger ?Selon vous, quel rôle joue la télévision dans l’éducation des enfants ?",
       "source_url": "https://reussir-tcfcanada.com/novembre-2024-expression-orale/",
       "source_file": "novembre-2024-expression-orale.json",
       "part": "partie_4",
@@ -3920,7 +3920,7 @@
       "part_number": 4
     },
     {
-      "content": "Partie 5Avec Internet, on vit mieux.Qu’en pensez-vous ?Est-il bon de faire plusieurs métiers dans sa carrière ?Qu’en pensez-vous ?Faut-il interdire aux enfants l’utilisation du téléphone portable ?Qu’en pensez-vous ?Il faut aimer son travail pour être productif.Qu’en pensez-vous ?Vivre dans un pays étranger est difficile.Êtes-vous d’accord avec cette affirmation ?",
+      "content": "Avec Internet, on vit mieux.Qu’en pensez-vous ?Est-il bon de faire plusieurs métiers dans sa carrière ?Qu’en pensez-vous ?Faut-il interdire aux enfants l’utilisation du téléphone portable ?Qu’en pensez-vous ?Il faut aimer son travail pour être productif.Qu’en pensez-vous ?Vivre dans un pays étranger est difficile.Êtes-vous d’accord avec cette affirmation ?",
       "source_url": "https://reussir-tcfcanada.com/novembre-2024-expression-orale/",
       "source_file": "novembre-2024-expression-orale.json",
       "part": "partie_5",
@@ -3962,7 +3962,7 @@
       "part_number": 5
     },
     {
-      "content": "Partie 6Travailler jusqu’à 70 ans.Qu’en pensez-vous ?Certaines personnes préfèrent voyager seules.Qu’en pensez-vous ?Internet nous rend heureux.Qu’en pensez-vous ?Il est facile de s’intégrer dans un pays étranger en tant que jeune.Qu’en pensez-vous ?De nos jours, tout le monde veut paraître beau.Que pensez-vous de la beauté ?",
+      "content": "Travailler jusqu’à 70 ans.Qu’en pensez-vous ?Certaines personnes préfèrent voyager seules.Qu’en pensez-vous ?Internet nous rend heureux.Qu’en pensez-vous ?Il est facile de s’intégrer dans un pays étranger en tant que jeune.Qu’en pensez-vous ?De nos jours, tout le monde veut paraître beau.Que pensez-vous de la beauté ?",
       "source_url": "https://reussir-tcfcanada.com/novembre-2024-expression-orale/",
       "source_file": "novembre-2024-expression-orale.json",
       "part": "partie_6",
@@ -4004,7 +4004,14 @@
       "part_number": 6
     },
     {
-      "content": "Partie 8Il n’est jamais trop tard pour apprendre.Qu’en pensez-vous ?L’État ne peut pas tout contrôler :êtes-vous d’accord avec cette affirmation ? Pourquoi ?Quelles sont les actions citoyennes (aide alimentaire, visite à des malades, projet écologique, etc.)Que vous jugez admirables? Pourquoi ?À votre avis, tout le monde est-il capable de s’adapter dans un pays étranger ?Pourquoi ?Êtes-vous d’accord avec cette affirmation :les adultes portent un regard pessimiste sur les jeunes ? Pourquoi ?",
+      "content": "Discutez de l’impact des caméras de surveillance en milieu public sur la sécurité et la vie privée.Adaptation à l’étranger:Évoquez les facilités et les défis de l’intégration d’un jeune qui déménage à l’étranger.Télétravail :Analysez les avantages et les défis du télétravail, notamment en termes de gestion du temps.Économie d’eau et d’électricité :Discutez des stratégies pour réduire la consommation d’eau et d’électricité dans un ménage, et des bénéfices environnementaux et économiques associés.Choix de vêtements :Débattez de l’importance du choix des vêtements dans un cadre professionnel, surtout en contexte de télétravail.",
+      "source_url": "https://reussir-tcfcanada.com/novembre-2024-expression-orale/",
+      "source_file": "novembre-2024-expression-orale.json",
+      "part": "partie_7",
+      "part_number": 7
+    },
+    {
+      "content": "Il n’est jamais trop tard pour apprendre.Qu’en pensez-vous ?L’État ne peut pas tout contrôler :êtes-vous d’accord avec cette affirmation ? Pourquoi ?Quelles sont les actions citoyennes (aide alimentaire, visite à des malades, projet écologique, etc.)Que vous jugez admirables? Pourquoi ?À votre avis, tout le monde est-il capable de s’adapter dans un pays étranger ?Pourquoi ?Êtes-vous d’accord avec cette affirmation :les adultes portent un regard pessimiste sur les jeunes ? Pourquoi ?",
       "source_url": "https://reussir-tcfcanada.com/novembre-2024-expression-orale/",
       "source_file": "novembre-2024-expression-orale.json",
       "part": "partie_8",
@@ -4046,7 +4053,7 @@
       "part_number": 8
     },
     {
-      "content": "Partie 9Certaines personnes préfèrent voyager seules.Qu’en pensez-vous ?Est-ce que vous préférez travailler sous la responsabilité d’un homme ou d’une femme ?Pourquoi ?Les jeux vidéo participent au développement de l’enfant.Qu’en pensez-vous ?Pour quelle(s) raison(s) voudrait-on développer le tourisme dans un pays ?Vivre dans un pays étranger est difficile.Êtes-vous d’accord avec cette affirmation?",
+      "content": "Certaines personnes préfèrent voyager seules.Qu’en pensez-vous ?Est-ce que vous préférez travailler sous la responsabilité d’un homme ou d’une femme ?Pourquoi ?Les jeux vidéo participent au développement de l’enfant.Qu’en pensez-vous ?Pour quelle(s) raison(s) voudrait-on développer le tourisme dans un pays ?Vivre dans un pays étranger est difficile.Êtes-vous d’accord avec cette affirmation?",
       "source_url": "https://reussir-tcfcanada.com/novembre-2024-expression-orale/",
       "source_file": "novembre-2024-expression-orale.json",
       "part": "partie_9",
