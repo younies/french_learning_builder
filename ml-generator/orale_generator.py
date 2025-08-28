@@ -189,14 +189,38 @@ class TCFOraleGenerator:
         Save generated content to markdown file with metadata
         """
         try:
-            # Add metadata header
+            task_key = topic_info.get('task', 'unknown')
+            if task_key == 'tache_2':
+                task_label = 'Tâche 2'
+            elif task_key == 'tache_3':
+                task_label = 'Tâche 3'
+            else:
+                task_label = str(task_key)
+            part_raw = topic_info.get('part', 'unknown')
+            part_label = part_raw
+            try:
+                # Format 'partie_2' -> 'Partie 2'
+                if isinstance(part_raw, str) and '_' in part_raw:
+                    left, right = part_raw.split('_', 1)
+                    part_label = f"{left.capitalize()} {right}"
+            except Exception:
+                pass
+            
             metadata = f"""---
 # TCF Canada Expression Orale - Generated Practice
 source_file: {topic_info.get('source_file', 'unknown')}
 source_url: {topic_info.get('source_url', 'unknown')}
-task: {topic_info.get('task', 'unknown')}
+task: {task_key}
 part: {topic_info.get('part', 'unknown')}
 generated_at: {time.strftime('%Y-%m-%d %H:%M:%S')}
+---
+
+# Informations
+- Tâche: {task_label}
+- Partie: {part_label}
+- Source URL: {topic_info.get('source_url', 'unknown')}
+- Source fichier: {topic_info.get('source_file', 'unknown')}
+
 ---
 
 # Original Topic
