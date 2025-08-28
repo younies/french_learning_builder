@@ -27,7 +27,7 @@ def example_custom_directory():
     print("-" * 30)
     
     # Use custom output directory
-    custom_dir = "/Users/youniesmahmoud/Desktop/tcf_practice"
+    custom_dir = "~/Desktop/tcf_practice"
     generator = TCFOraleGenerator(output_base_dir=custom_dir)
     
     # Generate content

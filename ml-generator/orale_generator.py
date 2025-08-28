@@ -11,13 +11,15 @@ class TCFOraleGenerator:
     Generator for TCF Canada Expression Orale practice materials using OpenAI
     """
     
-    def __init__(self, api_key: Optional[str] = None, output_base_dir: str = "/Users/youniesmahmoud/study/french_learning/tcf_canada/eo"):
+    def __init__(self, api_key: Optional[str] = None, output_base_dir: Optional[str] = None):
         """
         Initialize the generator
         
         Args:
             api_key: OpenAI API key (if None, will try to get from environment)
-            output_base_dir: Base directory for output files
+            output_base_dir: Base directory for output files. If None, defaults to
+                             a sibling folder '../french_learning/tcf_canada/eo'
+                             relative to the project root.
         """
         # Set up OpenAI client
         if api_key:
@@ -27,6 +29,12 @@ class TCFOraleGenerator:
             if not api_key:
                 raise ValueError("OpenAI API key not found. Set OPENAI_API_KEY environment variable or pass api_key parameter.")
             self.client = OpenAI(api_key=api_key)
+        
+        # Resolve default output directory to sibling '../french_learning/tcf_canada/eo'
+        if output_base_dir is None:
+            project_root = Path(__file__).resolve().parent.parent  # .../french_learning_builder
+            sibling_root = project_root.parent / 'french_learning' / 'tcf_canada' / 'eo'
+            output_base_dir = str(sibling_root)
         
         self.output_base_dir = output_base_dir
         self.task2_dir = os.path.join(output_base_dir, "task2")

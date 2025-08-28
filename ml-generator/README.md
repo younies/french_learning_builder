@@ -121,7 +121,7 @@ generator.generate_all_content(task2_limit=2, task3_limit=2)
 
 ### Directory Organization
 ```
-/Users/youniesmahmoud/study/french_learning/tcf_canada/eo/
+../french_learning/tcf_canada/eo/
 ├── task2/
 │   ├── task2_001_Je_suis_un_de_vos_collegues.md
 │   ├── task2_002_Je_suis_votre_ami_et_je_vous_invite.md
@@ -265,10 +265,8 @@ python parser/parser.py
 
 #### Permission Errors
 ```bash
-# Error: Cannot create output directory
-# Ensure the output path is writable:
-sudo mkdir -p /Users/youniesmahmoud/study/french_learning/tcf_canada/eo
-sudo chown -R $USER /Users/youniesmahmoud/study/french_learning/tcf_canada/eo
+# Ensure the output path exists and is writable
+mkdir -p ../french_learning/tcf_canada/eo
 ```
 
 ### Debug Mode
