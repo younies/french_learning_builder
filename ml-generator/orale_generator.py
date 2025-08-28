@@ -32,6 +32,15 @@ class TCFOraleGenerator:
         self.task2_dir = os.path.join(output_base_dir, "task2")
         self.task3_dir = os.path.join(output_base_dir, "task3")
         
+        # State file to resume progress and numbering across runs
+        self.state_file = os.path.join(output_base_dir, ".generation_state.json")
+        self.state: Dict[str, int] = {
+            "task2_index": 0,        # next topic index to start from (0-based)
+            "task3_index": 0,
+            "task2_sequence": 0,     # next file sequence number base for filenames
+            "task3_sequence": 0
+        }
+        
         # Load prompts
         self.task2_prompt = self._load_prompt("ml-generator/eo_task2_prompt.txt")
         self.task3_prompt = self._load_prompt("ml-generator/eo_task3_prompt.txt")
@@ -44,6 +53,31 @@ class TCFOraleGenerator:
             "errors": 0,
             "skipped": 0
         }
+
+    def _load_state(self) -> None:
+        """Load resume state from disk if available."""
+        try:
+            if os.path.exists(self.state_file):
+                with open(self.state_file, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                # Only update known keys to avoid issues
+                for k in self.state.keys():
+                    if k in data and isinstance(data[k], int) and data[k] >= 0:
+                        self.state[k] = data[k]
+                print(f"🧭 Resume state loaded: {self.state}")
+            else:
+                print("🧭 No prior state found. Starting from the beginning.")
+        except Exception as e:
+            print(f"⚠️ Could not load state: {e}. Starting fresh.")
+
+    def _save_state(self) -> None:
+        """Persist resume state to disk."""
+        try:
+            with open(self.state_file, 'w', encoding='utf-8') as f:
+                json.dump(self.state, f, ensure_ascii=False, indent=2)
+            print(f"💾 State saved: {self.state}")
+        except Exception as e:
+            print(f"⚠️ Could not save state: {e}")
     
     def _load_prompt(self, prompt_file: str) -> str:
         """Load prompt from file"""
@@ -54,12 +88,32 @@ class TCFOraleGenerator:
             raise FileNotFoundError(f"Prompt file not found: {prompt_file}")
     
     def _create_directories(self) -> None:
-        """Create output directories if they don't exist"""
+        """Create output directories if they don't exist and load state."""
         os.makedirs(self.task2_dir, exist_ok=True)
         os.makedirs(self.task3_dir, exist_ok=True)
-        print(f"📁 Created directories:")
-        print(f"   - Task 2: {self.task2_dir}")
-        print(f"   - Task 3: {self.task3_dir}")
+        print(f"📁 Directories ready:\n   - Task 2: {self.task2_dir}\n   - Task 3: {self.task3_dir}")
+        
+        # Load prior state if any
+        self._load_state()
+        
+        # Initialize sequence from existing files if larger than state
+        try:
+            def max_seq_in(dir_path: str, prefix: str) -> int:
+                seq = 0
+                for name in os.listdir(dir_path):
+                    if name.startswith(prefix + "_"):
+                        parts = name.split("_")
+                        if len(parts) >= 2 and parts[1].isdigit():
+                            seq = max(seq, int(parts[1]))
+                return seq
+            existing_t2 = max_seq_in(self.task2_dir, "task2")
+            existing_t3 = max_seq_in(self.task3_dir, "task3")
+            if existing_t2 > self.state["task2_sequence"]:
+                self.state["task2_sequence"] = existing_t2
+            if existing_t3 > self.state["task3_sequence"]:
+                self.state["task3_sequence"] = existing_t3
+        except Exception:
+            pass
     
     def _sanitize_filename(self, content: str, max_length: int = 100) -> str:
         """
@@ -192,26 +246,30 @@ generated_at: {time.strftime('%Y-%m-%d %H:%M:%S')}
     
     def generate_task2_content(self, topics: List[Dict], limit: Optional[int] = None) -> None:
         """
-        Generate Task 2 practice content for given topics
+        Generate Task 2 practice content for given topics, resuming from last index.
         """
-        if limit:
-            topics = topics[:limit]
+        start_idx = self.state.get("task2_index", 0)
+        if start_idx >= len(topics):
+            print("✅ All Task 2 topics already processed (or start index beyond list).")
+            return
+        end_idx = len(topics) if limit is None else min(len(topics), start_idx + max(0, limit))
+        work_items = topics[start_idx:end_idx]
+        print(f"\n🎯 Generating Task 2 content for topics {start_idx + 1} to {end_idx} (of {len(topics)})...")
         
-        print(f"\n🎯 Generating Task 2 content for {len(topics)} topics...")
-        
-        for i, topic in enumerate(topics, 1):
-            print(f"\n📝 Processing Task 2 topic {i}/{len(topics)}")
+        for offset, topic in enumerate(work_items):
+            i_global = start_idx + offset + 1
+            print(f"\n📝 Processing Task 2 topic {i_global}/{len(topics)}")
             print(f"   Content: {topic['content'][:80]}...")
             
-            # Generate content with OpenAI
             generated_content = self._call_openai(self.task2_prompt, topic['content'])
             
             if generated_content:
-                # Create filename
+                # Increment persistent sequence and build filename
+                self.state["task2_sequence"] = int(self.state.get("task2_sequence", 0)) + 1
+                seq = self.state["task2_sequence"]
                 filename = self._sanitize_filename(topic['content'])
-                filepath = os.path.join(self.task2_dir, f"task2_{i:03d}_{filename}")
+                filepath = os.path.join(self.task2_dir, f"task2_{seq:03d}_{filename}")
                 
-                # Save file
                 if self._save_markdown_file(generated_content, filepath, topic):
                     print(f"   ✅ Saved: {os.path.basename(filepath)}")
                     self.stats["task2_generated"] += 1
@@ -221,31 +279,37 @@ generated_at: {time.strftime('%Y-%m-%d %H:%M:%S')}
                 print(f"   ❌ Failed to generate content")
                 self.stats["skipped"] += 1
             
-            # Small delay to avoid rate limits
+            # Advance index and save state after each item
+            self.state["task2_index"] = i_global
+            self._save_state()
             time.sleep(0.5)
     
     def generate_task3_content(self, topics: List[Dict], limit: Optional[int] = None) -> None:
         """
-        Generate Task 3 practice content for given topics
+        Generate Task 3 practice content for given topics, resuming from last index.
         """
-        if limit:
-            topics = topics[:limit]
+        start_idx = self.state.get("task3_index", 0)
+        if start_idx >= len(topics):
+            print("✅ All Task 3 topics already processed (or start index beyond list).")
+            return
+        end_idx = len(topics) if limit is None else min(len(topics), start_idx + max(0, limit))
+        work_items = topics[start_idx:end_idx]
+        print(f"\n🎯 Generating Task 3 content for topics {start_idx + 1} to {end_idx} (of {len(topics)})...")
         
-        print(f"\n🎯 Generating Task 3 content for {len(topics)} topics...")
-        
-        for i, topic in enumerate(topics, 1):
-            print(f"\n📝 Processing Task 3 topic {i}/{len(topics)}")
+        for offset, topic in enumerate(work_items):
+            i_global = start_idx + offset + 1
+            print(f"\n📝 Processing Task 3 topic {i_global}/{len(topics)}")
             print(f"   Content: {topic['content'][:80]}...")
             
-            # Generate content with OpenAI
             generated_content = self._call_openai(self.task3_prompt, topic['content'])
             
             if generated_content:
-                # Create filename
+                # Increment persistent sequence and build filename
+                self.state["task3_sequence"] = int(self.state.get("task3_sequence", 0)) + 1
+                seq = self.state["task3_sequence"]
                 filename = self._sanitize_filename(topic['content'])
-                filepath = os.path.join(self.task3_dir, f"task3_{i:03d}_{filename}")
+                filepath = os.path.join(self.task3_dir, f"task3_{seq:03d}_{filename}")
                 
-                # Save file
                 if self._save_markdown_file(generated_content, filepath, topic):
                     print(f"   ✅ Saved: {os.path.basename(filepath)}")
                     self.stats["task3_generated"] += 1
@@ -255,7 +319,9 @@ generated_at: {time.strftime('%Y-%m-%d %H:%M:%S')}
                 print(f"   ❌ Failed to generate content")
                 self.stats["skipped"] += 1
             
-            # Small delay to avoid rate limits
+            # Advance index and save state after each item
+            self.state["task3_index"] = i_global
+            self._save_state()
             time.sleep(0.5)
     
     def generate_all_content(self, task2_limit: Optional[int] = None, task3_limit: Optional[int] = None) -> None:
@@ -264,8 +330,10 @@ generated_at: {time.strftime('%Y-%m-%d %H:%M:%S')}
         """
         print("🚀 Starting TCF Orale Content Generation...")
         
-        # Create directories
+        # Create directories and load/initialize state
         self._create_directories()
+        print(f"🧭 Resume positions -> Task2 index: {self.state.get('task2_index', 0)}, Task3 index: {self.state.get('task3_index', 0)}")
+        print(f"🔢 File sequences -> Task2: {self.state.get('task2_sequence', 0)}, Task3: {self.state.get('task3_sequence', 0)}")
         
         # Load topics
         task2_topics, task3_topics = self.load_organized_topics()
@@ -275,11 +343,11 @@ generated_at: {time.strftime('%Y-%m-%d %H:%M:%S')}
             return
         
         # Generate Task 2 content
-        if task2_topics:
+        if task2_topics and (task2_limit is None or task2_limit > 0):
             self.generate_task2_content(task2_topics, task2_limit)
         
         # Generate Task 3 content
-        if task3_topics:
+        if task3_topics and (task3_limit is None or task3_limit > 0):
             self.generate_task3_content(task3_topics, task3_limit)
         
         # Print final statistics
