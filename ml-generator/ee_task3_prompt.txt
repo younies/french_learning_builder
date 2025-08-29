@@ -5,8 +5,8 @@ Vous êtes un expert en français et un examinateur certifié du TCF Canada (Tes
 La Tâche 3 de l'Expression Écrite du TCF Canada consiste à rédiger un texte argumentatif en s'appuyant sur deux documents qui présentent des points de vue différents sur un même sujet.
 
 **Caractéristiques:**
-- Nombre de mots: 120 à 180 mots
-- Registre: Standard/soutenu
+- Nombre de mots: 140 à 190 mots (niveau visé B2++)
+- Registre: Standard / soutenu léger
 - Type: Texte argumentatif avec analyse de documents
 - Documents: 2 textes courts avec opinions opposées
 - Durée recommandée: 25 minutes
@@ -38,25 +38,38 @@ La Tâche 3 de l'Expression Écrite du TCF Canada consiste à rédiger un texte 
 - Développement 2: point de vue du Document 2 + arguments
 - Conclusion: position personnelle argumentée
 
-### 5. EXEMPLE DE RÉPONSE (Modèle)
-- Rédigez une réponse complète respectant tous les critères
-- Utilisez un registre soutenu approprié
-- Respectez le nombre de mots (140-170 mots)
-- Montrez l'articulation logique entre les idées
-- Intégrez des références aux documents
-- Exprimez une opinion personnelle nuancée
+### 5. EXEMPLE DE RÉPONSE (Modèle B2++)
+- Rédigez un exemple de 150 à 180 mots, fluide et naturel, de niveau B2++.
+- Structure obligatoire (paragraphes séparés):
+  1) Paragraphe 1 (40–65 mots): synthèse neutre de Document 1 et Document 2 (points essentiels + divergence/convergence).
+  2) Paragraphe 2–3: prise de position et développement argumenté (avec exemples brefs / justifications).
+  3) Paragraphe 4: conclusion (ouverture ou recommandation).
+- Intégrez quelques structures avancées, sans surutilisation (3 à 6 occurrences au total):
+  - forme active / passive
+  - conditionnel présent et/ou conditionnel passé
+  - subjonctif présent et/ou subjonctif passé
+  - discours direct / indirect
+  - pronoms relatifs (qui, que, dont, où, ce qui/ce que, lequel/auquel…)
+  - conjonctions de coordination (mais, ou, et, donc, or, ni, car)
+  - adverbes en -ment
+  - pronoms « en » / « y »
+  - substitutions du COD / COI
+  - grâce à / à cause de
+  - gérondif (en + participe présent)
+- Référez-vous explicitement aux deux documents (ex.: « D’après le document 1… », « Le document 2 souligne que… »).
+- Mettez en évidence (en gras) tous les mots/expressions/idiomes jugés difficiles dans le modèle: utilisez **double astérisque** autour de chaque item.
 
-### 6. VOCABULAIRE DE L'ARGUMENTATION
-- Connecteurs logiques (opposition, concession, cause, conséquence)
-- Expressions pour présenter un point de vue
-- Verbes d'opinion et de jugement
-- Vocabulaire de la nuance et de la modulation
+### 6. TABLEAU DE VOCABULAIRE (items mis en évidence)
+- Après l'exemple, générez un tableau récapitulatif uniquement avec les éléments que vous avez mis en gras.
+- 10 à 18 lignes maximum.
+- Colonnes exigées:
+  - Mot / Expression (FR)
+  - Meaning (EN)
+  - Illustration (FR): courte phrase originale
+  - Illustration (EN): traduction fidèle de l'illustration FR
 
-### 7. EXPRESSIONS UTILES
-- Pour introduire les documents
-- Pour opposer les points de vue
-- Pour exprimer son opinion personnelle
-- Pour conclure et synthétiser
+### 7. CHECKLIST GRAMMATICALE (récapitulatif)
+- Listez brièvement (puces) quelles structures avancées ont été effectivement utilisées, en citant l’extrait entre guillemets.
 
 ### 8. CRITÈRES D'ÉVALUATION
 - Compréhension et utilisation des documents
@@ -108,13 +121,17 @@ Structurez votre réponse avec des titres clairs et des sections bien délimité
 3. [Partie 3]
 4. [Partie 4]
 
-### 💡 Exemple de réponse
-[Réponse modèle complète et structurée]
+### 💡 Exemple de réponse (B2++) – 4 paragraphes
+[Réponse modèle de 150-180 mots avec éléments difficiles en **gras**]
 
-### 📚 Vocabulaire de l'argumentation
-**Connecteurs logiques:** [liste]
-**Expressions d'opinion:** [liste]
-**Verbes de jugement:** [liste]
+### 📚 Tableau de vocabulaire (Mots/expressions mis en évidence)
+| Mot / Expression (FR) | Meaning (EN) | Illustration (FR) | Illustration (EN) |
+|---|---|---|---|
+| … | … | … | … |
+
+### ✅ Checklist grammaticale utilisée
+- [Structure + extrait]
+- […]
 
 ### 🔧 Expressions utiles
 **Pour introduire:** [expressions]

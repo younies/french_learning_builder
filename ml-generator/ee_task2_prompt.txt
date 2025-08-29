@@ -6,7 +6,7 @@ La Tâche 2 de l'Expression Écrite du TCF Canada consiste à rédiger un articl
 
 **Caractéristiques:**
 - Nombre de mots: 120 à 150 mots
-- Registre: Standard/soutenu
+- Registre: Standard / soutenu léger selon le contexte, niveau visé B2++
 - Type: Article de blog, témoignage, présentation d'expérience
 - Durée recommandée: 20 minutes
 
@@ -36,24 +36,42 @@ La Tâche 2 de l'Expression Écrite du TCF Canada consiste à rédiger un articl
 - Variez les aspects (descriptif, narratif, argumentatif)
 - Incluez des éléments personnels et généraux
 
-### 5. EXEMPLE DE RÉPONSE (Modèle)
-- Rédigez un exemple complet respectant les critères
-- Utilisez un registre standard approprié
-- Respectez le nombre de mots (130-145 mots)
-- Montrez une progression logique et engageante
+### 5. EXEMPLE DE RÉPONSE (Modèle B2++)
+- Rédigez un exemple de 130 à 150 mots, fluide et naturel, de niveau B2++.
+- Utilisez des connecteurs variés et une progression claire (introduction → développement → conclusion).
+- Intégrez quelques structures avancées, sans surutilisation (3 à 6 occurrences au total):
+  - forme active / passive
+  - conditionnel présent et/ou conditionnel passé
+  - subjonctif présent et/ou subjonctif passé
+  - discours direct / indirect
+  - pronoms relatifs (qui, que, dont, où, ce qui/ce que, lequel/auquel…)
+  - conjonctions de coordination (mais, ou, et, donc, or, ni, car)
+  - adverbes en -ment
+  - pronoms « en » / « y »
+  - substitutions du COD / COI
+  - grâce à / à cause de
+  - gérondif (en + participe présent)
+- Mettez en évidence (en gras) tous les mots/expressions/idiomes jugés difficiles dans le modèle: utilisez **double astérisque** autour de chaque item.
 
-### 6. VOCABULAIRE UTILE
-- Proposez 15-20 mots/expressions clés liés au thème
-- Incluez des connecteurs logiques
-- Ajoutez des expressions pour donner son opinion
+### 6. TABLEAU DE VOCABULAIRE (items mis en évidence)
+- Après l'exemple, générez un tableau récapitulatif avec uniquement les éléments que vous avez mis en gras.
+- 10 à 18 lignes maximum.
+- Colonnes exigées:
+  - Mot / Expression (FR)
+  - Meaning (EN)
+  - Illustration (FR): courte phrase originale
+  - Illustration (EN): traduction fidèle de l'illustration FR
 
-### 7. CRITÈRES D'ÉVALUATION
+### 7. CHECKLIST GRAMMATICALE (récapitulatif)
+- Listez brièvement (puces) quelles structures avancées ont été effectivement utilisées, en citant l'extrait entre guillemets.
+
+### 8. CRITÈRES D'ÉVALUATION
 - Respect de la consigne et du nombre de mots
 - Cohérence et progression du texte
 - Richesse lexicale et variété syntaxique
 - Correction de la langue
 
-### 8. CONSEILS MÉTHODOLOGIQUES
+### 9. CONSEILS MÉTHODOLOGIQUES
 - Donnez 4-5 conseils pour structurer l'article
 - Mentionnez les techniques d'accroche
 - Suggérez des façons d'enrichir le vocabulaire
@@ -83,13 +101,17 @@ Structurez votre réponse avec des titres clairs et des sections bien délimité
 2. [Élément 2]
 [etc.]
 
-### 💡 Exemple de réponse
-[Réponse modèle complète]
+### 💡 Exemple de réponse (B2++)
+[Réponse modèle de 130-150 mots avec éléments difficiles en **gras**]
 
-### 📚 Vocabulaire utile
-**Mots-clés:** [liste de mots]
-**Connecteurs:** [liste de connecteurs]
-**Expressions d'opinion:** [liste d'expressions]
+### 📚 Tableau de vocabulaire (Mots/expressions mis en évidence)
+| Mot / Expression (FR) | Meaning (EN) | Illustration (FR) | Illustration (EN) |
+|---|---|---|---|
+| … | … | … | … |
+
+### ✅ Checklist grammaticale utilisée
+- [Structure + extrait]
+- […]
 
 ### 📊 Critères d'évaluation
 [Critères détaillés]

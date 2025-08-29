@@ -6,7 +6,7 @@ La Tâche 1 de l'Expression Écrite du TCF Canada consiste à rédiger un messag
 
 **Caractéristiques:**
 - Nombre de mots: 60 à 120 mots
-- Registre: Familier/informel
+- Registre: Familier/informel (sans être trop soutenu), niveau visé B2++
 - Type: Message personnel, courriel à un ami, annonce, invitation
 - Durée recommandée: 15 minutes
 
@@ -27,28 +27,52 @@ La Tâche 1 de l'Expression Écrite du TCF Canada consiste à rédiger un messag
 
 ### 3. ÉLÉMENTS À INCLURE
 - Listez 4-6 points spécifiques que le candidat doit aborder
-- Variez les types d'informations (factuel, opinion, demande, etc.)
+- Variez les types d'informations (factuel, opinion, demande, proposition, justification)
 
-### 4. EXEMPLE DE RÉPONSE (Modèle)
-- Rédigez un exemple de réponse respectant les critères
-- Utilisez un registre approprié (familier/informel)
-- Respectez le nombre de mots (80-100 mots)
-- Montrez une structure claire avec salutation et formule de politesse
+### 4. EXEMPLE DE RÉPONSE (Modèle B2++)
+- Rédigez un exemple de réponse de niveau B2++ (90-120 mots), naturel, fluide et personnel.
+- Utilisez un registre approprié (familier / standard informel) avec des connecteurs.
+- Intégrez quelques structures avancées, sans surutilisation (2-4 occurrences au total):
+  - forme active / passive
+  - conditionnel présent et/ou conditionnel passé
+  - subjonctif présent et/ou subjonctif passé
+  - discours direct / indirect
+  - pronoms relatifs (qui, que, dont, où, ce qui/ce que, lequel/auquel…)
+  - conjonctions de coordination (mais, ou, et, donc, or, ni, car)
+  - adverbes en -ment
+  - pronoms « en » / « y »
+  - substitutions du COD / COI
+  - grâce à / à cause de
+  - gérondif (en + participe présent)
+- Ne forcez jamais l'emploi: privilégiez la clarté et la cohérence B2++.
+- Mettez en évidence (en gras) tous les mots/expressions/idiomes jugés difficiles dans le modèle: utilisez **double astérisque** autour de chaque item.
 
-### 5. CRITÈRES D'ÉVALUATION
+### 5. TABLEAU DE VOCABULAIRE (items mis en évidence)
+- Après l'exemple, générez un tableau récapitulatif uniquement avec les éléments que vous avez mis en gras.
+- 8 à 15 lignes maximum.
+- Colonnes exigées:
+  - Mot / Expression (FR)
+  - Meaning (EN)
+  - Illustration (FR): courte phrase originale
+  - Illustration (EN): traduction fidèle de l'illustration FR
+
+### 6. CHECKLIST GRAMMATICALE (récapitulatif)
+- Listez brièvement (puces) quelles structures avancées ont été effectivement utilisées dans le modèle, en citant l'extrait entre guillemets.
+
+### 7. CRITÈRES D'ÉVALUATION
 - Respect de la consigne et du nombre de mots
-- Adéquation du registre de langue
-- Cohérence et organisation du message
-- Richesse du vocabulaire et correction grammaticale
+- Adéquation du registre et clarté (B2++)
+- Cohérence et progression du message
+- Richesse lexicale mesurée et correction grammaticale
+- Qualité des connecteurs et de la ponctuation
 
-### 6. CONSEILS MÉTHODOLOGIQUES
-- Donnez 3-4 conseils pratiques pour réussir cette tâche
-- Mentionnez les erreurs à éviter
-- Suggérez une organisation type du message
+### 8. CONSEILS MÉTHODOLOGIQUES
+- Donnez 3-4 conseils courts et actionnables (ex.: plan en 3 parties, relecture ciblée, variété des connecteurs)
+- Mentionnez 2-3 erreurs fréquentes à éviter (ex.: tutoiement/vouvoiement, hors-sujet, liste sans lien)
 
 ## FORMAT DE SORTIE
 
-Structurez votre réponse avec des titres clairs et des sections bien délimitées. Utilisez des puces et des numéros pour faciliter la lecture.
+Structurez votre réponse avec des titres clairs et des sections bien délimitées. Utilisez des puces et des numéros pour faciliter la lecture. Le tableau doit être au format Markdown.
 
 ## EXEMPLE DE STRUCTURE ATTENDUE
 
@@ -66,8 +90,17 @@ Structurez votre réponse avec des titres clairs et des sections bien délimité
 2. [Élément 2]
 [etc.]
 
-### 💡 Exemple de réponse
-[Réponse modèle]
+### 💡 Exemple de réponse (B2++)
+[Réponse modèle de 90-120 mots avec éléments difficiles en **gras**]
+
+### 📚 Tableau de vocabulaire (Mots/expressions mis en évidence)
+| Mot / Expression (FR) | Meaning (EN) | Illustration (FR) | Illustration (EN) |
+|---|---|---|---|
+| … | … | … | … |
+
+### ✅ Checklist grammaticale utilisée
+- [Structure + extrait]
+- […]
 
 ### 📊 Critères d'évaluation
 [Critères détaillés]
