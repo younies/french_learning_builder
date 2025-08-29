@@ -30,17 +30,51 @@ def scrape_expression_ecrite_topics_from_url(url: str) -> Dict[str, List[Dict[st
             "tache_3": []
         }
         
-        # Find all combinations (Combinaison sections)
+        # More targeted approach: find specific HTML elements
+        # Look for h2/h3 elements that contain task 3 titles
+        task3_titles = []
+        for header in soup.find_all(['h1', 'h2', 'h3', 'h4']):
+            header_text = header.get_text(strip=True)
+            if (len(header_text) > 5 and len(header_text) < 200 and
+                not any(skip in header_text.lower() for skip in [
+                    'combinaison', 'tâche', 'document', 'août', 'sujets d\'actualité',
+                    'consignes', 'formations', 'exemples', 'mots minimum', 'mots maximum',
+                    'pour partager', 'les pages', 'réussir l\'expression', 'session'
+                ]) and
+                (header_text.endswith('?') or ':' in header_text or
+                 any(keyword in header_text.lower() for keyword in [
+                     'impact', 'avantage', 'inconvénient', 'pour ou contre',
+                     'bienfaits', 'objets connectés', 'art urbain', 'travail',
+                     'jeux vidéo', 'musées', 'vêtements', 'cognitifs',
+                     'favorable', 'défavorable', 'chasse', 'animaux',
+                     'producteurs locaux', 'supermarché', 'courses'
+                 ]))):
+                
+                # Find which combination this belongs to
+                combination = find_combination_for_element(header, soup)
+                if combination:
+                    # Extract documents for this topic
+                    documents = extract_documents_for_topic(header, soup)
+                    
+                    task_entry = {
+                        "content": header_text,
+                        "source_url": url,
+                        "combination": combination,
+                        "documents": documents
+                    }
+                    
+                    # Check for duplicates
+                    if not any(existing['content'] == header_text for existing in topics["tache_3"]):
+                        topics["tache_3"].append(task_entry)
+        
+        # Now process Task 1 and 2 with the original logic but improved
         combinations = soup.find_all(text=re.compile(r'Combinaison \d+'))
         
         for combination_text in combinations:
-            # Find the parent element containing this combination
             combination_element = combination_text.parent
             if not combination_element:
                 continue
                 
-            # Find the next siblings that contain the tasks
-            current = combination_element
             current_task = None
             
             # Look for task content in the following elements
@@ -57,27 +91,26 @@ def scrape_expression_ecrite_topics_from_url(url: str) -> Dict[str, List[Dict[st
                 elif 'Tâche 2' in text:
                     current_task = "tache_2"
                 elif 'Tâche 3' in text:
-                    current_task = "tache_3"
+                    current_task = None  # Skip, we handle Task 3 separately above
                 
-                # Extract task content
-                if current_task and text and len(text) > 30:
+                # Extract task content for Task 1 and 2
+                if current_task in ["tache_1", "tache_2"] and text and len(text) > 30:
                     # Skip headers and word count instructions
                     if ('Tâche' not in text and 
                         'mots minimum' not in text and 
                         'mots maximum' not in text and 
-                        'Document' not in text and
                         not text.startswith('Combinaison')):
                         
-                        # Clean the text
                         clean_text = text.strip()
                         
-                        # Check if this looks like a task instruction
+                        # Look for task instructions
                         if (any(keyword in clean_text.lower() for keyword in [
                             'rédigez', 'écrivez', 'vous', 'invitez', 'message', 
-                            'courriel', 'article', 'blog', 'annonce', 'partagez'
-                        ]) and len(clean_text) > 20):
+                            'courriel', 'article', 'blog', 'annonce', 'partagez',
+                            'participez', 'présentez', 'décrivez', 'racontez',
+                            'envisagez', 'souhaitez', 'êtes', 'avez'
+                        ]) and len(clean_text) > 30):
                             
-                            # Add to appropriate task if not already present
                             task_entry = {
                                 "content": clean_text,
                                 "source_url": url,
@@ -164,25 +197,162 @@ def get_fallback_ee_topics() -> Dict[str, List[Dict[str, str]]]:
         ]
     }
 
-def extract_task3_documents(soup, task3_element) -> List[str]:
+def find_combination_for_element(element, soup) -> Optional[str]:
     """
-    Extract Document 1 and Document 2 for Tâche 3
+    Find which combination section an element belongs to
+    """
+    # Look backwards from the element to find the nearest combination
+    current = element
+    while current:
+        # Check if current element contains combination text
+        if current.name:
+            text = current.get_text()
+            combination_match = re.search(r'Combinaison \d+', text)
+            if combination_match:
+                return combination_match.group(0)
+        
+        # Move to previous sibling or parent
+        if current.previous_sibling:
+            current = current.previous_sibling
+        else:
+            current = current.parent
+            
+        # Don't go too far up
+        if current and current.name in ['body', 'html']:
+            break
+    
+    return None
+
+def extract_documents_for_topic(topic_element, soup) -> List[str]:
+    """
+    Extract Document 1 and Document 2 for a specific Task 3 topic
     """
     documents = []
     
-    # Look for document patterns
-    for element in task3_element.find_all_next():
-        text = element.get_text(strip=True)
+    # Look for documents following this topic element
+    current = topic_element
+    doc_count = 0
+    
+    for sibling in topic_element.find_all_next():
+        if doc_count >= 2:  # Stop after finding 2 documents
+            break
+            
+        text = sibling.get_text(strip=True)
         
+        # Stop if we reach the next topic or combination
+        if ('Combinaison' in text or 
+            any(keyword in text.lower() for keyword in [
+                'impact', 'avantage', 'inconvénient', 'pour ou contre',
+                'bienfaits', 'objets connectés', 'art urbain', 'travail'
+            ]) and text != topic_element.get_text(strip=True)):
+            break
+        
+        # Look for document markers
         if 'Document 1' in text or 'Document 2' in text:
-            # Find the next paragraph or content
-            next_elem = element.find_next()
-            if next_elem:
-                doc_text = next_elem.get_text(strip=True)
-                if len(doc_text) > 50:  # Reasonable document length
-                    documents.append(doc_text)
+            # The document content might be in the same element or the next one
+            doc_text = text
+            if 'Document' in doc_text and len(doc_text) > 50:
+                # Clean the document text
+                cleaned = clean_document_text(doc_text)
+                if cleaned and len(cleaned) > 30:
+                    documents.append(cleaned)
+                    doc_count += 1
+            else:
+                # Look in the next element
+                next_elem = sibling.find_next()
+                if next_elem:
+                    next_text = next_elem.get_text(strip=True)
+                    cleaned = clean_document_text(next_text)
+                    if cleaned and len(cleaned) > 30:
+                        documents.append(cleaned)
+                        doc_count += 1
     
     return documents
+
+def extract_task3_documents_from_combination(soup, combination_text: str, topic_title: str) -> List[str]:
+    """
+    Extract Document 1 and Document 2 for a specific Task 3 topic from the combination section
+    """
+    documents = []
+    
+    # Find all text that mentions this combination
+    combination_elements = soup.find_all(text=re.compile(re.escape(combination_text)))
+    
+    for combo_elem in combination_elements:
+        # Look for the topic title in the vicinity
+        parent = combo_elem.parent
+        if not parent:
+            continue
+            
+        # Search for the topic title and then documents
+        found_topic = False
+        for elem in parent.find_all_next():
+            elem_text = elem.get_text(strip=True)
+            
+            # Stop if we reach the next combination
+            if 'Combinaison' in elem_text and combination_text not in elem_text:
+                break
+                
+            # Check if we found our topic
+            if topic_title in elem_text:
+                found_topic = True
+                continue
+                
+            # If we found the topic, look for documents
+            if found_topic:
+                if 'Document 1' in elem_text:
+                    # Look for the next element with document content
+                    next_elem = elem.find_next()
+                    if next_elem:
+                        doc_text = next_elem.get_text(strip=True)
+                        if len(doc_text) > 30 and len(doc_text) < 2000:
+                            # Clean and validate document text
+                            cleaned_doc = clean_document_text(doc_text)
+                            if cleaned_doc:
+                                documents.append(cleaned_doc)
+                                
+                elif 'Document 2' in elem_text:
+                    # Look for the next element with document content
+                    next_elem = elem.find_next()
+                    if next_elem:
+                        doc_text = next_elem.get_text(strip=True)
+                        if len(doc_text) > 30 and len(doc_text) < 2000:
+                            # Clean and validate document text
+                            cleaned_doc = clean_document_text(doc_text)
+                            if cleaned_doc:
+                                documents.append(cleaned_doc)
+                
+                # Stop after we've processed this topic's documents
+                if len(documents) >= 2:
+                    break
+    
+    return documents
+
+def clean_document_text(doc_text: str) -> Optional[str]:
+    """
+    Clean document text by removing unwanted content
+    """
+    # Remove document headers
+    cleaned = re.sub(r'^Document\s+[12]\s*[:\-–—]*\s*', '', doc_text, flags=re.IGNORECASE)
+    
+    # Skip if it contains navigation or website content
+    skip_patterns = [
+        'les pages', 'nos contacts', 'actualité', 'compréhension', 'expression',
+        'formations', 'consultation', 'contactez-nous', 'politique', 'mentions',
+        'blog', 'centre d\'examen', 'méthodologies', 'à propos',
+        'partager avec votre réseau', 'nous acceptons', 'cliquez ici',
+        'réussir tcf canada', 'tous les droits', 'cookies',
+        'var ', 'function', '/*', '*/', '<![cdata[', 'elementor', 'woodmart'
+    ]
+    
+    if any(pattern in cleaned.lower() for pattern in skip_patterns):
+        return None
+    
+    # Must be reasonable length and contain French text
+    if len(cleaned) < 30 or len(cleaned) > 1500:
+        return None
+    
+    return cleaned.strip()
 
 def calculate_ee_summary(topics: Dict[str, List[Dict[str, str]]]) -> Dict[str, int]:
     """
