@@ -292,6 +292,7 @@ class TCFExpressionEcriteParser:
             'mots maximum',
             '/* <![CDATA[ */ var ldVars =',
             '/* <![CDATA[ */ var ldVars =',
+            '/* <![CDATA['
         ]
         for prefix in starts_with_blacklist:
             if content.startswith(prefix):
