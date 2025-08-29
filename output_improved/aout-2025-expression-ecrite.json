@@ -387,13 +387,19 @@
         "documents": [
           "Le travail occupe une grande place dans notre vie. Dès l’enfance, on nous demande souvent ce que l’on veut faire plus tard. Il devrait apporter satisfaction et succès, mais trop souvent il est source de fatigue et de contraintes. Beaucoup pensent qu’on ne passe pas assez de temps avec nos proches. Il est temps de repenser la place du travail dans notre société. Certains estiment que travailler moins nous offrirait plus de temps pour profiter de la vie."
         ]
+      },
+      {
+        "content": "Pour partager les sujets de votre session:",
+        "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+        "combination": "Combinaison 1",
+        "documents": []
       }
     ]
   },
   "summary": {
     "tache_1": 25,
     "tache_2": 28,
-    "tache_3": 13,
-    "total_topics": 66
+    "tache_3": 14,
+    "total_topics": 67
   }
 }

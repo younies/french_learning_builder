@@ -1,0 +1,588 @@
+{
+  "task1_topics": [
+    {
+      "content": "Répondez au courriel de votre ami Lucas en lui fournissant des détails sur les nouveaux locaux de votre entreprise : emplacement, aménagement des pièces, équipements disponibles, etc.",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_1",
+      "word_count": "60-120",
+      "type": "message_personnel"
+    },
+    {
+      "content": "Vous êtes locataire d’un appartement qui vous semble trop grand.Rédigez une annonce dans un journal pour trouver un colocataire, en indiquant la superficie, le profil recherché et le montant du loyer, entre autres détails.",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_1",
+      "word_count": "60-120",
+      "type": "message_personnel"
+    },
+    {
+      "content": "Rédigez une annonce dans un journal pour trouver un colocataire, en indiquant la superficie, le profil recherché et le montant du loyer, entre autres détails",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_1",
+      "word_count": "60-120",
+      "type": "message_personnel"
+    },
+    {
+      "content": "Rédigez un message à un ami pour l’informer de votre déménagement et lui demander son aide, en précisant la date, le lieu et le déroulement du programme.",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_1",
+      "word_count": "60-120",
+      "type": "message_personnel"
+    },
+    {
+      "content": "Rédigez un message à un ami pour l’inviter à une rencontre avec un écrivain organisée par la bibliothèque de votre ville.",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_1",
+      "word_count": "60-120",
+      "type": "message_personnel"
+    },
+    {
+      "content": "Invitez votre ami(e) à venir passer les vacances chez vous.Dans votre message, décrivez les sites touristiques et les endroits intéressants à découvrir dans votre ville.",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_1",
+      "word_count": "60-120",
+      "type": "message_personnel"
+    },
+    {
+      "content": "Dans votre message, décrivez les sites touristiques et les endroits intéressants à découvrir dans votre ville",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_1",
+      "word_count": "60-120",
+      "type": "message_personnel"
+    },
+    {
+      "content": "Parc de loisirs : J’ai hâte de profiter de cette journée avec toi demain ! Peux-tu me dire quelles activités sont au programme ?Écrivez un message pour répondre à votre ami(e).",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_1",
+      "word_count": "60-120",
+      "type": "message_personnel"
+    },
+    {
+      "content": "Écrivez un message pour répondre à votre ami(e)",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_1",
+      "word_count": "60-120",
+      "type": "message_personnel"
+    },
+    {
+      "content": "Rédigez un message à votre ami Cédric pour lui fournir des instructions concernant l’entretien de votre maison et de votre jardin pendant votre absence.",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_1",
+      "word_count": "60-120",
+      "type": "message_personnel"
+    },
+    {
+      "content": "Vous voulez aller à un festival de films dans votre ville.Rédigez un message à un ami pour lui proposer de vous accompagner. Indiquez clairement les détails de l’événement (films, horaires, dates et prix).",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_1",
+      "word_count": "60-120",
+      "type": "message_personnel"
+    },
+    {
+      "content": "Rédigez un message à un ami pour lui proposer de vous accompagner. Indiquez clairement les détails de l’événement (films, horaires, dates et prix)",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_1",
+      "word_count": "60-120",
+      "type": "message_personnel"
+    },
+    {
+      "content": "Rédigez un email pour inviter un ami à passer une journée avec vous, en incluant les informations essentielles telles que le lieu, la date, l’heure, et les activités prévues pour la journée.",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_1",
+      "word_count": "60-120",
+      "type": "message_personnel"
+    },
+    {
+      "content": "Vous avez reçu un message d’un ami Alex qui vous demande des nouvelles de votre nouvelle université.Vous lui répondre en décrivant brièvement votre environnement universitaire.",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_1",
+      "word_count": "60-120",
+      "type": "message_personnel"
+    },
+    {
+      "content": "Vous lui répondre en décrivant brièvement votre environnement universitaire",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_1",
+      "word_count": "60-120",
+      "type": "message_personnel"
+    },
+    {
+      "content": "Vous venez d’obtenir un nouveau poste et souhaitez annoncer la nouvelle à votre amie francophone.Décrivez votre travail, vos collègues et votre environnement professionnel.",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_1",
+      "word_count": "60-120",
+      "type": "message_personnel"
+    },
+    {
+      "content": "Décrivez votre travail, vos collègues et votre environnement professionnel",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_1",
+      "word_count": "60-120",
+      "type": "message_personnel"
+    },
+    {
+      "content": "Vous habitez dans une nouvelle ville depuis un mois.Écrivez un message à votre ami Léo pour lui raconter comment se passe votre nouvelle vie : votre appartement, votre quartier, la ville en général, et ce que vous aimez y faire.",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_1",
+      "word_count": "60-120",
+      "type": "message_personnel"
+    },
+    {
+      "content": "Écrivez un message à votre ami Léo pour lui raconter comment se passe votre nouvelle vie : votre appartement, votre quartier, la ville en général, et ce que vous aimez y faire",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_1",
+      "word_count": "60-120",
+      "type": "message_personnel"
+    },
+    {
+      "content": "Votre anniversaire approche. Vos amis vous posent des questions sur les cadeaux que vous voulez.Vous répondez par un message en expliquant que vous aimeriez recevoir des vêtements, et vous donnez les détails.",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_1",
+      "word_count": "60-120",
+      "type": "message_personnel"
+    },
+    {
+      "content": "Vous répondez par un message en expliquant que vous aimeriez recevoir des vêtements, et vous donnez les détails",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_1",
+      "word_count": "60-120",
+      "type": "message_personnel"
+    },
+    {
+      "content": "Le journal « Bienvenue » souhaite publier un article sur les nouveaux habitants de la ville.Rédigez un message dans lequel vous vous présentez et décrivez vos endroits favoris dans la ville.",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_1",
+      "word_count": "60-120",
+      "type": "message_personnel"
+    },
+    {
+      "content": "Rédigez un message dans lequel vous vous présentez et décrivez vos endroits favoris dans la ville",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_1",
+      "word_count": "60-120",
+      "type": "message_personnel"
+    },
+    {
+      "content": "Vous envisagez de partir en week-end avec vos amis le mois prochain.Rédigez un message pour leur présenter votre projet, incluant le lieu, les moyens de transport et les activités prévues.",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_1",
+      "word_count": "60-120",
+      "type": "message_personnel"
+    },
+    {
+      "content": "Rédigez un message pour leur présenter votre projet, incluant le lieu, les moyens de transport et les activités prévues",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_1",
+      "word_count": "60-120",
+      "type": "message_personnel"
+    }
+  ],
+  "task2_topics": [
+    {
+      "content": "Partagez votre expérience lors de l’événement « Une semaine sans voiture », incluant les dates, le lieu et les activités proposées, tout en donnant votre avis sur cette initiative.",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_2",
+      "word_count": "120-150",
+      "type": "article_blog"
+    },
+    {
+      "content": "Vous avez récemment débuté une nouvelle activité de loisir, comme un sport ou la danse.Rédigez un article sur votre blog pour partager votre expérience.",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_2",
+      "word_count": "120-150",
+      "type": "article_blog"
+    },
+    {
+      "content": "Rédigez un article sur votre blog pour partager votre expérience",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_2",
+      "word_count": "120-150",
+      "type": "article_blog"
+    },
+    {
+      "content": "Rédigez un article de blog sur votre artiste préféré dans le cadre d’un concours dont le thème est « Mon artiste préféré », permettant de gagner un séjour de deux semaines dans votre ville favorite.",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_2",
+      "word_count": "120-150",
+      "type": "article_blog"
+    },
+    {
+      "content": "Rédigez un article de blog relatant votre expérience lors de l’événement « La Semaine du Goût », auquel vous avez participé.",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_2",
+      "word_count": "120-150",
+      "type": "article_blog"
+    },
+    {
+      "content": "Vous avez été sélectionné(e) pour un concours où le prix est un séjour de deux semaines dans votre ville favorite. Le thème du concours était “Mon artiste préféré”.Rédigez un article de blog pour parler de l’artiste que vous aimez le plus.",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_2",
+      "word_count": "120-150",
+      "type": "article_blog"
+    },
+    {
+      "content": "Rédigez un article de blog pour parler de l’artiste que vous aimez le plus",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_2",
+      "word_count": "120-150",
+      "type": "article_blog"
+    },
+    {
+      "content": "Vous avez publié une annonce en ligne pour louer votre appartement.Rédigez un courriel afin de fournir des informations sur le logement et le quartier.",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_2",
+      "word_count": "120-150",
+      "type": "article_blog"
+    },
+    {
+      "content": "Rédigez un courriel afin de fournir des informations sur le logement et le quartier",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_2",
+      "word_count": "120-150",
+      "type": "article_blog"
+    },
+    {
+      "content": "Rédigez une lettre de réclamation pour exprimer votre insatisfaction à l’égard des services fournis par une agence de voyage suite à une organisation défaillante de votre séjour.",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_2",
+      "word_count": "120-150",
+      "type": "article_blog"
+    },
+    {
+      "content": "Vous êtes allé à un festival de cinéma et vous avez regardé un film qui vous a laissé une forte impression.Rédigez un message à vos amis pour partager votre expérience et leur donner votre avis sur ce film.",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_2",
+      "word_count": "120-150",
+      "type": "article_blog"
+    },
+    {
+      "content": "Rédigez un message à vos amis pour partager votre expérience et leur donner votre avis sur ce film",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_2",
+      "word_count": "120-150",
+      "type": "article_blog"
+    },
+    {
+      "content": "Après avoir participé à une journée de formation au sein de votre entreprise,rédigez un message à publier sur le forum interne. Partagez votre expérience avec vos collègues.",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_2",
+      "word_count": "120-150",
+      "type": "article_blog"
+    },
+    {
+      "content": "rédigez un message à publier sur le forum interne. Partagez votre expérience avec vos collègues",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_2",
+      "word_count": "120-150",
+      "type": "article_blog"
+    },
+    {
+      "content": "Vous avez décidé d’arrêter d’utiliser votre réseau social préféré (comme Instagram, Facebook, etc.).Dans un texte adressé à vos amis ou vos lecteurs, vous racontez cette expérience.",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_2",
+      "word_count": "120-150",
+      "type": "article_blog"
+    },
+    {
+      "content": "Dans un texte adressé à vos amis ou vos lecteurs, vous racontez cette expérience",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_2",
+      "word_count": "120-150",
+      "type": "article_blog"
+    },
+    {
+      "content": "Une étudiante de 19 ans souhaite partir à l’étranger pour ses études et demande des témoignages sur un forum.Vous répondez en partageant votre propre expérience d’un séjour à l’étranger, en expliquant les défis et les bénéfices que vous en avez tirés.",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_2",
+      "word_count": "120-150",
+      "type": "article_blog"
+    },
+    {
+      "content": "Vous répondez en partageant votre propre expérience d’un séjour à l’étranger, en expliquant les défis et les bénéfices que vous en avez tirés",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_2",
+      "word_count": "120-150",
+      "type": "article_blog"
+    },
+    {
+      "content": "Vous avez participé à une fête traditionnelle dans votre pays ou à l’étranger.Parlez-en dans votre blog et expliquez pourquoi elle vous a plu.",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_2",
+      "word_count": "120-150",
+      "type": "article_blog"
+    },
+    {
+      "content": "Parlez-en dans votre blog et expliquez pourquoi elle vous a plu",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_2",
+      "word_count": "120-150",
+      "type": "article_blog"
+    },
+    {
+      "content": "Le site www.manger-international.com lance un appel à témoignages.Ce mois-ci, il veut découvrir les habitudes alimentaires dans différents pays.Vous écrivez un article pour parler de celles de votre pays.Dites ce que vous appréciez ou non dans ces habitudes, et expliquez pourquoi.",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_2",
+      "word_count": "120-150",
+      "type": "article_blog"
+    },
+    {
+      "content": "Vous écrivez un article pour parler de celles de votre pays.",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_2",
+      "word_count": "120-150",
+      "type": "article_blog"
+    },
+    {
+      "content": "Dites ce que vous appréciez ou non dans ces habitudes, et expliquez pourquoi.",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_2",
+      "word_count": "120-150",
+      "type": "article_blog"
+    },
+    {
+      "content": "Dites ce que vous appréciez ou non dans ces habitudes, et expliquez pourquoi",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_2",
+      "word_count": "120-150",
+      "type": "article_blog"
+    },
+    {
+      "content": "Vous avez assisté à un concert incroyable ?Écrivez un article pour raconter ce que vous avez vécu et invitez vos amis à découvrir cet artiste en live!",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_2",
+      "word_count": "120-150",
+      "type": "article_blog"
+    },
+    {
+      "content": "Écrivez un article pour raconter ce que vous avez vécu et invitez vos amis à découvrir cet artiste en live",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_2",
+      "word_count": "120-150",
+      "type": "article_blog"
+    },
+    {
+      "content": "Participez à la discussion sur le site “voyage.internaute.fr” en répondant à la question : est-ce une bonne ou une mauvaise idée de tout quitter pour voyager pendant un an ?Partagez votre point de vue en vous appuyant sur des exemples tirés de votre propre expérience.",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_2",
+      "word_count": "120-150",
+      "type": "article_blog"
+    },
+    {
+      "content": "Partagez votre point de vue en vous appuyant sur des exemples tirés de votre propre expérience",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_2",
+      "word_count": "120-150",
+      "type": "article_blog"
+    }
+  ],
+  "task3_topics": [
+    {
+      "content": "Impact des vêtements de marque sur les enfants",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_3",
+      "type": "texte_argumentatif",
+      "documents": [
+        "Les vêtements de marque jouent un rôle essentiel pour les enfants et les adolescents en leur permettant de s’exprimer et de se sentir intégrés dans un groupe social. Cette attraction pour les marques est particulièrement forte chez les adolescents qui cherchent à affirmer leur personnalité. De même, les enfants apprécient porter des vêtements de marque ornés d’images de leurs dessins animés préférés ou de logos qu’ils affectionnent.",
+        "Les enfants grandissent rapidement, ce qui rend leurs vêtements trop petits après peu de temps. De plus, jouer à l’extérieur avec leurs amis dans l’herbe ou sur les aires de jeux fait que leurs vêtements s’usent vite et se salissent rapidement, souvent avec des trous."
+      ]
+    },
+    {
+      "content": "L'accès gratuit aux musées : avantage ou inconvénient ?",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_3",
+      "type": "texte_argumentatif",
+      "documents": [
+        "L’accès gratuit aux musées peut engendrer une affluence excessive, altérant ainsi la qualité de la visite. De plus, cela risque de diminuer leurs revenus, compromettant l’entretien des lieux et la conservation des œuvres. Une tarification réduite serait une alternative équilibrée pour favoriser l’accès à la culture tout en assurant le bon fonctionnement des musées.",
+        "Rendre les musées gratuits est une excellente initiative, car cela permet à tous d’accéder à la culture, quel que soit leur revenu. J’ai eu l’opportunité de visiter plusieurs musées sans frais, ce qui m’a permis d’enrichir mes connaissances sans me préoccuper du coût. À mon avis, la gratuité des musées joue un rôle clé dans l’éducation du public et la diffusion du patrimoine culturel."
+      ]
+    },
+    {
+      "content": "Objets Connectés",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_3",
+      "type": "texte_argumentatif",
+      "documents": [
+        "Les objets intelligents rendent notre quotidien plus pratique. Ce sont des appareils qui peuvent être contrôlés à distance par un téléphone ou Internet, comme le chauffage ou les systèmes de sécurité de la maison. Par ailleurs, des objets tels que les montres ou bracelets connectés suivent nos activités et nous motivent à faire plus d’exercice, en mesurant par exemple nos pas. Leur utilité est particulièrement notable dans le domaine de la santé. Certains objets agissent comme un assistant santé, nous rappelant les rendez-vous médicaux ou la prise de nos médicaments.",
+        "On estime qu’il y aurait 50 milliards d’objets intelligents dans le monde, tels que des alarmes, des téléviseurs, des caméras de surveillance, des volets ou des détecteurs de fumée, entre autres. Avec cette expansion, la question de la sécurité devient cruciale. En effet, un hacker pourrait prendre le contrôle de ces appareils en quelques minutes. Par exemple, un cambrioleur pourrait, grâce aux caméras de surveillance connectées, vérifier si les habitants sont absents avant de commettre un cambriolage. Il est même possible d’accéder au système connecté d’une voiture et de la contrôler à distance."
+      ]
+    },
+    {
+      "content": "L’art urbain : Pour ou contre ?",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_3",
+      "type": "texte_argumentatif",
+      "documents": [
+        "L’art éveille la curiosité des citadins et transforme l’espace urbain en un lieu d’échange entre artistes et passants. Peintures et spectacles de rue créent une atmosphère immersive, rendant l’art accessible à tous. Aujourd’hui, la ville ne se limite plus à un simple espace de vie ; elle évolue, s’adapte à sa diversité, intègre des espaces verts et s’embellit grâce au street art, favorisant ainsi une meilleure qualité de vie tout en respectant l’environnement.",
+        "À plus grande échelle, les graffitis divisent l’opinion. Perçus par certains comme une forme de vandalisme défigurant l’espace public, ils sont associés à une rupture sociale et à une pollution visuelle. Ce débat opposant artistes, législateurs et citoyens reste vif."
+      ]
+    },
+    {
+      "content": "Chasse aux animaux : une pratique à soutenir ou à rejeter ?",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_3",
+      "type": "texte_argumentatif",
+      "documents": [
+        "Gala (29 ans) : « Je fais partie de ceux qui ne parviennent pas à comprendre comment on peut prendre plaisir à tuer des animaux. Je fais aussi partie de ceux qui ne saisissent pas comment on peut prétendre aimer la nature tout en contribuant à sa destruction. »",
+        "David (Journaliste de la FRM) : « La chasse est pratiquée pour diverses raisons : qu’il s’agisse de se nourrir, de commercer, de gérer la faune, de protéger la propriété, de faire de l’exercice, de se divertir ou de chercher du prestige. »"
+      ]
+    },
+    {
+      "content": "Faut-il faire ses courses chez les producteurs locaux ou au supermarché ?",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_3",
+      "type": "texte_argumentatif",
+      "documents": [
+        "Jean, installé à la campagne, préfère acheter ses produits alimentaires directement à la ferme pour leur qualité, même si cela lui coûte un peu plus cher.",
+        "Camille, citadine, préfère faire ses courses au supermarché en raison de la large gamme de produits et des prix accessibles."
+      ]
+    },
+    {
+      "content": "Maisons de retraite ou maintien à domicile ?",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_3",
+      "type": "texte_argumentatif",
+      "documents": [
+        "Les maisons de retraite représentent une solution adaptée pour les personnes âgées. Elles y bénéficient de soins appropriés et d’un encadrement professionnel. En plus, elles ont la possibilité de participer à diverses activités qui leur permettent de garder une vie sociale et d’éviter la solitude. Dans certains cas, c’est mieux que de rester seules chez elles.(Sophie, infirmière)",
+        "Les maisons de retraite peuvent priver les personnes âgées de la présence de leur famille et donner l’impression d’être abandonné. De plus, les conditions de vie ne sont pas toujours satisfaisantes et certains établissements manquent parfois de personnel compétent. Selon moi, l’aide à domicile est une meilleure solution pour vieillir auprès de ses proches.(Jean, retraité)"
+      ]
+    },
+    {
+      "content": "La colocation : entre avantages et inconvénients",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_3",
+      "type": "texte_argumentatif",
+      "documents": [
+        "Vivre en colocation peut être une belle expérience humaine. Que ce soit avec un ami ou une personne que l’on apprend à connaître, cela permet de créer de nouveaux liens, de partager des moments agréables en rentrant le soir, comme discuter autour d’un repas ou regarder un film ensemble. C’est aussi un bon moyen de se répartir les tâches ménagères et de bénéficier des compétences de chacun, que ce soit en cuisine ou en bricolage.",
+        "Vivre en colocation est une expérience bien différente de la vie en famille. Chacun a son propre rythme, sa personnalité et ses priorités, ce qui peut parfois compliquer la cohabitation. Si le courant ne passe pas avec le colocataire, cela peut vite devenir difficile à vivre. Les conflits surviennent souvent à cause du non-respect des tâches partagées ou du manque d’intimité. Le bruit peut aussi poser problème, comme un colocataire qui joue à des jeux vidéo tard dans la nuit."
+      ]
+    },
+    {
+      "content": "Photo sur le CV : pour ou contre ?",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_3",
+      "type": "texte_argumentatif",
+      "documents": [
+        "De nos jours, certains candidats ajoutent une photo sur leur CV, d’autres non. Des experts recommandent de l’interdire pour éviter toute forme de discrimination. Une étude montre que les recruteurs s’intéressent d’abord à l’expérience (32 %) et aux diplômes (15 %), tandis que seulement 2 % commencent par regarder la photo. Une statistique étonnante, vu l’importance souvent accordée à l’apparence.",
+        "La présence d’une photo sur le CV fait débat chez les employeurs. Certains estiment qu’elle permet de mieux visualiser le candidat et de s’en souvenir plus facilement parmi de nombreux dossiers. D’autres pensent que cela dépend du poste : dans les métiers d’accueil, par exemple, une photo peut être utile, à condition qu’elle soit professionnelle et transmette une image positive."
+      ]
+    },
+    {
+      "content": "Les Zoos : Outils de Conservation ou Prisons pour Animaux ?",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_3",
+      "type": "texte_argumentatif",
+      "documents": [
+        "Selon le texte, les animaux sauvages ne doivent pas vivre dans les zoos, car ce n’est pas leur milieu naturel. Les zoos ressemblent à des prisons. Il y a même des ours polaires dans des endroits trop chauds. Les animaux doivent rester libres, dans la nature.",
+        "Le texte dit que les zoos ont beaucoup d’avantages. Ils aident à protéger les animaux en voie de disparition. Les animaux y sont bien soignés. Grâce aux zoos, il y a plus de naissances et cela peut sauver certaines espèces."
+      ]
+    },
+    {
+      "content": "Les Jeux Vidéo : Bienfaits Cognitifs ou Risque de Dépendance ?",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_3",
+      "type": "texte_argumentatif",
+      "documents": [
+        "Contrairement à l’idée reçue que les jeux vidéo rendent moins intelligents, de nombreuses études montrent le contraire. Par exemple, les jeux de course améliorent le sens de l’orientation, la mémoire et la précision des mouvements. D’autres recherches indiquent des bénéfices pour la rapidité et la concentration des joueurs. De plus, certains jeux d’entraînement sont spécifiquement conçus pour renforcer la mémoire et la vivacité d’esprit chez les personnes âgées. En somme, les jeux vidéo peuvent avoir des effets positifs sur les capacités cognitives.",
+        "Les jeux vidéo, qu’ils soient joués sur console ou sur ordinateur, à domicile ou en salle, seul, entre amis ou en ligne, peuvent entraîner une dépendance chez certaines personnes. L’addiction survient lorsque le jeu devient la principale (ou seule) source d’intérêt, au détriment d’autres activités comme les relations sociales, le travail, les études ou les loisirs. Ce phénomène est particulièrement préoccupant durant l’adolescence, une période où l’impact des jeux vidéo peut nuire aux performances scolaires."
+      ]
+    },
+    {
+      "content": "Les Bienfaits Cognitifs des Jeux Vidéo",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_3",
+      "type": "texte_argumentatif",
+      "documents": [
+        "Jusqu’à l’adolescence, les enfants jouent de manière régulière aux jeux vidéo, ce qui, à force, peut entraîner des effets négatifs sur leur comportement. Une étude récente, réalisée auprès de jeunes de 9 à 18 ans, indique que l’exposition aux jeux vidéo violents accroît significativement les tendances agressives. Diego Gentil affirme même que ce phénomène est inévitable, quel que soit le degré d’implication des parents.",
+        "On évoque souvent les effets néfastes des jeux vidéo, mais il ne faut pas oublier qu’ils présentent aussi certains bénéfices pour le cerveau et la santé en général. Par exemple, ils peuvent renforcer différentes fonctions cognitives telles que la concentration, la créativité ou encore les capacités d’analyse. Cela semble logique, puisqu’un joueur est constamment amené à résoudre des problèmes ou à prendre des décisions."
+      ]
+    },
+    {
+      "content": "Le Travail : Favorable Ou Défavorable ?",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_3",
+      "type": "texte_argumentatif",
+      "documents": [
+        "Le travail occupe une grande place dans notre vie. Dès l’enfance, on nous demande souvent ce que l’on veut faire plus tard. Il devrait apporter satisfaction et succès, mais trop souvent il est source de fatigue et de contraintes. Beaucoup pensent qu’on ne passe pas assez de temps avec nos proches. Il est temps de repenser la place du travail dans notre société. Certains estiment que travailler moins nous offrirait plus de temps pour profiter de la vie."
+      ]
+    },
+    {
+      "content": "Pour partager les sujets de votre session:",
+      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
+      "source_file": "aout-2025-expression-ecrite.json",
+      "task": "tache_3",
+      "type": "texte_argumentatif",
+      "documents": []
+    }
+  ],
+  "metadata": {
+    "total_files_processed": 1,
+    "source_urls": [
+      "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/"
+    ]
+  }
+}
