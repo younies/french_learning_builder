@@ -158,40 +158,21 @@ class TCFExpressionEcriteGenerator:
         
         for attempt in range(max_retries):
             try:
-                # Using GPT-5's new responses.create API format
-                result = self.client.responses.create(
-                    model="gpt-5",
-                    input=f"You are a French language expert and TCF Canada examiner.\n\n{full_prompt}",
-                    reasoning={"effort": "medium"},  # Better reasoning for educational content
-                    text={"verbosity": "medium"},    # Appropriate detail for learning materials
-                    max_output_tokens=20000
+                # Using GPT-4 with standard chat completions API (reliable and proven)
+                result = self.client.chat.completions.create(
+                    model="gpt-4",
+                    messages=[
+                        {"role": "system", "content": "You are a French language expert and TCF Canada examiner."},
+                        {"role": "user", "content": full_prompt}
+                    ],
+                    max_tokens=4000,
+                    temperature=0.7
                 )
                 
                 self.stats["total_api_calls"] += 1
                 
-                # Handle GPT-5 responses.create response format
-                try:
-                    # Try different possible response structures
-                    if hasattr(result, 'text'):
-                        if isinstance(result.text, str):
-                            return result.text.strip()
-                        elif hasattr(result.text, 'content'):
-                            return result.text.content.strip()
-                        elif hasattr(result.text, 'value'):
-                            return result.text.value.strip()
-                    elif hasattr(result, 'content'):
-                        return result.content.strip()
-                    else:
-                        # Debug: print the result structure
-                        print(f"   🔍 Debug - Result type: {type(result)}")
-                        print(f"   🔍 Debug - Result attributes: {dir(result)}")
-                        if hasattr(result, 'text'):
-                            print(f"   🔍 Debug - Text type: {type(result.text)}")
-                            print(f"   🔍 Debug - Text attributes: {dir(result.text)}")
-                        return str(result)
-                except Exception as parse_error:
-                    print(f"   ⚠️ Error parsing response: {parse_error}")
-                    return str(result)
+                # Handle standard GPT-4 chat completions response format
+                return result.choices[0].message.content.strip()
                 
             except Exception as e:
                 error_str = str(e).lower()
