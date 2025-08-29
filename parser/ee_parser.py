@@ -35,6 +35,10 @@ class TCFExpressionEcriteParser:
         self.files_processed: List[str] = []
         self.total_topics_found = 0
         
+        # Track content for deduplication (normalized content -> first occurrence)
+        self._seen_content: Dict[str, str] = {}  # normalized_content -> source_file
+        self.duplicates_removed = 0
+        
     def load_all_topics(self) -> Tuple[List[EETopicItem], List[EETopicItem], List[EETopicItem]]:
         """
         Load all Expression Écrite topics from JSON files in the output directory
@@ -149,6 +153,47 @@ class TCFExpressionEcriteParser:
         
         return (1900, 1)  # Default for unparseable filenames
     
+    def _normalize_content_for_deduplication(self, content: str) -> str:
+        """
+        Normalize content for deduplication by removing extra whitespace,
+        punctuation variations, and converting to lowercase
+        """
+        if not content:
+            return ""
+        
+        # Convert to lowercase and normalize whitespace
+        normalized = ' '.join(content.lower().split())
+        
+        # Remove common punctuation variations that don't affect meaning
+        normalized = re.sub(r'[.,;:!?"\'-]', '', normalized)
+        
+        # Remove extra spaces
+        normalized = ' '.join(normalized.split())
+        
+        return normalized.strip()
+    
+    def _is_duplicate_content(self, content: str, current_file: str) -> bool:
+        """
+        Check if content is a duplicate and track it for deduplication
+        Returns True if it's a duplicate, False if it's new content
+        """
+        normalized = self._normalize_content_for_deduplication(content)
+        
+        # Skip very short content for deduplication (likely different contexts)
+        if len(normalized) < 20:
+            return False
+        
+        if normalized in self._seen_content:
+            # It's a duplicate
+            original_file = self._seen_content[normalized]
+            print(f"   🔄 Duplicate content found (original in {original_file})")
+            self.duplicates_removed += 1
+            return True
+        else:
+            # It's new content, track it
+            self._seen_content[normalized] = current_file
+            return False
+    
     def _process_json_file(self, json_file: str) -> None:
         """
         Process a single Expression Écrite JSON file and extract topics
@@ -181,7 +226,7 @@ class TCFExpressionEcriteParser:
                     continue
                 
                 cleaned_content = self._clean_topic_content(content)
-                if cleaned_content:
+                if cleaned_content and not self._is_duplicate_content(cleaned_content, json_file):
                     topic_item = EETopicItem(
                         content=cleaned_content,
                         source_url=source_url,
@@ -209,7 +254,7 @@ class TCFExpressionEcriteParser:
                     continue
                 
                 cleaned_content = self._clean_topic_content(content)
-                if cleaned_content:
+                if cleaned_content and not self._is_duplicate_content(cleaned_content, json_file):
                     topic_item = EETopicItem(
                         content=cleaned_content,
                         source_url=source_url,
@@ -237,7 +282,7 @@ class TCFExpressionEcriteParser:
                     continue
                 
                 cleaned_content = self._clean_topic_content(content)
-                if cleaned_content:
+                if cleaned_content and not self._is_duplicate_content(cleaned_content, json_file):
                     topic_item = EETopicItem(
                         content=cleaned_content,
                         source_url=source_url,
@@ -329,6 +374,8 @@ class TCFExpressionEcriteParser:
         print(f"{'='*60}")
         print(f"📁 Files processed: {len(self.files_processed)}")
         print(f"📊 Total topics found: {self.total_topics_found}")
+        print(f"🔄 Duplicates removed: {self.duplicates_removed}")
+        print(f"✅ Unique topics kept: {len(self.task1_topics) + len(self.task2_topics) + len(self.task3_topics)}")
         print(f"🎯 Task 1 topics: {len(self.task1_topics)}")
         print(f"🎯 Task 2 topics: {len(self.task2_topics)}")
         print(f"🎯 Task 3 topics: {len(self.task3_topics)}")
@@ -470,9 +517,12 @@ class TCFExpressionEcriteParser:
         """
         Get detailed statistics about the parsed topics
         """
+        unique_topics = len(self.task1_topics) + len(self.task2_topics) + len(self.task3_topics)
         return {
             "total_files": len(self.files_processed),
-            "total_topics": self.total_topics_found,
+            "total_topics_found": self.total_topics_found,
+            "duplicates_removed": self.duplicates_removed,
+            "unique_topics_kept": unique_topics,
             "task1_count": len(self.task1_topics),
             "task2_count": len(self.task2_topics),
             "task3_count": len(self.task3_topics),
@@ -502,7 +552,9 @@ def main():
     stats = parser.get_statistics()
     print(f"\n📊 Detailed Statistics:")
     print(f"   - Total files processed: {stats['total_files']}")
-    print(f"   - Total topics found: {stats['total_topics']}")
+    print(f"   - Total topics found: {stats['total_topics_found']}")
+    print(f"   - Duplicates removed: {stats['duplicates_removed']}")
+    print(f"   - Unique topics kept: {stats['unique_topics_kept']}")
     print(f"   - Task 1 (Message Personnel): {stats['task1_count']} topics")
     print(f"   - Task 2 (Article/Blog): {stats['task2_count']} topics")
     print(f"   - Task 3 (Texte Argumentatif): {stats['task3_count']} topics")

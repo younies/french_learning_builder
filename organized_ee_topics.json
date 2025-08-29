@@ -1,10 +1,10 @@
 {
   "summary": {
     "total_files_processed": 10,
-    "total_topics": 493,
-    "task1_topics_count": 221,
-    "task2_topics_count": 258,
-    "task3_topics_count": 14,
+    "total_topics": 389,
+    "task1_topics_count": 173,
+    "task2_topics_count": 204,
+    "task3_topics_count": 12,
     "files_processed": [
       "aout-2025-expression-ecrite.json",
       "juillet-2025-expression-ecrite.json",
@@ -245,24 +245,6 @@
       "combination": "Combinaison 1"
     },
     {
-      "content": "Invitez votre ami(e) à venir passer les vacances chez vous.Dans votre message, décrivez les sites touristiques et les endroits intéressants à découvrir dans votre ville.",
-      "source_url": "https://reussir-tcfcanada.com/juillet-2025-expression-ecrite/",
-      "source_file": "juillet-2025-expression-ecrite.json",
-      "task": "tache_1",
-      "word_count": "60-120",
-      "type": "message_personnel",
-      "combination": "Combinaison 4"
-    },
-    {
-      "content": "Dans votre message, décrivez les sites touristiques et les endroits intéressants à découvrir dans votre ville",
-      "source_url": "https://reussir-tcfcanada.com/juillet-2025-expression-ecrite/",
-      "source_file": "juillet-2025-expression-ecrite.json",
-      "task": "tache_1",
-      "word_count": "60-120",
-      "type": "message_personnel",
-      "combination": "Combinaison 4"
-    },
-    {
       "content": "Rédiger un message en réponse à un ami qui demande des informations sur une salle de sport réputée pour sa qualité.",
       "source_url": "https://reussir-tcfcanada.com/juillet-2025-expression-ecrite/",
       "source_file": "juillet-2025-expression-ecrite.json",
@@ -308,123 +290,6 @@
       "combination": "Combinaison 1"
     },
     {
-      "content": "Rédigez un email pour inviter un ami à passer une journée avec vous, en incluant les informations essentielles telles que le lieu, la date, l’heure, et les activités prévues pour la journée.",
-      "source_url": "https://reussir-tcfcanada.com/juin-2025-expression-ecrite/",
-      "source_file": "juin-2025-expression-ecrite.json",
-      "task": "tache_1",
-      "word_count": "60-120",
-      "type": "message_personnel",
-      "combination": "Combinaison 3"
-    },
-    {
-      "content": "Vous avez reçu un message d’un ami Alex qui vous demande des nouvelles de votre nouvelle université.Vous lui répondre en décrivant brièvement votre environnement universitaire.",
-      "source_url": "https://reussir-tcfcanada.com/juin-2025-expression-ecrite/",
-      "source_file": "juin-2025-expression-ecrite.json",
-      "task": "tache_1",
-      "word_count": "60-120",
-      "type": "message_personnel",
-      "combination": "Combinaison 2"
-    },
-    {
-      "content": "Vous lui répondre en décrivant brièvement votre environnement universitaire",
-      "source_url": "https://reussir-tcfcanada.com/juin-2025-expression-ecrite/",
-      "source_file": "juin-2025-expression-ecrite.json",
-      "task": "tache_1",
-      "word_count": "60-120",
-      "type": "message_personnel",
-      "combination": "Combinaison 2"
-    },
-    {
-      "content": "Vous venez d’obtenir un nouveau poste et souhaitez annoncer la nouvelle à votre amie francophone.Décrivez votre travail, vos collègues et votre environnement professionnel.",
-      "source_url": "https://reussir-tcfcanada.com/juin-2025-expression-ecrite/",
-      "source_file": "juin-2025-expression-ecrite.json",
-      "task": "tache_1",
-      "word_count": "60-120",
-      "type": "message_personnel",
-      "combination": "Combinaison 1"
-    },
-    {
-      "content": "Décrivez votre travail, vos collègues et votre environnement professionnel",
-      "source_url": "https://reussir-tcfcanada.com/juin-2025-expression-ecrite/",
-      "source_file": "juin-2025-expression-ecrite.json",
-      "task": "tache_1",
-      "word_count": "60-120",
-      "type": "message_personnel",
-      "combination": "Combinaison 1"
-    },
-    {
-      "content": "Vous envisagez de partir en week-end avec vos amis le mois prochain.Rédigez un message pour leur présenter votre projet, incluant le lieu, les moyens de transport et les activités prévues.",
-      "source_url": "https://reussir-tcfcanada.com/mai-2025-expression-ecrite/",
-      "source_file": "mai-2025-expression-ecrite.json",
-      "task": "tache_1",
-      "word_count": "60-120",
-      "type": "message_personnel",
-      "combination": "Combinaison 4"
-    },
-    {
-      "content": "Rédigez un message pour leur présenter votre projet, incluant le lieu, les moyens de transport et les activités prévues",
-      "source_url": "https://reussir-tcfcanada.com/mai-2025-expression-ecrite/",
-      "source_file": "mai-2025-expression-ecrite.json",
-      "task": "tache_1",
-      "word_count": "60-120",
-      "type": "message_personnel",
-      "combination": "Combinaison 4"
-    },
-    {
-      "content": "Le journal « Bienvenue » souhaite publier un article sur les nouveaux habitants de la ville.Rédigez un message dans lequel vous vous présentez et décrivez vos endroits favoris dans la ville.",
-      "source_url": "https://reussir-tcfcanada.com/mai-2025-expression-ecrite/",
-      "source_file": "mai-2025-expression-ecrite.json",
-      "task": "tache_1",
-      "word_count": "60-120",
-      "type": "message_personnel",
-      "combination": "Combinaison 3"
-    },
-    {
-      "content": "Rédigez un message dans lequel vous vous présentez et décrivez vos endroits favoris dans la ville",
-      "source_url": "https://reussir-tcfcanada.com/mai-2025-expression-ecrite/",
-      "source_file": "mai-2025-expression-ecrite.json",
-      "task": "tache_1",
-      "word_count": "60-120",
-      "type": "message_personnel",
-      "combination": "Combinaison 3"
-    },
-    {
-      "content": "Vous habitez dans une nouvelle ville depuis un mois.Écrivez un message à votre ami Léo pour lui raconter comment se passe votre nouvelle vie : votre appartement, votre quartier, la ville en général, et ce que vous aimez y faire.",
-      "source_url": "https://reussir-tcfcanada.com/mai-2025-expression-ecrite/",
-      "source_file": "mai-2025-expression-ecrite.json",
-      "task": "tache_1",
-      "word_count": "60-120",
-      "type": "message_personnel",
-      "combination": "Combinaison 2"
-    },
-    {
-      "content": "Écrivez un message à votre ami Léo pour lui raconter comment se passe votre nouvelle vie : votre appartement, votre quartier, la ville en général, et ce que vous aimez y faire",
-      "source_url": "https://reussir-tcfcanada.com/mai-2025-expression-ecrite/",
-      "source_file": "mai-2025-expression-ecrite.json",
-      "task": "tache_1",
-      "word_count": "60-120",
-      "type": "message_personnel",
-      "combination": "Combinaison 2"
-    },
-    {
-      "content": "Votre anniversaire approche. Vos amis vous posent des questions sur les cadeaux que vous voulez.Vous répondez par un message en expliquant que vous aimeriez recevoir des vêtements, et vous donnez les détails.",
-      "source_url": "https://reussir-tcfcanada.com/mai-2025-expression-ecrite/",
-      "source_file": "mai-2025-expression-ecrite.json",
-      "task": "tache_1",
-      "word_count": "60-120",
-      "type": "message_personnel",
-      "combination": "Combinaison 1"
-    },
-    {
-      "content": "Vous répondez par un message en expliquant que vous aimeriez recevoir des vêtements, et vous donnez les détails",
-      "source_url": "https://reussir-tcfcanada.com/mai-2025-expression-ecrite/",
-      "source_file": "mai-2025-expression-ecrite.json",
-      "task": "tache_1",
-      "word_count": "60-120",
-      "type": "message_personnel",
-      "combination": "Combinaison 1"
-    },
-    {
       "content": "Vous partez en vacances avec des amis et avez trouvé un hôtel. Écrivez-leur pour décrire l’hôtel :son emplacement, son tarif, ses équipements, et suggérez-leur de réserver cet hôtel.",
       "source_url": "https://reussir-tcfcanada.com/avril-2025-expression-ecrite/",
       "source_file": "avril-2025-expression-ecrite.json",
@@ -441,15 +306,6 @@
       "word_count": "60-120",
       "type": "message_personnel",
       "combination": "Combinaison 19"
-    },
-    {
-      "content": "Rédigez un message à votre ami Cédric pour lui fournir des instructions concernant l’entretien de votre maison et de votre jardin pendant votre absence.",
-      "source_url": "https://reussir-tcfcanada.com/avril-2025-expression-ecrite/",
-      "source_file": "avril-2025-expression-ecrite.json",
-      "task": "tache_1",
-      "word_count": "60-120",
-      "type": "message_personnel",
-      "combination": "Combinaison 18"
     },
     {
       "content": "Rédigez un email pour inviter un ami à passer une journée avec vous, en incluant les informations essentielles telles que lelieu, la date, l’heure, et les activités prévues pour la journée.",
@@ -560,15 +416,6 @@
       "combination": "Combinaison 10"
     },
     {
-      "content": "Répondez au courriel de votre ami Lucas en lui fournissant des détails sur les nouveaux locaux de votre entreprise: emplacement, aménagement des pièces, équipements disponibles, etc.",
-      "source_url": "https://reussir-tcfcanada.com/avril-2025-expression-ecrite/",
-      "source_file": "avril-2025-expression-ecrite.json",
-      "task": "tache_1",
-      "word_count": "60-120",
-      "type": "message_personnel",
-      "combination": "Combinaison 9"
-    },
-    {
       "content": "Vous avez décidé d’offrir un voyage à votre ami pour son anniversaire.Écrivez un message pour lui expliquer ce que vous avez préparé : la destination, les dates et les autres détails du voyage.",
       "source_url": "https://reussir-tcfcanada.com/avril-2025-expression-ecrite/",
       "source_file": "avril-2025-expression-ecrite.json",
@@ -623,33 +470,6 @@
       "combination": "Combinaison 6"
     },
     {
-      "content": "Rédiger un message en réponse à un ami qui demande des informations sur une salle de sport réputée pour sa qualité.",
-      "source_url": "https://reussir-tcfcanada.com/avril-2025-expression-ecrite/",
-      "source_file": "avril-2025-expression-ecrite.json",
-      "task": "tache_1",
-      "word_count": "60-120",
-      "type": "message_personnel",
-      "combination": "Combinaison 5"
-    },
-    {
-      "content": "Invitez votre ami(e) à venir passer les vacances chez vous.Dans votre message, décrivez les sites touristiques et les endroits intéressants à découvrir dans votre ville.",
-      "source_url": "https://reussir-tcfcanada.com/avril-2025-expression-ecrite/",
-      "source_file": "avril-2025-expression-ecrite.json",
-      "task": "tache_1",
-      "word_count": "60-120",
-      "type": "message_personnel",
-      "combination": "Combinaison 4"
-    },
-    {
-      "content": "Dans votre message, décrivez les sites touristiques et les endroits intéressants à découvrir dans votre ville",
-      "source_url": "https://reussir-tcfcanada.com/avril-2025-expression-ecrite/",
-      "source_file": "avril-2025-expression-ecrite.json",
-      "task": "tache_1",
-      "word_count": "60-120",
-      "type": "message_personnel",
-      "combination": "Combinaison 4"
-    },
-    {
       "content": "Votre ami(e) désire explorer la région dans laquelle vous vivez.Rédigez-lui un message en lui suggérant des lieux intéressants à découvrir.",
       "source_url": "https://reussir-tcfcanada.com/avril-2025-expression-ecrite/",
       "source_file": "avril-2025-expression-ecrite.json",
@@ -668,34 +488,7 @@
       "combination": "Combinaison 3"
     },
     {
-      "content": "Vous avez trouvé une annonce en ligne pour louer un appartement.Écrivez un courriel pour demander des informations sur l’appartement (logement et quartier).",
-      "source_url": "https://reussir-tcfcanada.com/avril-2025-expression-ecrite/",
-      "source_file": "avril-2025-expression-ecrite.json",
-      "task": "tache_1",
-      "word_count": "60-120",
-      "type": "message_personnel",
-      "combination": "Combinaison 2"
-    },
-    {
-      "content": "Écrivez un courriel pour demander des informations sur l’appartement (logement et quartier)",
-      "source_url": "https://reussir-tcfcanada.com/avril-2025-expression-ecrite/",
-      "source_file": "avril-2025-expression-ecrite.json",
-      "task": "tache_1",
-      "word_count": "60-120",
-      "type": "message_personnel",
-      "combination": "Combinaison 2"
-    },
-    {
       "content": "Vous répondez à votre ami Mathieu. Vous décrivez un lieu à visiter dans votre région.",
-      "source_url": "https://reussir-tcfcanada.com/avril-2025-expression-ecrite/",
-      "source_file": "avril-2025-expression-ecrite.json",
-      "task": "tache_1",
-      "word_count": "60-120",
-      "type": "message_personnel",
-      "combination": "Combinaison 1"
-    },
-    {
-      "content": "Vous répondez à votre ami Mathieu. Vous décrivez un lieu à visiter dans votre région",
       "source_url": "https://reussir-tcfcanada.com/avril-2025-expression-ecrite/",
       "source_file": "avril-2025-expression-ecrite.json",
       "task": "tache_1",
@@ -722,24 +515,6 @@
       "combination": "Combinaison 14"
     },
     {
-      "content": "Vous avez reçu un message d’un ami Alex qui vous demande des nouvelles de votre nouvelle université.Vous lui répondre en décrivant brièvement votre environnement universitaire.",
-      "source_url": "https://reussir-tcfcanada.com/mars-2025-expression-ecrite/",
-      "source_file": "mars-2025-expression-ecrite.json",
-      "task": "tache_1",
-      "word_count": "60-120",
-      "type": "message_personnel",
-      "combination": "Combinaison 13"
-    },
-    {
-      "content": "Vous lui répondre en décrivant brièvement votre environnement universitaire",
-      "source_url": "https://reussir-tcfcanada.com/mars-2025-expression-ecrite/",
-      "source_file": "mars-2025-expression-ecrite.json",
-      "task": "tache_1",
-      "word_count": "60-120",
-      "type": "message_personnel",
-      "combination": "Combinaison 13"
-    },
-    {
       "content": "Votre ami Mehdi vient d’arriver dans votre ville et cherche des informations sur les moyens de transport.Écrivez-lui un message pour lui fournir toutes les informations utiles, telles que les options de transport disponibles, les tarifs, les abonnements, etc.",
       "source_url": "https://reussir-tcfcanada.com/mars-2025-expression-ecrite/",
       "source_file": "mars-2025-expression-ecrite.json",
@@ -756,24 +531,6 @@
       "word_count": "60-120",
       "type": "message_personnel",
       "combination": "Combinaison 12"
-    },
-    {
-      "content": "Vous venez d’obtenir un nouveau poste et souhaitez annoncer la nouvelle à votre amie francophone.Décrivez votre travail, vos collègues et votre environnement professionnel.",
-      "source_url": "https://reussir-tcfcanada.com/mars-2025-expression-ecrite/",
-      "source_file": "mars-2025-expression-ecrite.json",
-      "task": "tache_1",
-      "word_count": "60-120",
-      "type": "message_personnel",
-      "combination": "Combinaison 11"
-    },
-    {
-      "content": "Décrivez votre travail, vos collègues et votre environnement professionnel",
-      "source_url": "https://reussir-tcfcanada.com/mars-2025-expression-ecrite/",
-      "source_file": "mars-2025-expression-ecrite.json",
-      "task": "tache_1",
-      "word_count": "60-120",
-      "type": "message_personnel",
-      "combination": "Combinaison 11"
     },
     {
       "content": "Rédigez un courriel à vos amis pour les inviter à une fête d’anniversaire surprise en précisant les détails de l’événement(lieu, date, heure, et organisation).",
@@ -821,15 +578,6 @@
       "combination": "Combinaison 8"
     },
     {
-      "content": "Rédiger un message en réponse à un ami qui demande des informations sur une salle de sport réputée pour sa qualité.",
-      "source_url": "https://reussir-tcfcanada.com/mars-2025-expression-ecrite/",
-      "source_file": "mars-2025-expression-ecrite.json",
-      "task": "tache_1",
-      "word_count": "60-120",
-      "type": "message_personnel",
-      "combination": "Combinaison 7"
-    },
-    {
       "content": "Écrire un message à un(e) ami(e) pour raconter son week-end à la campagneen détaillant les événements qui se sont déroulés.",
       "source_url": "https://reussir-tcfcanada.com/mars-2025-expression-ecrite/",
       "source_file": "mars-2025-expression-ecrite.json",
@@ -873,15 +621,6 @@
       "word_count": "60-120",
       "type": "message_personnel",
       "combination": "Combinaison 33"
-    },
-    {
-      "content": "Rédiger un message en réponse à un ami qui demande des informations sur une salle de sport réputée pour sa qualité.",
-      "source_url": "https://reussir-tcfcanada.com/fevrier-2025-expression-ecrite/",
-      "source_file": "fevrier-2025-expression-ecrite.json",
-      "task": "tache_1",
-      "word_count": "60-120",
-      "type": "message_personnel",
-      "combination": "Combinaison 30"
     },
     {
       "content": "Les enseignants de votre quartier projettent d’organiser une rencontre pour guider leurs élèves dans le choix de leur futur métier.Rédigez un courriel pour leur exposer les atouts de votre profession.",
@@ -938,24 +677,6 @@
       "combination": "Combinaison 26"
     },
     {
-      "content": "Rédigez un message à un ami pour l’inviter à une rencontre avec un écrivain organisée par la bibliothèque de votre ville.",
-      "source_url": "https://reussir-tcfcanada.com/fevrier-2025-expression-ecrite/",
-      "source_file": "fevrier-2025-expression-ecrite.json",
-      "task": "tache_1",
-      "word_count": "60-120",
-      "type": "message_personnel",
-      "combination": "Combinaison 25"
-    },
-    {
-      "content": "Rédigez un message à un ami pour l’informer de votre déménagement et lui demander son aide, en précisant la date, le lieu et le déroulement du programme.",
-      "source_url": "https://reussir-tcfcanada.com/fevrier-2025-expression-ecrite/",
-      "source_file": "fevrier-2025-expression-ecrite.json",
-      "task": "tache_1",
-      "word_count": "60-120",
-      "type": "message_personnel",
-      "combination": "Combinaison 24"
-    },
-    {
       "content": "Vous êtes locataire d’un appartement qui vous semble trop grand. Rédigez une annonce dans un journal pour trouver un colocataire, en indiquant la superficie, le profil recherché et le montant du loyer, entre autres détails.",
       "source_url": "https://reussir-tcfcanada.com/fevrier-2025-expression-ecrite/",
       "source_file": "fevrier-2025-expression-ecrite.json",
@@ -963,15 +684,6 @@
       "word_count": "60-120",
       "type": "message_personnel",
       "combination": "Combinaison 23"
-    },
-    {
-      "content": "Rédigez un message à votre ami Cédric pour lui fournir des instructions concernant l’entretien de votre maison et de votre jardin pendant votre absence.",
-      "source_url": "https://reussir-tcfcanada.com/fevrier-2025-expression-ecrite/",
-      "source_file": "fevrier-2025-expression-ecrite.json",
-      "task": "tache_1",
-      "word_count": "60-120",
-      "type": "message_personnel",
-      "combination": "Combinaison 22"
     },
     {
       "content": "Ali t’a envoyé un message pour savoir comment se passe ton nouveau travail et si tu en es satisfait(e).Tu lui réponds en décrivant ton emploi (lieu, ambiance, collègues, etc.) et en partageant tes impressions.",
@@ -1017,24 +729,6 @@
       "word_count": "60-120",
       "type": "message_personnel",
       "combination": "Combinaison 18"
-    },
-    {
-      "content": "Parc de loisirs : J’ai hâte de profiter de cette journée avec toi demain ! Peux-tu me dire quelles activités sont au programme ?Écrivez un message pour répondre à votre ami(e).",
-      "source_url": "https://reussir-tcfcanada.com/fevrier-2025-expression-ecrite/",
-      "source_file": "fevrier-2025-expression-ecrite.json",
-      "task": "tache_1",
-      "word_count": "60-120",
-      "type": "message_personnel",
-      "combination": "Combinaison 17"
-    },
-    {
-      "content": "Écrivez un message pour répondre à votre ami(e)",
-      "source_url": "https://reussir-tcfcanada.com/fevrier-2025-expression-ecrite/",
-      "source_file": "fevrier-2025-expression-ecrite.json",
-      "task": "tache_1",
-      "word_count": "60-120",
-      "type": "message_personnel",
-      "combination": "Combinaison 17"
     },
     {
       "content": "Barbara t’a envoyé un message pour savoir où elle pourrait déjeuner en plein air ce week-end.Tu lui réponds en décrivant un lieu agréable (parc, jardin, terrasse, etc.) et ses caractéristiques.",
@@ -1089,24 +783,6 @@
       "word_count": "60-120",
       "type": "message_personnel",
       "combination": "Combinaison 12"
-    },
-    {
-      "content": "Votre ami Mehdi vient d’arriver dans votre ville et cherche des informations sur les moyens de transport.Écrivez-lui un message pour lui fournir toutes les informations utiles, telles que les options de transport disponibles, les tarifs, les abonnements, etc.",
-      "source_url": "https://reussir-tcfcanada.com/fevrier-2025-expression-ecrite/",
-      "source_file": "fevrier-2025-expression-ecrite.json",
-      "task": "tache_1",
-      "word_count": "60-120",
-      "type": "message_personnel",
-      "combination": "Combinaison 11"
-    },
-    {
-      "content": "Écrivez-lui un message pour lui fournir toutes les informations utiles, telles que les options de transport disponibles, les tarifs, les abonnements, etc",
-      "source_url": "https://reussir-tcfcanada.com/fevrier-2025-expression-ecrite/",
-      "source_file": "fevrier-2025-expression-ecrite.json",
-      "task": "tache_1",
-      "word_count": "60-120",
-      "type": "message_personnel",
-      "combination": "Combinaison 11"
     },
     {
       "content": "Vous avez l’intention de partir en week-end avec vos amis le mois prochain.Vous leur envoyez un message pour leur présenter votre projet, en détaillant le lieu, les moyens de transport et les activités prévues.",
@@ -1188,42 +864,6 @@
       "word_count": "60-120",
       "type": "message_personnel",
       "combination": "Combinaison 2"
-    },
-    {
-      "content": "Rédigez un courriel à vos amis pour les convier à une fête d’anniversaire surprise organisée en l’honneur de votre meilleur ami.Mentionnez les détails essentiels : lieu, date, heure et toute autre information importante.",
-      "source_url": "https://reussir-tcfcanada.com/janvier-2025-expression-ecrite/",
-      "source_file": "janvier-2025-expression-ecrite.json",
-      "task": "tache_1",
-      "word_count": "60-120",
-      "type": "message_personnel",
-      "combination": "Combinaison 19"
-    },
-    {
-      "content": "Vous souhaitez organiser une fête et souhaitez inviter vos amis tout en leur demandant un coup de main pour la préparation (lieu, date, thème, etc.).Rédigez un message en ce sens.",
-      "source_url": "https://reussir-tcfcanada.com/janvier-2025-expression-ecrite/",
-      "source_file": "janvier-2025-expression-ecrite.json",
-      "task": "tache_1",
-      "word_count": "60-120",
-      "type": "message_personnel",
-      "combination": "Combinaison 18"
-    },
-    {
-      "content": "Vous avez découvert une plateforme en ligne mettant en relation des personnes souhaitant apprendre le français avec des partenaires linguistiques.Rédigez un courriel pour vous présenter et expliquer votre motivation à pratiquer cette langue.",
-      "source_url": "https://reussir-tcfcanada.com/janvier-2025-expression-ecrite/",
-      "source_file": "janvier-2025-expression-ecrite.json",
-      "task": "tache_1",
-      "word_count": "60-120",
-      "type": "message_personnel",
-      "combination": "Combinaison 17"
-    },
-    {
-      "content": "Rédigez un courriel pour vous présenter et expliquer votre motivation à pratiquer cette langue",
-      "source_url": "https://reussir-tcfcanada.com/janvier-2025-expression-ecrite/",
-      "source_file": "janvier-2025-expression-ecrite.json",
-      "task": "tache_1",
-      "word_count": "60-120",
-      "type": "message_personnel",
-      "combination": "Combinaison 17"
     },
     {
       "content": "Vous venez de décrocher un nouveau travail et souhaitez annoncer la nouvelle à votre amie francophone.Décrivez votre poste, votre environnement de travail et vos collègues.",
@@ -1388,24 +1028,6 @@
       "combination": "Combinaison 5"
     },
     {
-      "content": "Vous venez d’obtenir un nouveau poste et souhaitez annoncer la nouvelle à votre amie francophone.Décrivez votre travail, vos collègues et votre environnement professionnel.",
-      "source_url": "https://reussir-tcfcanada.com/janvier-2025-expression-ecrite/",
-      "source_file": "janvier-2025-expression-ecrite.json",
-      "task": "tache_1",
-      "word_count": "60-120",
-      "type": "message_personnel",
-      "combination": "Combinaison 4"
-    },
-    {
-      "content": "Décrivez votre travail, vos collègues et votre environnement professionnel",
-      "source_url": "https://reussir-tcfcanada.com/janvier-2025-expression-ecrite/",
-      "source_file": "janvier-2025-expression-ecrite.json",
-      "task": "tache_1",
-      "word_count": "60-120",
-      "type": "message_personnel",
-      "combination": "Combinaison 4"
-    },
-    {
       "content": "Vous êtes locataire d’un appartement trop grand pour vous et souhaitez trouver un colocataire.Rédigez une annonce mentionnant la superficie, le prix et le type de colocataire recherché.",
       "source_url": "https://reussir-tcfcanada.com/janvier-2025-expression-ecrite/",
       "source_file": "janvier-2025-expression-ecrite.json",
@@ -1440,24 +1062,6 @@
       "word_count": "60-120",
       "type": "message_personnel",
       "combination": "Combinaison 2"
-    },
-    {
-      "content": "Votre amie Anna prévoit de passer un week-end dans votre ville et souhaite en savoir plus sur les moyens de transport disponibles pour visiter les environs.Rédigez-lui un message en détaillant les différentes options (bus, métro, vélo, etc.).",
-      "source_url": "https://reussir-tcfcanada.com/janvier-2025-expression-ecrite/",
-      "source_file": "janvier-2025-expression-ecrite.json",
-      "task": "tache_1",
-      "word_count": "60-120",
-      "type": "message_personnel",
-      "combination": "Combinaison 1"
-    },
-    {
-      "content": "Rédigez-lui un message en détaillant les différentes options (bus, métro, vélo, etc.)",
-      "source_url": "https://reussir-tcfcanada.com/janvier-2025-expression-ecrite/",
-      "source_file": "janvier-2025-expression-ecrite.json",
-      "task": "tache_1",
-      "word_count": "60-120",
-      "type": "message_personnel",
-      "combination": "Combinaison 1"
     },
     {
       "content": "Répondez au courriel de votre ami Lucas pour lui donner des informations sur les nouveaux locaux de votre entreprise(lieu, disposition des pièces, équipements, etc.)",
@@ -1793,33 +1397,6 @@
       "combination": "Combinaison 15"
     },
     {
-      "content": "Répondez au courriel de votre ami Lucas pour lui donner des informations sur les nouveaux locaux de votre entreprise(lieu, disposition des pièces, équipements, etc.)",
-      "source_url": "https://reussir-tcfcanada.com/novembre-2024-expression-ecrite/",
-      "source_file": "novembre-2024-expression-ecrite.json",
-      "task": "tache_1",
-      "word_count": "60-120",
-      "type": "message_personnel",
-      "combination": "Combinaison 14"
-    },
-    {
-      "content": "Vous souhaitez fêter votre anniversaire dans un restaurant. Vous invitez vos amis.Vous leur écrivez un courriel pour leur donner toutes les informations nécessaires (lieu, date, menu, prix…) et vous leur demandez une réponse.",
-      "source_url": "https://reussir-tcfcanada.com/novembre-2024-expression-ecrite/",
-      "source_file": "novembre-2024-expression-ecrite.json",
-      "task": "tache_1",
-      "word_count": "60-120",
-      "type": "message_personnel",
-      "combination": "Combinaison 13"
-    },
-    {
-      "content": "Vous leur écrivez un courriel pour leur donner toutes les informations nécessaires (lieu, date, menu, prix…) et vous leur demandez une réponse.",
-      "source_url": "https://reussir-tcfcanada.com/novembre-2024-expression-ecrite/",
-      "source_file": "novembre-2024-expression-ecrite.json",
-      "task": "tache_1",
-      "word_count": "60-120",
-      "type": "message_personnel",
-      "combination": "Combinaison 13"
-    },
-    {
       "content": "C’est bientôt l’anniversaire de votre amie Flavie. Vous voulez lui offrir un voyage et écrivez à votre amie Flavie.–Expliquez votre projet.–Décrivez le programme du voyage (activités, destination, logement, etc.).",
       "source_url": "https://reussir-tcfcanada.com/novembre-2024-expression-ecrite/",
       "source_file": "novembre-2024-expression-ecrite.json",
@@ -1890,15 +1467,6 @@
       "word_count": "60-120",
       "type": "message_personnel",
       "combination": "Combinaison 10"
-    },
-    {
-      "content": "Écrivez un message dans le journal de votre université pour rechercher un partenaire avec qui faire du sport.",
-      "source_url": "https://reussir-tcfcanada.com/novembre-2024-expression-ecrite/",
-      "source_file": "novembre-2024-expression-ecrite.json",
-      "task": "tache_1",
-      "word_count": "60-120",
-      "type": "message_personnel",
-      "combination": "Combinaison 9"
     },
     {
       "content": "Vous avez invité votre ami Cédric à votre mariage au Château de Chombony et il vous a répondu qu’il ne connait pas ce château.Décrivez à votre ami (lieu, localisation, transports, etc.).",
@@ -2218,15 +1786,6 @@
       "combination": "Combinaison 3"
     },
     {
-      "content": "Dites ce que vous appréciez ou non dans ces habitudes, et expliquez pourquoi",
-      "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
-      "source_file": "aout-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 3"
-    },
-    {
       "content": "Vous avez assisté à un concert incroyable ?Écrivez un article pour raconter ce que vous avez vécu et invitez vos amis à découvrir cet artiste en live!",
       "source_url": "https://reussir-tcfcanada.com/aout-2025-expression-ecrite/",
       "source_file": "aout-2025-expression-ecrite.json",
@@ -2261,24 +1820,6 @@
       "word_count": "120-150",
       "type": "article_blog",
       "combination": "Combinaison 1"
-    },
-    {
-      "content": "Vous avez été sélectionné(e) pour un concours où le prix est un séjour de deux semaines dans votre ville favorite. Le thème du concours était “Mon artiste préféré”.Rédigez un article de blog pour parler de l’artiste que vous aimez le plus.",
-      "source_url": "https://reussir-tcfcanada.com/juillet-2025-expression-ecrite/",
-      "source_file": "juillet-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 4"
-    },
-    {
-      "content": "Rédigez un article de blog pour parler de l’artiste que vous aimez le plus",
-      "source_url": "https://reussir-tcfcanada.com/juillet-2025-expression-ecrite/",
-      "source_file": "juillet-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 4"
     },
     {
       "content": "Rédiger un message décrivant une expérience avec les formations en ligne, en mettant en avant les points positifs et les éventuels défis rencontrés.",
@@ -2326,150 +1867,6 @@
       "combination": "Combinaison 1"
     },
     {
-      "content": "Après avoir participé à une journée de formation au sein de votre entreprise,rédigez un message à publier sur le forum interne. Partagez votre expérience avec vos collègues.",
-      "source_url": "https://reussir-tcfcanada.com/juin-2025-expression-ecrite/",
-      "source_file": "juin-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 3"
-    },
-    {
-      "content": "rédigez un message à publier sur le forum interne. Partagez votre expérience avec vos collègues",
-      "source_url": "https://reussir-tcfcanada.com/juin-2025-expression-ecrite/",
-      "source_file": "juin-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 3"
-    },
-    {
-      "content": "Vous avez décidé d’arrêter d’utiliser votre réseau social préféré (comme Instagram, Facebook, etc.).Dans un texte adressé à vos amis ou vos lecteurs, vous racontez cette expérience.",
-      "source_url": "https://reussir-tcfcanada.com/juin-2025-expression-ecrite/",
-      "source_file": "juin-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 2"
-    },
-    {
-      "content": "Dans un texte adressé à vos amis ou vos lecteurs, vous racontez cette expérience",
-      "source_url": "https://reussir-tcfcanada.com/juin-2025-expression-ecrite/",
-      "source_file": "juin-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 2"
-    },
-    {
-      "content": "Une étudiante de 19 ans souhaite partir à l’étranger pour ses études et demande des témoignages sur un forum.Vous répondez en partageant votre propre expérience d’un séjour à l’étranger, en expliquant les défis et les bénéfices que vous en avez tirés.",
-      "source_url": "https://reussir-tcfcanada.com/juin-2025-expression-ecrite/",
-      "source_file": "juin-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 1"
-    },
-    {
-      "content": "Vous répondez en partageant votre propre expérience d’un séjour à l’étranger, en expliquant les défis et les bénéfices que vous en avez tirés",
-      "source_url": "https://reussir-tcfcanada.com/juin-2025-expression-ecrite/",
-      "source_file": "juin-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 1"
-    },
-    {
-      "content": "Participez à la discussion sur le site “voyage.internaute.fr” en répondant à la question : est-ce une bonne ou une mauvaise idée de tout quitter pour voyager pendant un an ?Partagez votre point de vue en vous appuyant sur des exemples tirés de votre propre expérience.",
-      "source_url": "https://reussir-tcfcanada.com/mai-2025-expression-ecrite/",
-      "source_file": "mai-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 4"
-    },
-    {
-      "content": "Partagez votre point de vue en vous appuyant sur des exemples tirés de votre propre expérience",
-      "source_url": "https://reussir-tcfcanada.com/mai-2025-expression-ecrite/",
-      "source_file": "mai-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 4"
-    },
-    {
-      "content": "Vous avez assisté à un concert incroyable ?Écrivez un article pour raconter ce que vous avez vécu et invitez vos amis à découvrir cet artiste en live!",
-      "source_url": "https://reussir-tcfcanada.com/mai-2025-expression-ecrite/",
-      "source_file": "mai-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 3"
-    },
-    {
-      "content": "Écrivez un article pour raconter ce que vous avez vécu et invitez vos amis à découvrir cet artiste en live",
-      "source_url": "https://reussir-tcfcanada.com/mai-2025-expression-ecrite/",
-      "source_file": "mai-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 3"
-    },
-    {
-      "content": "Vous avez participé à une fête traditionnelle dans votre pays ou à l’étranger.Parlez-en dans votre blog et expliquez pourquoi elle vous a plu.",
-      "source_url": "https://reussir-tcfcanada.com/mai-2025-expression-ecrite/",
-      "source_file": "mai-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 2"
-    },
-    {
-      "content": "Parlez-en dans votre blog et expliquez pourquoi elle vous a plu",
-      "source_url": "https://reussir-tcfcanada.com/mai-2025-expression-ecrite/",
-      "source_file": "mai-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 2"
-    },
-    {
-      "content": "Le site www.manger-international.com lance un appel à témoignages.Ce mois-ci, il veut découvrir les habitudes alimentaires dans différents pays.Vous écrivez un article pour parler de celles de votre pays.Dites ce que vous appréciez ou non dans ces habitudes, et expliquez pourquoi.",
-      "source_url": "https://reussir-tcfcanada.com/mai-2025-expression-ecrite/",
-      "source_file": "mai-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 1"
-    },
-    {
-      "content": "Vous écrivez un article pour parler de celles de votre pays.",
-      "source_url": "https://reussir-tcfcanada.com/mai-2025-expression-ecrite/",
-      "source_file": "mai-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 1"
-    },
-    {
-      "content": "Dites ce que vous appréciez ou non dans ces habitudes, et expliquez pourquoi.",
-      "source_url": "https://reussir-tcfcanada.com/mai-2025-expression-ecrite/",
-      "source_file": "mai-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 1"
-    },
-    {
-      "content": "Dites ce que vous appréciez ou non dans ces habitudes, et expliquez pourquoi",
-      "source_url": "https://reussir-tcfcanada.com/mai-2025-expression-ecrite/",
-      "source_file": "mai-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 1"
-    },
-    {
       "content": "Vous travaillez désormais à l’étranger.Écrivez à vos amis pour leur parler de cette nouvelle expérience professionnelle et de ce que vous avez particulièrement apprécié dans ce nouveau contexte.",
       "source_url": "https://reussir-tcfcanada.com/avril-2025-expression-ecrite/",
       "source_file": "avril-2025-expression-ecrite.json",
@@ -2495,15 +1892,6 @@
       "word_count": "120-150",
       "type": "article_blog",
       "combination": "Combinaison 19"
-    },
-    {
-      "content": "Rédigez une lettre de réclamation pour exprimer votre insatisfaction à l’égard des services fournis par une agence de voyage suite à une organisation défaillante de votre séjour.",
-      "source_url": "https://reussir-tcfcanada.com/avril-2025-expression-ecrite/",
-      "source_file": "avril-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 18"
     },
     {
       "content": "Après avoir participé à une journée de formation au sein de votre entreprise, rédigez un message à publier sur le forum interne.Partagez votre expérience avec vos collègues.",
@@ -2614,15 +2002,6 @@
       "combination": "Combinaison 10"
     },
     {
-      "content": "Partagez votre expérience lors de l’événement « Une semaine sans voiture », incluant les dates, le lieu et les activités proposées, tout en donnant votre avis sur cette initiative.",
-      "source_url": "https://reussir-tcfcanada.com/avril-2025-expression-ecrite/",
-      "source_file": "avril-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 9"
-    },
-    {
       "content": "Un internaute exprime des inquiétudes concernant son départ pour étudier à l’étranger.Partagez votre expérience personnelle sur les défis rencontrés, les solutions trouvées et les bénéfices tirés de cette expérience.",
       "source_url": "https://reussir-tcfcanada.com/avril-2025-expression-ecrite/",
       "source_file": "avril-2025-expression-ecrite.json",
@@ -2677,33 +2056,6 @@
       "combination": "Combinaison 6"
     },
     {
-      "content": "Rédiger un message décrivant une expérience avec les formations en ligne, en mettant en avant les points positifs et les éventuels défis rencontrés.",
-      "source_url": "https://reussir-tcfcanada.com/avril-2025-expression-ecrite/",
-      "source_file": "avril-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 5"
-    },
-    {
-      "content": "Vous avez été sélectionné(e) pour un concours où le prix est un séjour de deux semaines dans votre ville favorite. Le thème du concours était “Mon artiste préféré”.Rédigez un article de blog pour parler de l’artiste que vous aimez le plus.",
-      "source_url": "https://reussir-tcfcanada.com/avril-2025-expression-ecrite/",
-      "source_file": "avril-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 4"
-    },
-    {
-      "content": "Rédigez un article de blog pour parler de l’artiste que vous aimez le plus",
-      "source_url": "https://reussir-tcfcanada.com/avril-2025-expression-ecrite/",
-      "source_file": "avril-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 4"
-    },
-    {
       "content": "Rédigez un article de blog dans lequel vous racontez votre participation à un cours de sport dans une salle.Décrivez votre expérience, donnez votre avis sur la salle et partagez vos impressions sur l’ambiance, l’équipement et l’encadrement.",
       "source_url": "https://reussir-tcfcanada.com/avril-2025-expression-ecrite/",
       "source_file": "avril-2025-expression-ecrite.json",
@@ -2720,24 +2072,6 @@
       "word_count": "120-150",
       "type": "article_blog",
       "combination": "Combinaison 3"
-    },
-    {
-      "content": "Vous avez participé à un programme dans une école de langue.Rédigez un article sur votre site pour raconter cette expérience.",
-      "source_url": "https://reussir-tcfcanada.com/avril-2025-expression-ecrite/",
-      "source_file": "avril-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 2"
-    },
-    {
-      "content": "Rédigez un article sur votre site pour raconter cette expérience",
-      "source_url": "https://reussir-tcfcanada.com/avril-2025-expression-ecrite/",
-      "source_file": "avril-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 2"
     },
     {
       "content": "Bonjour,Vous avez pris des cours dans notre salle de sport.Donnez-nous votre avis sur notre site Internet !www.masalledesport.org",
@@ -2794,24 +2128,6 @@
       "combination": "Combinaison 14"
     },
     {
-      "content": "Vous avez décidé d’arrêter d’utiliser votre réseau social préféré (comme Instagram, Facebook, etc.).Dans un texte adressé à vos amis ou vos lecteurs, vous racontez cette expérience.",
-      "source_url": "https://reussir-tcfcanada.com/mars-2025-expression-ecrite/",
-      "source_file": "mars-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 13"
-    },
-    {
-      "content": "Dans un texte adressé à vos amis ou vos lecteurs, vous racontez cette expérience",
-      "source_url": "https://reussir-tcfcanada.com/mars-2025-expression-ecrite/",
-      "source_file": "mars-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 13"
-    },
-    {
       "content": "Rédigez un article de blog pour exprimer votre admiration envers une personnalité, qu’elle soit célèbre ou non.Mettez en avant ses actions spécifiques et expliquez pourquoi vous l’appréciez.",
       "source_url": "https://reussir-tcfcanada.com/mars-2025-expression-ecrite/",
       "source_file": "mars-2025-expression-ecrite.json",
@@ -2828,24 +2144,6 @@
       "word_count": "120-150",
       "type": "article_blog",
       "combination": "Combinaison 12"
-    },
-    {
-      "content": "Une étudiante de 19 ans souhaite partir à l’étranger pour ses études et demande des témoignages sur un forum.Vous répondez en partageant votre propre expérience d’un séjour à l’étranger, en expliquant les défis et les bénéfices que vous en avez tirés.",
-      "source_url": "https://reussir-tcfcanada.com/mars-2025-expression-ecrite/",
-      "source_file": "mars-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 11"
-    },
-    {
-      "content": "Vous répondez en partageant votre propre expérience d’un séjour à l’étranger, en expliquant les défis et les bénéfices que vous en avez tirés",
-      "source_url": "https://reussir-tcfcanada.com/mars-2025-expression-ecrite/",
-      "source_file": "mars-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 11"
     },
     {
       "content": "Rédigez un article sur votre blog personnel pour partager votre expérience lors d’une brocante.Expliquez ce qui vous a plu, que ce soit la découverte d’objets uniques, l’ambiance ou les échanges avec les participants.",
@@ -3001,15 +2299,6 @@
       "combination": "Combinaison 31"
     },
     {
-      "content": "Rédiger un message décrivant une expérience avec les formations en ligne, en mettant en avant les points positifs et les éventuels défis rencontrés.",
-      "source_url": "https://reussir-tcfcanada.com/fevrier-2025-expression-ecrite/",
-      "source_file": "fevrier-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 30"
-    },
-    {
       "content": "Rédigez un message à votre ami(e) pour l’inviter à venir avec vous au concert de votre artiste favori, en lui fournissant toutes les informations nécessaires(heure, prix des billets, lieu, etc.).",
       "source_url": "https://reussir-tcfcanada.com/fevrier-2025-expression-ecrite/",
       "source_file": "fevrier-2025-expression-ecrite.json",
@@ -3053,51 +2342,6 @@
       "word_count": "120-150",
       "type": "article_blog",
       "combination": "Combinaison 26"
-    },
-    {
-      "content": "Rédigez un article de blog relatant votre expérience lors de l’événement « La Semaine du Goût », auquel vous avez participé.",
-      "source_url": "https://reussir-tcfcanada.com/fevrier-2025-expression-ecrite/",
-      "source_file": "fevrier-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 25"
-    },
-    {
-      "content": "Rédigez un article de blog sur votre artiste préféré dans le cadre d’un concours dont le thème est « Mon artiste préféré », permettant de gagner un séjour de deux semaines dans votre ville favorite.",
-      "source_url": "https://reussir-tcfcanada.com/fevrier-2025-expression-ecrite/",
-      "source_file": "fevrier-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 24"
-    },
-    {
-      "content": "Vous avez récemment débuté une nouvelle activité de loisir, comme un sport ou la danse.Rédigez un article sur votre blog pour partager votre expérience.",
-      "source_url": "https://reussir-tcfcanada.com/fevrier-2025-expression-ecrite/",
-      "source_file": "fevrier-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 23"
-    },
-    {
-      "content": "Rédigez un article sur votre blog pour partager votre expérience",
-      "source_url": "https://reussir-tcfcanada.com/fevrier-2025-expression-ecrite/",
-      "source_file": "fevrier-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 23"
-    },
-    {
-      "content": "Rédigez une lettre de réclamation pour exprimer votre insatisfaction à l’égard des services fournis par une agence de voyage suite à une organisation défaillante de votre séjour.",
-      "source_url": "https://reussir-tcfcanada.com/fevrier-2025-expression-ecrite/",
-      "source_file": "fevrier-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 22"
     },
     {
       "content": "Vous avez récemment débuté vos études à l’université de Montréal.Rédigez un message à votre ami pour lui partager votre expérience de la première semaine, en donnant votre avis sur l’université et les cours.",
@@ -3145,24 +2389,6 @@
       "combination": "Combinaison 18"
     },
     {
-      "content": "Vous avez publié une annonce en ligne pour louer votre appartement.Rédigez un courriel afin de fournir des informations sur le logement et le quartier.",
-      "source_url": "https://reussir-tcfcanada.com/fevrier-2025-expression-ecrite/",
-      "source_file": "fevrier-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 17"
-    },
-    {
-      "content": "Rédigez un courriel afin de fournir des informations sur le logement et le quartier",
-      "source_url": "https://reussir-tcfcanada.com/fevrier-2025-expression-ecrite/",
-      "source_file": "fevrier-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 17"
-    },
-    {
       "content": "Vous avez récemment visité un nouveau pays pendant vos vacances.Sur un site internet, vous partagez votre expérience en détaillant votre séjour et en exprimant votre opinion sur ce pays.",
       "source_url": "https://reussir-tcfcanada.com/fevrier-2025-expression-ecrite/",
       "source_file": "fevrier-2025-expression-ecrite.json",
@@ -3197,24 +2423,6 @@
       "word_count": "120-150",
       "type": "article_blog",
       "combination": "Combinaison 14"
-    },
-    {
-      "content": "Rédigez un article de blog dans lequel vous racontez votre participation à un cours de sport dans une salle.Décrivez votre expérience, donnez votre avis sur la salle et partagez vos impressions sur l’ambiance, l’équipement et l’encadrement.",
-      "source_url": "https://reussir-tcfcanada.com/fevrier-2025-expression-ecrite/",
-      "source_file": "fevrier-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 13"
-    },
-    {
-      "content": "Décrivez votre expérience, donnez votre avis sur la salle et partagez vos impressions sur l’ambiance, l’équipement et l’encadrement",
-      "source_url": "https://reussir-tcfcanada.com/fevrier-2025-expression-ecrite/",
-      "source_file": "fevrier-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 13"
     },
     {
       "content": "Sur votre blog, partagez votre expérience d’apprentissage d’une langue étrangère.Rédigez un message sur un forum internet en racontant votre parcours et les défis rencontrés en apprenant cette langue.",
@@ -3341,60 +2549,6 @@
       "word_count": "120-150",
       "type": "article_blog",
       "combination": "Combinaison 2"
-    },
-    {
-      "content": "Vous avez pris part à une brocante dans votre ville, où vous avez vendu ou acheté des objets d’occasion.Sur votre blog personnel, partagez votre expérience en expliquant pourquoi vous avez apprécié cette activité.",
-      "source_url": "https://reussir-tcfcanada.com/janvier-2025-expression-ecrite/",
-      "source_file": "janvier-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 19"
-    },
-    {
-      "content": "Sur votre blog personnel, partagez votre expérience en expliquant pourquoi vous avez apprécié cette activité",
-      "source_url": "https://reussir-tcfcanada.com/janvier-2025-expression-ecrite/",
-      "source_file": "janvier-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 19"
-    },
-    {
-      "content": "Vous avez participé à une compétition sportive et souhaitez partager votre expérience sur un site internet.Décrivez le déroulement de l’événement (lieu, date, organisation) et donnez votre avis sur votre participation.",
-      "source_url": "https://reussir-tcfcanada.com/janvier-2025-expression-ecrite/",
-      "source_file": "janvier-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 18"
-    },
-    {
-      "content": "Décrivez le déroulement de l’événement (lieu, date, organisation) et donnez votre avis sur votre participation",
-      "source_url": "https://reussir-tcfcanada.com/janvier-2025-expression-ecrite/",
-      "source_file": "janvier-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 18"
-    },
-    {
-      "content": "Vous avez récemment assisté à une fête de famille.Rédigez un message à vos amis pour leur raconter l’événement et partager ce qui vous a le plus marqué.",
-      "source_url": "https://reussir-tcfcanada.com/janvier-2025-expression-ecrite/",
-      "source_file": "janvier-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 17"
-    },
-    {
-      "content": "Rédigez un message à vos amis pour leur raconter l’événement et partager ce qui vous a le plus marqué",
-      "source_url": "https://reussir-tcfcanada.com/janvier-2025-expression-ecrite/",
-      "source_file": "janvier-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 17"
     },
     {
       "content": "Julie, une étudiante de 19 ans, s’apprête à partir à l’étranger pour poursuivre ses études et recherche des témoignages sur un forum. Ayant déjà étudié à l’étranger,vous partagez votre expérience et expliquez si vous avez aimé ou non votre séjour, en justifiant votre réponse.",
@@ -3595,24 +2749,6 @@
       "combination": "Combinaison 5"
     },
     {
-      "content": "Une étudiante de 19 ans souhaite partir à l’étranger pour ses études et demande des témoignages sur un forum.Vous répondez en partageant votre propre expérience d’un séjour à l’étranger, en expliquant les défis et les bénéfices que vous en avez tirés.",
-      "source_url": "https://reussir-tcfcanada.com/janvier-2025-expression-ecrite/",
-      "source_file": "janvier-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 4"
-    },
-    {
-      "content": "Vous répondez en partageant votre propre expérience d’un séjour à l’étranger, en expliquant les défis et les bénéfices que vous en avez tirés",
-      "source_url": "https://reussir-tcfcanada.com/janvier-2025-expression-ecrite/",
-      "source_file": "janvier-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 4"
-    },
-    {
       "content": "Vous venez de commencer un nouveau loisir (sport, danse, etc.) et souhaitez en parler sur votre blog.Décrivez votre expérience et partagez votre avis sur cette activité.",
       "source_url": "https://reussir-tcfcanada.com/janvier-2025-expression-ecrite/",
       "source_file": "janvier-2025-expression-ecrite.json",
@@ -3647,24 +2783,6 @@
       "word_count": "120-150",
       "type": "article_blog",
       "combination": "Combinaison 2"
-    },
-    {
-      "content": "Vous avez récemment assisté à une fête de quartier entre voisins.Sur votre blog, racontez votre expérience et expliquez pourquoi vous avez aimé cet événement.",
-      "source_url": "https://reussir-tcfcanada.com/janvier-2025-expression-ecrite/",
-      "source_file": "janvier-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 1"
-    },
-    {
-      "content": "Sur votre blog, racontez votre expérience et expliquez pourquoi vous avez aimé cet événement",
-      "source_url": "https://reussir-tcfcanada.com/janvier-2025-expression-ecrite/",
-      "source_file": "janvier-2025-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 1"
     },
     {
       "content": "Vous avez assisté à un événement intitulé « Une semaine sans voiture ». Racontez votre expérience et donnez votre impression sur cette initiative.Décrivez le déroulement de l’événement (dates, lieu, activités proposées).",
@@ -3982,15 +3100,6 @@
       "combination": "Combinaison 19"
     },
     {
-      "content": "Rédigez un un article de blog pour raconter vos expériences et convaincre d’autres personnes de rejoindre l’association.",
-      "source_url": "https://reussir-tcfcanada.com/novembre-2024-expression-ecrite/",
-      "source_file": "novembre-2024-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 19"
-    },
-    {
       "content": "Votre direction est à la recherche d’une salle pour la fête de fin d’année, capable d’accueillir 100 invités.Rédigez un message à la direction pour leur dire que vous avez trouvé un local idéal. (lieu, tarifs, services, etc.).",
       "source_url": "https://reussir-tcfcanada.com/novembre-2024-expression-ecrite/",
       "source_file": "novembre-2024-expression-ecrite.json",
@@ -4079,24 +3188,6 @@
       "word_count": "120-150",
       "type": "article_blog",
       "combination": "Combinaison 14"
-    },
-    {
-      "content": "Vous avez quitté la ville afin de vous installer à la campagne.Sur votre blog, vous expliquez pourquoi vous avez fait ce choix et vous présentez les avantages de votre nouvelle vie.",
-      "source_url": "https://reussir-tcfcanada.com/novembre-2024-expression-ecrite/",
-      "source_file": "novembre-2024-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 13"
-    },
-    {
-      "content": "Sur votre blog, vous expliquez pourquoi vous avez fait ce choix et vous présentez les avantages de votre nouvelle vie.",
-      "source_url": "https://reussir-tcfcanada.com/novembre-2024-expression-ecrite/",
-      "source_file": "novembre-2024-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 13"
     },
     {
       "content": "Vous avez lu ce message sur un site internet :Je suis étudiante et je vais partir étudier un an à l’étranger. Mais, j’ai un peu peur. Qui a déjà fait cela ?Justine.Vous répondez à Justine :–Racontez un séjour d’étude que vous avez fait dans un pays étranger.–Expliquez pourquoi cette expérience a été positive ou négative pour vous",
@@ -4196,15 +3287,6 @@
       "word_count": "120-150",
       "type": "article_blog",
       "combination": "Combinaison 10"
-    },
-    {
-      "content": "Écrivez dans un article de blog pour raconter votre arrivée dans un pays étranger en donnant vos impressions.",
-      "source_url": "https://reussir-tcfcanada.com/novembre-2024-expression-ecrite/",
-      "source_file": "novembre-2024-expression-ecrite.json",
-      "task": "tache_2",
-      "word_count": "120-150",
-      "type": "article_blog",
-      "combination": "Combinaison 9"
     },
     {
       "content": "Dans votre blog, Racontez votre expérience de l’apprentissage d’une langue étrangère(vous écrivez sur un forum internet en racontant votre expérience en apprenant une langue étrangère).",
@@ -4365,16 +3447,6 @@
       "combination": "Combinaison 25"
     },
     {
-      "content": "Les objets intelligents rendent notre quotidien plus pratique. Ce sont des appareils qui peuvent être contrôlés à distance par un téléphone ou Internet, comme le chauffage ou les systèmes de sécurité de la maison. Par ailleurs, des objets tels que les montres ou bracelets connectés suivent nos activités et nous motivent à faire plus d’exercice, en mesurant par exemple nos pas. Leur utilité est particulièrement notable dans le domaine de la santé. Certains objets agissent comme un assistant santé, nous rappelant les rendez-vous médicaux ou la prise de nos médicaments.",
-      "source_url": "https://reussir-tcfcanada.com/fevrier-2025-expression-ecrite/",
-      "source_file": "fevrier-2025-expression-ecrite.json",
-      "task": "tache_3",
-      "word_count": "120-180",
-      "type": "texte_argumentatif",
-      "documents": null,
-      "combination": "Combinaison 24"
-    },
-    {
       "content": "Être adulte et vivre en colocation ? C’est un choix qui permet d’accéder facilement à un logement plus spacieux et économique. Il est vrai que vous n’aurez qu’une chambre pour vous et que vous devrez partager la cuisine, le salon et la salle de bain. Toutefois, une colocation peut inclure une maison avec jardin ou un grand appartement en centre-ville ! De plus, en partageant le loyer et les charges avec vos colocataires, vous réduirez considérablement vos dépenses par rapport à un appartement individuel. Alors que vous n’aurez qu’une chambre pour vous et que vous devrez partager les espaces communs, une colocation offre des opportunités de logements bien plus abordables.",
       "source_url": "https://reussir-tcfcanada.com/decembre-2024-expression-ecrite/",
       "source_file": "decembre-2024-expression-ecrite.json",
@@ -4423,16 +3495,6 @@
       "type": "texte_argumentatif",
       "documents": null,
       "combination": "Combinaison 1"
-    },
-    {
-      "content": "Beaucoup d’enfants demandent, un jour ou l’autre, un animal à leurs parents, le plus souvent un chien ou un chat. Mais même si vous avez envie de faire plaisir à votre enfant, il vaut mieux réfléchir sérieusement avant d’acheter un animal domestique. L’animal devient un nouveau membre de la famille et représente un engagement sur de nombreuses années. Or, avoir un animal coûte souvent très cher, et c’est une grande responsabilité. On ne peut pas le traiter comme un jouet que l’on met à la poubelle quand l’enfant s’en désintéresse.",
-      "source_url": "https://reussir-tcfcanada.com/novembre-2024-expression-ecrite/",
-      "source_file": "novembre-2024-expression-ecrite.json",
-      "task": "tache_3",
-      "word_count": "120-180",
-      "type": "texte_argumentatif",
-      "documents": null,
-      "combination": "Combinaison 19"
     },
     {
       "content": "Fabriquer vos propres produits biologiques à la maison offre un contrôle total sur les ingrédients, garantissant des options plus saines et personnalisées. Cela contribue également à réduire les déchets plastiques grâce à des emballages réutilisables. De plus, vous économiserez de l’argent à long terme et développerez des compétences créatives, favorisant ainsi un mode de vie plus durable.",
