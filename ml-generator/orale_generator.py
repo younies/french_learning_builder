@@ -1,5 +1,6 @@
 import json
 import os
+import argparse
 from openai import OpenAI
 from typing import List, Dict, Optional, Tuple
 import time
@@ -11,7 +12,7 @@ class TCFOraleGenerator:
     Generator for TCF Canada Expression Orale practice materials using OpenAI
     """
     
-    def __init__(self, api_key: Optional[str] = None, output_base_dir: Optional[str] = None):
+    def __init__(self, api_key: Optional[str] = None, output_base_dir: Optional[str] = None, offline_mode: bool = False):
         """
         Initialize the generator
         
@@ -21,14 +22,18 @@ class TCFOraleGenerator:
                              a sibling folder '../french_learning/tcf_canada/eo'
                              relative to the project root.
         """
-        # Set up OpenAI client
-        if api_key:
-            self.client = OpenAI(api_key=api_key)
+        # Set up OpenAI client (skipped in offline template mode)
+        self.offline_mode = offline_mode
+        if self.offline_mode:
+            self.client = None
         else:
-            api_key = os.getenv('OPENAI_API_KEY')
-            if not api_key:
-                raise ValueError("OpenAI API key not found. Set OPENAI_API_KEY environment variable or pass api_key parameter.")
-            self.client = OpenAI(api_key=api_key)
+            if api_key:
+                self.client = OpenAI(api_key=api_key)
+            else:
+                api_key = os.getenv('OPENAI_API_KEY')
+                if not api_key:
+                    raise ValueError("OpenAI API key not found. Set OPENAI_API_KEY environment variable or pass api_key parameter, or pass offline_mode=True to generate templates without calling GPT.")
+                self.client = OpenAI(api_key=api_key)
         
         # Resolve default output directory to sibling '../french_learning/tcf_canada/eo'
         if output_base_dir is None:
@@ -248,6 +253,65 @@ generated_at: {time.strftime('%Y-%m-%d %H:%M:%S')}
         except Exception as e:
             print(f"   ❌ Error saving file {filepath}: {e}")
             return False
+
+    def _build_template_content(self, task_key: str, topic_info: Dict) -> str:
+        """
+        Build a Markdown template (no solution) for Expression Orale tasks with
+        placeholders for the candidate's answer/notes.
+        """
+        content_lines: List[str] = []
+
+        # Sujet
+        content_lines.append("# Sujet")
+        content_lines.append(topic_info.get('content', ''))
+        content_lines.append("")
+
+        # Task-specific scaffolding
+        if task_key == 'tache_2':
+            # Task 2 is a guided dialogue / information exchange
+            content_lines.extend([
+                "---",
+                "# Consigne",
+                "Préparez une interaction orale (1–2 minutes) en posant des questions pertinentes et en répondant clairement.",
+                "",
+                "# Pistes / éléments à prévoir",
+                "- Questions principales à poser",
+                "- Informations à donner (prix, horaires, lieu, conditions, etc.)",
+                "- Connecteurs et relances (et, donc, car, d'ailleurs, en fait, du coup)",
+                "",
+                "# Votre plan / notes",
+                "- (Listez vos questions)",
+                "- (Notez vos réponses possibles)",
+                "",
+                "# Votre prise de parole (brouillon)",
+                "(Rédigez votre script ou vos notes ici)"
+            ])
+        elif task_key == 'tache_3':
+            # Task 3 is an opinion/argumentation
+            content_lines.extend([
+                "---",
+                "# Consigne",
+                "Donnez votre opinion (2–3 minutes) en justifiant vos arguments avec des exemples.",
+                "",
+                "# Plan recommandé",
+                "1. Introduction: reformulation du sujet + position",
+                "2. Argument 1 (exemple bref)",
+                "3. Argument 2 / nuance (exemple bref)",
+                "4. Conclusion: synthèse / ouverture",
+                "",
+                "# Vos idées / notes",
+                "- Idées clés",
+                "- Exemples",
+                "- Connecteurs utiles (d'abord, ensuite, par ailleurs, pourtant, en revanche, donc, car)",
+                "",
+                "# Votre prise de parole (brouillon)",
+                "(Rédigez votre script ou vos notes ici)"
+            ])
+        else:
+            content_lines.append("(Template non défini pour cette tâche)")
+
+        content_lines.append("")
+        return "\n".join(content_lines)
     
     def load_organized_topics(self, json_file: str = "organized_topics.json") -> Tuple[List[Dict], List[Dict]]:
         """
@@ -293,7 +357,10 @@ generated_at: {time.strftime('%Y-%m-%d %H:%M:%S')}
             print(f"\n📝 Processing Task 2 topic {i_global}/{len(topics)}")
             print(f"   Content: {topic['content'][:80]}...")
             
-            generated_content = self._call_openai(self.task2_prompt, topic['content'])
+            if self.offline_mode:
+                generated_content = self._build_template_content('tache_2', topic)
+            else:
+                generated_content = self._call_openai(self.task2_prompt, topic['content'])
             
             if generated_content:
                 # Increment persistent sequence and build filename
@@ -333,7 +400,10 @@ generated_at: {time.strftime('%Y-%m-%d %H:%M:%S')}
             print(f"\n📝 Processing Task 3 topic {i_global}/{len(topics)}")
             print(f"   Content: {topic['content'][:80]}...")
             
-            generated_content = self._call_openai(self.task3_prompt, topic['content'])
+            if self.offline_mode:
+                generated_content = self._build_template_content('tache_3', topic)
+            else:
+                generated_content = self._call_openai(self.task3_prompt, topic['content'])
             
             if generated_content:
                 # Increment persistent sequence and build filename
@@ -428,20 +498,30 @@ def main():
     print("🎓 TCF Canada Expression Orale Generator")
     print("=" * 50)
     
+    # CLI args
+    parser = argparse.ArgumentParser(description="Generate TCF Expression Orale content or templates")
+    parser.add_argument("--offline", action="store_true", help="Generate templates without calling GPT")
+    args, unknown = parser.parse_known_args()
+
+    env_has_key = bool(os.getenv('OPENAI_API_KEY'))
+    offline_mode = bool(args.offline or not env_has_key)
+
+    if offline_mode and not args.offline and not env_has_key:
+        print("ℹ️ No OPENAI_API_KEY detected → running in offline template mode.")
+
     # Initialize generator
     try:
-        generator = TCFOraleGenerator()
+        generator = TCFOraleGenerator(offline_mode=offline_mode)
     except ValueError as e:
-        print(f"❌ {e}")
-        print("💡 Set your OpenAI API key:")
-        print("   export OPENAI_API_KEY='your-api-key-here'")
-        return
+        print(f"⚠️ {e}")
+        print("ℹ️ Falling back to offline template mode.")
+        generator = TCFOraleGenerator(offline_mode=True)
     
     # Preview topics
     generator.preview_topics(5)
     
     # Ask user for limits
-    print(f"\n🔧 Configuration:")
+    print(f"\n🔧 Configuration:{' (offline templates)' if offline_mode else ''}")
     
     try:
         task2_limit = input("Enter limit for Task 2 topics (press Enter for all): ").strip()

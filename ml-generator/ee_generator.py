@@ -1,5 +1,6 @@
 import json
 import os
+import argparse
 from openai import OpenAI
 from typing import List, Dict, Optional, Tuple
 import time
@@ -11,7 +12,7 @@ class TCFExpressionEcriteGenerator:
     Generator for TCF Canada Expression Écrite practice materials using OpenAI
     """
     
-    def __init__(self, api_key: Optional[str] = None, output_base_dir: Optional[str] = None):
+    def __init__(self, api_key: Optional[str] = None, output_base_dir: Optional[str] = None, offline_mode: bool = False):
         """
         Initialize the generator
         
@@ -21,14 +22,18 @@ class TCFExpressionEcriteGenerator:
                              a sibling folder '../french_learning/tcf_canada/ee'
                              relative to the project root.
         """
-        # Set up OpenAI client
-        if api_key:
-            self.client = OpenAI(api_key=api_key)
+        # Set up OpenAI client (skipped in offline template mode)
+        self.offline_mode = offline_mode
+        if self.offline_mode:
+            self.client = None
         else:
-            api_key = os.getenv('OPENAI_API_KEY')
-            if not api_key:
-                raise ValueError("OpenAI API key not found. Set OPENAI_API_KEY environment variable or pass api_key parameter.")
-            self.client = OpenAI(api_key=api_key)
+            if api_key:
+                self.client = OpenAI(api_key=api_key)
+            else:
+                api_key = os.getenv('OPENAI_API_KEY')
+                if not api_key:
+                    raise ValueError("OpenAI API key not found. Set OPENAI_API_KEY environment variable or pass api_key parameter, or pass offline_mode=True to generate templates without calling GPT.")
+                self.client = OpenAI(api_key=api_key)
         
         # Resolve default output directory to sibling '../french_learning/tcf_canada/ee'
         if output_base_dir is None:
@@ -253,6 +258,88 @@ generated_at: {time.strftime('%Y-%m-%d %H:%M:%S')}
         except Exception as e:
             print(f"   ❌ Error saving file {filepath}: {e}")
             return False
+
+    def _build_template_content(self, task_key: str, topic_info: Dict) -> str:
+        """
+        Build a Markdown template (no solution) for the given task and topic.
+        Includes space/placeholders for the user to write the answer.
+        """
+        content_lines: List[str] = []
+
+        # Common header
+        content_lines.append("# Sujet")
+        content_lines.append(topic_info.get('content', ''))
+        content_lines.append("")
+
+        # Task-specific scaffolding
+        if task_key == 'tache_1':
+            content_lines.extend([
+                "---",
+                "# Consigne",
+                "Rédigez un message personnel (60–120 mots) en respectant la situation et les éléments demandés.",
+                "",
+                "# Éléments à inclure",
+                "- Salutation et contexte",
+                "- Réponse aux points essentiels du sujet",
+                "- Ton adapté (familier/standard) et connecteurs",
+                "",
+                "# Votre réponse",
+                "(Écrivez votre message ici)"
+            ])
+        elif task_key == 'tache_2':
+            content_lines.extend([
+                "---",
+                "# Consigne",
+                "Rédigez un article/texte de blog (120–150 mots) en partageant une expérience et en donnant votre avis.",
+                "",
+                "# Plan suggéré",
+                "1. Introduction (accroche + thème)",
+                "2. Développement (faits/arguments)",
+                "3. Conclusion (bilan/ouverture)",
+                "",
+                "# Votre réponse",
+                "(Rédigez votre article ici)"
+            ])
+        elif task_key == 'tache_3':
+            # Include documents when available
+            documents: List[str] = topic_info.get('documents', []) or []
+            content_lines.append("---")
+            content_lines.append("# Documents")
+            if documents:
+                for i, doc in enumerate(documents, 1):
+                    content_lines.append(f"## Document {i}")
+                    content_lines.append(doc)
+                    content_lines.append("")
+            else:
+                content_lines.append("(Documents non fournis)")
+                content_lines.append("")
+
+            # Required structure for Task 3 per spec
+            content_lines.extend([
+                "# Structure attendue",
+                "1) Paragraphe 1 (40–65 mots): synthèse neutre des deux documents (points essentiels + divergence/convergence)",
+                "2) Paragraphe 2: votre position et un premier argument (exemple bref)",
+                "3) Paragraphe 3: second argument/nuance (exemple bref)",
+                "4) Paragraphe 4: conclusion (ouverture/recommandation)",
+                "",
+                "# Votre réponse",
+                "## Paragraphe 1 (synthèse)",
+                "(Écrivez ici ~40–65 mots)",
+                "",
+                "## Paragraphe 2 (opinion + argument 1)",
+                "(Écrivez ici)",
+                "",
+                "## Paragraphe 3 (opinion + argument 2/nuance)",
+                "(Écrivez ici)",
+                "",
+                "## Paragraphe 4 (conclusion)",
+                "(Écrivez ici)"
+            ])
+        else:
+            content_lines.append("(Template non défini pour cette tâche)")
+
+        content_lines.append("")
+        return "\n".join(content_lines)
     
     def load_organized_ee_topics(self, json_file: str = "organized_ee_topics.json") -> Tuple[List[Dict], List[Dict], List[Dict]]:
         """
@@ -300,7 +387,10 @@ generated_at: {time.strftime('%Y-%m-%d %H:%M:%S')}
             print(f"\n📝 Processing Task 1 topic {i_global}/{len(topics)}")
             print(f"   Content: {topic['content'][:80]}...")
             
-            generated_content = self._call_openai(self.task1_prompt, topic['content'])
+            if self.offline_mode:
+                generated_content = self._build_template_content('tache_1', topic)
+            else:
+                generated_content = self._call_openai(self.task1_prompt, topic['content'])
             
             if generated_content:
                 # Increment persistent sequence and build filename
@@ -340,7 +430,10 @@ generated_at: {time.strftime('%Y-%m-%d %H:%M:%S')}
             print(f"\n📝 Processing Task 2 topic {i_global}/{len(topics)}")
             print(f"   Content: {topic['content'][:80]}...")
             
-            generated_content = self._call_openai(self.task2_prompt, topic['content'])
+            if self.offline_mode:
+                generated_content = self._build_template_content('tache_2', topic)
+            else:
+                generated_content = self._call_openai(self.task2_prompt, topic['content'])
             
             if generated_content:
                 # Increment persistent sequence and build filename
@@ -387,7 +480,13 @@ generated_at: {time.strftime('%Y-%m-%d %H:%M:%S')}
                 for i, doc in enumerate(topic['documents'], 1):
                     topic_with_docs += f"Document {i}: {doc}\n"
             
-            generated_content = self._call_openai(self.task3_prompt, topic_with_docs)
+            if self.offline_mode:
+                # Keep original topic + documents in template
+                topic_for_template = dict(topic)
+                topic_for_template['content'] = topic['content']
+                generated_content = self._build_template_content('tache_3', topic_for_template)
+            else:
+                generated_content = self._call_openai(self.task3_prompt, topic_with_docs)
             
             if generated_content:
                 # Increment persistent sequence and build filename
@@ -412,7 +511,8 @@ generated_at: {time.strftime('%Y-%m-%d %H:%M:%S')}
     
     def generate_all_content(self, task1_limit: Optional[int] = None, task2_limit: Optional[int] = None, task3_limit: Optional[int] = None) -> None:
         """
-        Generate all content for all three Expression Écrite tasks
+        Generate all content for all three Expression Écrite tasks.
+        In offline_mode, this will generate template files instead of calling GPT.
         """
         print("🚀 Starting TCF Expression Écrite Content Generation...")
         
@@ -491,21 +591,33 @@ def main():
     """
     print("🎓 TCF Canada Expression Écrite Generator")
     print("=" * 50)
-    
+
+    # CLI args
+    parser = argparse.ArgumentParser(description="Generate TCF Expression Écrite content or templates")
+    parser.add_argument("--offline", action="store_true", help="Generate templates without calling GPT")
+    args, unknown = parser.parse_known_args()
+
+    # Determine offline mode: explicit flag OR missing API key
+    env_has_key = bool(os.getenv('OPENAI_API_KEY'))
+    offline_mode = bool(args.offline or not env_has_key)
+
+    if offline_mode and not args.offline and not env_has_key:
+        print("ℹ️ No OPENAI_API_KEY detected → running in offline template mode.")
+
     # Initialize generator
     try:
-        generator = TCFExpressionEcriteGenerator()
+        generator = TCFExpressionEcriteGenerator(offline_mode=offline_mode)
     except ValueError as e:
-        print(f"❌ {e}")
-        print("💡 Set your OpenAI API key:")
-        print("   export OPENAI_API_KEY='your-api-key-here'")
-        return
+        # Fallback to offline mode automatically
+        print(f"⚠️ {e}")
+        print("ℹ️ Falling back to offline template mode.")
+        generator = TCFExpressionEcriteGenerator(offline_mode=True)
     
     # Preview topics
     generator.preview_topics(5)
     
     # Ask user for limits
-    print(f"\n🔧 Configuration:")
+    print(f"\n🔧 Configuration:{' (offline templates)' if offline_mode else ''}")
     
     try:
         task1_limit = input("Enter limit for Task 1 topics (press Enter for all): ").strip()
